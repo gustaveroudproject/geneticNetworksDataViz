@@ -1,0 +1,174 @@
+PREFIX knora-api: <http://api.knora.org/ontology/knora-api/simple/v2#>
+PREFIX roud-oeuvres: <http://www.knora.org/ontology/0112/roud-oeuvres#>
+PREFIX knora-base: <http://www.knora.org/ontology/knora-base#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {
+    ## main publication data if ARTICLE
+    ?mainPub a ?mainPubType .
+    ?mainPub roud-oeuvres:publicationHasTitle ?mainPubTitle .
+    ?mainPub roud-oeuvres:publicationHasDate ?mainPubDate .
+    ?mainPub roud-oeuvres:isPublishedInPeriodical ?mainPubPeriodical .
+    
+    ## dossier main pub
+    ?dossierMainPub a ?dossierMainPubType .
+    ?dossierMainPub roud-oeuvres:geneticDossierResultsInPublication ?mainPub .
+    
+    ## avant-textes of main pub
+    ?atMainPub a ?atMainPubType .
+    ?atMainPub roud-oeuvres:msIsAvantTextInGeneticDossier ?dossierMainPub .
+    ?atMainPub roud-oeuvres:manuscriptHasTitle ?titleAtMainPub .
+    ?atMainPub roud-oeuvres:manuscriptIsInArchive ?archiveAtMainPub .
+    ?atMainPub roud-oeuvres:manuscriptHasShelfmark ?shelfmarkAtMainPub .
+    #  (only interesting if diary) ?atMainPub roud-oeuvres:manuscriptHasEditorialSet ?editorialSetAtMainPub .
+    ?atMainPub roud-oeuvres:hasGeneticStage ?geneticStageAtMainPub .    
+    
+    ## publication reused in main pub (if article)
+    # CREA PROBLEMI ... ?pubReusedInMainPub a ?pubReusedInMainPubType .
+    ?pubReusedInMainPub roud-oeuvres:publicationIsReusedInDossier ?dossierMainPub .
+    ?pubReusedInMainPub roud-oeuvres:publicationHasTitle ?pubReusedInMainPubTitle .
+    ?pubReusedInMainPub roud-oeuvres:publicationHasDate ?pubReusedInMainPubDate .
+    ?pubReusedInMainPub roud-oeuvres:isPublishedInPeriodical ?pubReusedInMainPubPeriodical .
+    
+    ## dossier pub reused
+    ?dossierPubReused a ?dossierPubReusedType .
+    ?dossierPubReused roud-oeuvres:geneticDossierResultsInPublication ?pubReusedInMainPub .
+    
+    ## avant-textes of pub reused
+    ?atPubReused a ?atPubReusedType .
+    ?atPubReused roud-oeuvres:msIsAvantTextInGeneticDossier ?dossierPubReused .
+    ?atPubReused roud-oeuvres:manuscriptHasTitle ?titleAtPubReused .
+    ?atPubReused roud-oeuvres:manuscriptIsInArchive ?archiveAtPubReused .
+    ?atPubReused roud-oeuvres:manuscriptHasShelfmark ?shelfmarkAtPubReused .
+    # (only interesting if diary) ?atPubReused roud-oeuvres:manuscriptHasEditorialSet ?editorialSetAtPubReused . 
+    ?atPubReused roud-oeuvres:hasGeneticStage ?geneticStageAtPubReused .    
+   
+    ## diary entries reused in pub reused
+    ?diaryReusedInPubReused a ?diaryReusedInPubReusedType .
+    ?diaryReusedInPubReused roud-oeuvres:msIsReusedInDossier ?dossierPubReused .
+    ?diaryReusedInPubReused roud-oeuvres:manuscriptHasTitle ?titleDiaryReusedInPubReused .
+    ?diaryReusedInPubReused roud-oeuvres:manuscriptIsInArchive ?archiveDiaryReusedInPubReused .
+    ?diaryReusedInPubReused roud-oeuvres:manuscriptHasShelfmark ?shelfmarkDiaryReusedInPubReused .
+    ?diaryReusedInPubReused roud-oeuvres:manuscriptHasEditorialSet ?editorialSetDiaryReusedInPubReused .
+    # (always "note" for diary) ?diaryReusedInPubReused roud-oeuvres:hasGeneticStage ?geneticStageDiaryReusedInPubReused .    
+    
+} WHERE {
+    
+    FILTER(?mainPub = <http://rdfh.ch/0112/OXLofRkPRCKOcLrEy6DZ8w>)
+    
+    ## main publication data
+    ?mainPub a ?mainPubType .
+    # to avoid blank nodes
+    FILTER(STRSTARTS(str(?mainPubType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+    ?mainPub roud-oeuvres:publicationHasTitle ?mainPubTitleIRI .
+    ?mainPubTitleIRI knora-base:valueHasString ?mainPubTitle .
+    ?mainPub roud-oeuvres:publicationHasDate ?mainPubDateIRI .
+    ?mainPubDateIRI knora-base:valueHasString ?mainPubDate .
+    ?mainPub roud-oeuvres:isPublishedInPeriodical ?mainPubPeriodicalIRI .
+    ?mainPubPeriodicalIRI roud-oeuvres:periodicalHasTitle ?mainPubPeriodicalTitleIRI .
+    ?mainPubPeriodicalTitleIRI knora-base:valueHasString ?mainPubPeriodical .
+    
+    ## dossier of main pub
+    ?dossierMainPub a ?dossierMainPubType .
+    # to avoid blank nodes
+    FILTER(STRSTARTS(str(?dossierMainPubType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+    ?dossierMainPub roud-oeuvres:geneticDossierResultsInPublication ?mainPub .
+    # following two lines can be commented out
+    ?dossierMainPub knora-base:isDeleted ?bool .
+    FILTER(?bool = false)
+    
+    ## avant-textes of main pub
+    optional {
+        ?atMainPub a ?atMainPubType .
+        # to avoid blank nodes
+        FILTER(STRSTARTS(str(?atMainPubType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+        ?atMainPub roud-oeuvres:msIsAvantTextInGeneticDossier ?dossierMainPub .
+        ?atMainPub roud-oeuvres:manuscriptHasTitle ?titleAtMainPubIRI .
+        ?titleAtMainPubIRI knora-base:valueHasString ?titleAtMainPub .
+        ?atMainPub roud-oeuvres:manuscriptIsInArchive ?archiveAtMainPubListIRI .
+        ?archiveAtMainPubListIRI knora-base:valueHasListNode ?archiveAtMainPubIRI .
+        ?archiveAtMainPubIRI rdfs:label ?archiveAtMainPub .
+        FILTER(LANG(?archiveAtMainPub) = "en")
+        ?atMainPub roud-oeuvres:manuscriptHasShelfmark ?shelfmarkAtMainPubIRI .
+        ?shelfmarkAtMainPubIRI knora-base:valueHasString ?shelfmarkAtMainPub .
+        ?atMainPub roud-oeuvres:manuscriptHasEditorialSet ?editorialSetAtMainPubListIRI .
+        ?editorialSetAtMainPubListIRI knora-base:valueHasListNode ?editorialSetAtMainPubIRI .
+        ?editorialSetAtMainPubIRI rdfs:label ?editorialSetAtMainPub .
+        FILTER(LANG(?editorialSetAtMainPub) = "en")
+        ?atMainPub roud-oeuvres:hasGeneticStage ?geneticStageAtMainPubListIRI .
+        ?geneticStageAtMainPubListIRI knora-base:valueHasListNode ?geneticStageAtMainPubIRI .
+        ?geneticStageAtMainPubIRI rdfs:label ?geneticStageAtMainPub .
+        FILTER(LANG(?geneticStageAtMainPub) = "en")
+    }
+    
+    ## publication reused in main pub
+    optional {
+        ?pubReusedInMainPub roud-oeuvres:publicationIsReusedInDossier ?dossierMainPub .
+        ?pubReusedInMainPub roud-oeuvres:publicationHasTitle ?pubReusedInMainPubTitleIRI .
+        ?pubReusedInMainPubTitleIRI knora-base:valueHasString ?pubReusedInMainPubTitle .
+        ?pubReusedInMainPub roud-oeuvres:publicationHasDate ?pubReusedInMainPubDateIRI .
+        ?pubReusedInMainPubDateIRI knora-base:valueHasString ?pubReusedInMainPubDate .
+        ?pubReusedInMainPub roud-oeuvres:isPublishedInPeriodical ?pubReusedInMainPubPeriodicalIRI .
+        ?pubReusedInMainPubPeriodicalIRI roud-oeuvres:periodicalHasTitle ?pubReusedInMainPubPeriodicalTitleIRI .
+        ?pubReusedInMainPubPeriodicalTitleIRI knora-base:valueHasString ?pubReusedInMainPubPeriodical .
+        # following creates PROBLEMS ...
+        # ?pubReusedInMainPub a ?pubReusedInMainPubType .
+        # to avoid blank nodes
+        # FILTER(STRSTARTS(str(?pubReusedInMainPubType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+        
+    }
+    
+    ## dossier pub reused
+    optional {
+        ?dossierPubReused a ?dossierPubReusedType .
+        # to avoid blank nodes
+        FILTER(STRSTARTS(str(?dossierPubReusedType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+        ?dossierPubReused roud-oeuvres:geneticDossierResultsInPublication ?pubReusedInMainPub .
+        ## avant-textes of pub reused
+        optional {
+            ?atPubReused a ?atPubReusedType .
+            # to avoid blank nodes
+            FILTER(STRSTARTS(str(?atPubReusedType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+            ?atPubReused roud-oeuvres:msIsAvantTextInGeneticDossier ?dossierPubReused .
+            ?atPubReused roud-oeuvres:manuscriptHasTitle ?titleAtPubReusedIRI .
+            ?titleAtPubReusedIRI knora-base:valueHasString ?titleAtPubReused .
+            ?atPubReused roud-oeuvres:manuscriptIsInArchive ?archiveAtPubReusedListIRI .
+            ?archiveAtPubReusedListIRI knora-base:valueHasListNode ?archiveAtPubReusedIRI .
+            ?archiveAtPubReusedIRI rdfs:label ?archiveAtPubReused .
+            FILTER(LANG(?archiveAtPubReused) = "en")
+            ?atPubReused roud-oeuvres:manuscriptHasShelfmark ?shelfmarkAtPubReusedIRI .
+            ?shelfmarkAtPubReusedIRI knora-base:valueHasString ?shelfmarkAtPubReused .
+            ?atPubReused roud-oeuvres:manuscriptHasEditorialSet ?editorialSetAtPubReusedListIRI .
+            ?editorialSetAtPubReusedListIRI knora-base:valueHasListNode ?editorialSetAtPubReusedIRI .
+            ?editorialSetAtPubReusedIRI rdfs:label ?editorialSetAtPubReused .
+            FILTER(LANG(?editorialSetAtPubReused) = "en")
+            ?atPubReused roud-oeuvres:hasGeneticStage ?geneticStageAtPubReusedListIRI .
+            ?geneticStageAtPubReusedListIRI knora-base:valueHasListNode ?geneticStageAtPubReusedIRI .
+            ?geneticStageAtPubReusedIRI rdfs:label ?geneticStageAtPubReused .
+            FILTER(LANG(?geneticStageAtPubReused) = "en")
+        }
+        ## diary entries reused in pub reused
+        optional {
+            ?diaryReusedInPubReused a ?diaryReusedInPubReusedType .
+            # to avoid blank nodes
+            FILTER(STRSTARTS(str(?diaryReusedInPubReusedType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+            ?diaryReusedInPubReused roud-oeuvres:msIsReusedInDossier ?dossierPubReused .
+            ?diaryReusedInPubReused roud-oeuvres:manuscriptHasTitle ?titleDiaryReusedInPubReusedIRI .
+            ?titleDiaryReusedInPubReusedIRI knora-base:valueHasString ?titleDiaryReusedInPubReused .
+            ?diaryReusedInPubReused roud-oeuvres:manuscriptIsInArchive ?archiveDiaryReusedInPubReusedListIRI .
+            ?archiveDiaryReusedInPubReusedListIRI knora-base:valueHasListNode ?archiveDiaryReusedInPubReusedIRI .
+            ?archiveDiaryReusedInPubReusedIRI rdfs:label ?archiveDiaryReusedInPubReused .
+            FILTER(LANG(?archiveDiaryReusedInPubReused) = "en")
+            ?diaryReusedInPubReused roud-oeuvres:manuscriptHasShelfmark ?shelfmarkDiaryReusedInPubReusedIRI .
+            ?shelfmarkDiaryReusedInPubReusedIRI knora-base:valueHasString ?shelfmarkDiaryReusedInPubReused .
+            ?diaryReusedInPubReused roud-oeuvres:manuscriptHasEditorialSet ?editorialSetDiaryReusedInPubReusedListIRI .
+            ?editorialSetDiaryReusedInPubReusedListIRI knora-base:valueHasListNode ?editorialSetDiaryReusedInPubReusedIRI .
+            ?editorialSetDiaryReusedInPubReusedIRI rdfs:label ?editorialSetDiaryReusedInPubReused .
+            FILTER(LANG(?editorialSetDiaryReusedInPubReused) = "en")
+            ?diaryReusedInPubReused roud-oeuvres:hasGeneticStage ?geneticStageDiaryReusedInPubReusedListIRI .
+            ?geneticStageDiaryReusedInPubReusedListIRI knora-base:valueHasListNode ?geneticStageDiaryReusedInPubReusedIRI .
+            ?geneticStageDiaryReusedInPubReusedIRI rdfs:label ?geneticStageDiaryReusedInPubReused .
+            FILTER(LANG(?geneticStageDiaryReusedInPubReused) = "en")
+        }
+    }
+}
