@@ -23,7 +23,7 @@ Data visualization of genetic networks for the project "Gustave Roud, *Œuvres c
 - **IRI**: <http://rdfh.ch/0112/K2OVZydJS42GUsMJvKhP-A>
 - **Genetic dossier IRI**: <http://rdfh.ch/0112/XqZUUgzjQXaX8rEnfyifJg>
 - **ARK**: <http://ark.dasch.swiss/ark:/72163/1/0112/K2OVZydJS42GUsMJvKhP=AE.20180919T155223417Z>
-- **Description**. This book is composed of two parts. The first has four *avant-textes*, the second only one. In progress.
+- **Description**. This book is composed of two parts (`:PubPart` and `:GeneticDossierPart`). The first has two *avant-textes* (`:msIsAvantTextInGeneticDossierPart`), the second has one *avant-texte* and four diary entries reused in it (`:msIsReusedInDossierPart`). The book has been re-edited in 1944 with the publisher Éditions des Portes de France (`:publicationIsRepublishedDossier`) and in the volume *Écrits* in 1950. The first part alone has been reused in *Annonce d'un adieu* published in the journal « Présence » in 1932 (`:pubPartIsReusedInDossier`).
 - **Data** in progress.
 
 
