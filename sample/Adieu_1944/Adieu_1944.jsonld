@@ -1,0 +1,229 @@
+[ {
+  "@id" : "http://rdfh.ch/0112/-PgTW3vyTY-5JRKsZgQMpQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber" : [ {
+    "@value" : "47"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle" : [ {
+    "@value" : "(Notes d’Est[avayer] 24 avril [1927])"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/jS0Jc6cYSxeZ0ryMX8J3qA"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/ZbBCxf3pSoWGhyc3h8aOTQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/64pWC1bKQIqx07AL-8E6wQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Clean copy"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 1 A/1a"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Ébauche d’un poam"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR GR"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/_BVCcQ49TdWswmqIhB71RQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/IMLK2l_MQ16WgVPyiLZGdA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Clean copy"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 1 A/1b"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Pardonne à ce cœur dur"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR GR"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/_BVCcQ49TdWswmqIhB71RQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/K2OVZydJS42GUsMJvKhP-A",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Book", "http://www.knora.org/ontology/0112/roud-oeuvres#Publication" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher" : [ {
+    "@value" : "Au Verseau"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1927-12-10 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Adieu"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsRepublishedDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/nhyz7hU4QriHQb0-Huf6DQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/KZ9VPyVHRwK_PguWOrps7g",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber" : [ {
+    "@value" : "23"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle" : [ {
+    "@value" : "29 septembre-2 octobre [1926] – Nuit à Estavayer"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/jS0Jc6cYSxeZ0ryMX8J3qA"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/ZbBCxf3pSoWGhyc3h8aOTQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/NWwsq93ETNePEoVpYVQaPA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+    "@id" : "http://rdfh.ch/0112/K2OVZydJS42GUsMJvKhP-A"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/NndlUhjbRu2d4r1m0AEnJA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "1"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "[Cube de corps et de fumée]"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/K2OVZydJS42GUsMJvKhP-A"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/XyELNwhFSbi5NgyZPdte9g"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/UDfggvXDRU-bUUCF5vYbqA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Clean copy"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 1 A/2a"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Adieu"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR GR"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/ZbBCxf3pSoWGhyc3h8aOTQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/VFMeh3YqSEWVAE_ka0ITgA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber" : [ {
+    "@value" : "48"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle" : [ {
+    "@value" : "Est[avayer] 10 avril [1927]"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/jS0Jc6cYSxeZ0ryMX8J3qA"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/ZbBCxf3pSoWGhyc3h8aOTQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/XyELNwhFSbi5NgyZPdte9g",
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+    "@id" : "http://rdfh.ch/0112/kYloElrdR8mHfaRpIN8bZg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/ZbBCxf3pSoWGhyc3h8aOTQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartIsPartOfGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/NWwsq93ETNePEoVpYVQaPA"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/ttPdOk0wR8mtXx2uSYQ9pg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/_BVCcQ49TdWswmqIhB71RQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartIsPartOfGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/NWwsq93ETNePEoVpYVQaPA"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/NndlUhjbRu2d4r1m0AEnJA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/jS0Jc6cYSxeZ0ryMX8J3qA",
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 4 B/10a"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Notes. 1926."
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR GR"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/kYloElrdR8mHfaRpIN8bZg",
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Présence"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1932-01-01 CE - 1932-12-31 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Annonce d'un Adieu"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/nhyz7hU4QriHQb0-Huf6DQ",
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+    "@id" : "http://rdfh.ch/0112/t5NxkeItSUyrc3AYEcAuwA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/t5NxkeItSUyrc3AYEcAuwA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Book", "http://www.knora.org/ontology/0112/roud-oeuvres#Publication" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1944-05-01 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Adieu"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/tFBjxgZkSo2hv6zYCMGiBw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber" : [ {
+    "@value" : "45"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle" : [ {
+    "@value" : "28 avril [1927]"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/jS0Jc6cYSxeZ0ryMX8J3qA"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/ZbBCxf3pSoWGhyc3h8aOTQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/ttPdOk0wR8mtXx2uSYQ9pg",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "2"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "Adieu"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/K2OVZydJS42GUsMJvKhP-A"
+  } ]
+} ]

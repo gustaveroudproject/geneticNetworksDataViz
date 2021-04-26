@@ -7,66 +7,115 @@ CONSTRUCT {
     
     ##################### MAIN PUBLICATION #####################
     ## main publication data
-    ?mainPub a ?mainPubType .
-    ?mainPub roud-oeuvres:publicationHasTitle ?mainPubTitle .
-    ?mainPub roud-oeuvres:publicationHasDate ?mainPubDate .
-    ?mainPub roud-oeuvres:isPublishedInPeriodical ?mainPubPeriodical .
-    ?mainPub roud-oeuvres:hasPublisher ?mainPubPublisher .
+    ?mainPub a ?mainPubType ;
+            roud-oeuvres:publicationHasTitle ?mainPubTitle ;
+            roud-oeuvres:publicationHasDate ?mainPubDate ;
+            roud-oeuvres:isPublishedInPeriodical ?mainPubPeriodical ;
+            roud-oeuvres:publicationHasPhoto ?mainPubPhoto ;
+            roud-oeuvres:hasPublisher ?mainPubPublisher .
     
     ## dossier main pub
-    ?dossierMainPub a ?dossierMainPubType .
-    ?dossierMainPub roud-oeuvres:geneticDossierResultsInPublication ?mainPub .
+    ?dossierMainPub a ?dossierMainPubType ;
+                    roud-oeuvres:geneticDossierResultsInPublication ?mainPub .
     
     ## avant-textes of main pub
-    ?atMainPub a ?atMainPubType .
-    ?atMainPub roud-oeuvres:msIsAvantTextInGeneticDossier ?dossierMainPub .
-    ?atMainPub roud-oeuvres:manuscriptHasTitle ?titleAtMainPub .
-    ?atMainPub roud-oeuvres:manuscriptIsInArchive ?archiveAtMainPub .
-    ?atMainPub roud-oeuvres:manuscriptHasShelfmark ?shelfmarkAtMainPub .
-    #  (only interesting if diary) ?atMainPub roud-oeuvres:manuscriptHasEditorialSet ?editorialSetAtMainPub .
-    ?atMainPub roud-oeuvres:hasGeneticStage ?geneticStageAtMainPub .        
+    ?atMainPub  a ?atMainPubType ;
+                roud-oeuvres:msIsAvantTextInGeneticDossier ?dossierMainPub ;
+                roud-oeuvres:manuscriptHasTitle ?titleAtMainPub ;
+                roud-oeuvres:manuscriptIsInArchive ?archiveAtMainPub ;
+                roud-oeuvres:manuscriptHasShelfmark ?shelfmarkAtMainPub ;
+                #  (only interesting if diary) ?atMainPub roud-oeuvres:manuscriptHasEditorialSet ?editorialSetAtMainPub .
+                roud-oeuvres:hasGeneticStage ?geneticStageAtMainPub .        
     
     
     ##################### PUBLICATION REUSED IN MAIN PUB AND ITS NETWORK #####################
     ## publication reused in main pub (if article)
     # CREA PROBLEMI ... ?pubReusedInMainPub a ?pubReusedInMainPubType .
-    ?pubReusedInMainPub roud-oeuvres:publicationIsReusedInDossier ?dossierMainPub .
-    ?pubReusedInMainPub roud-oeuvres:publicationHasTitle ?pubReusedInMainPubTitle .
-    ?pubReusedInMainPub roud-oeuvres:publicationHasDate ?pubReusedInMainPubDate .
-    ?pubReusedInMainPub roud-oeuvres:isPublishedInPeriodical ?pubReusedInMainPubPeriodical .
+    ?pubReusedInMainPub roud-oeuvres:publicationIsReusedInDossier ?dossierMainPub ;
+                        roud-oeuvres:publicationHasPhoto ?pubReusedInMainPubPhoto ;
+                        roud-oeuvres:publicationHasTitle ?pubReusedInMainPubTitle ;
+                        roud-oeuvres:publicationHasDate ?pubReusedInMainPubDate ;
+                        roud-oeuvres:isPublishedInPeriodical ?pubReusedInMainPubPeriodical .
     
     ## dossier pub reused
-    ?dossierPubReused a ?dossierPubReusedType .
-    ?dossierPubReused roud-oeuvres:geneticDossierResultsInPublication ?pubReusedInMainPub .
+    ?dossierPubReused   a ?dossierPubReusedType ;
+                        roud-oeuvres:geneticDossierResultsInPublication ?pubReusedInMainPub .
     
     ## avant-textes of pub reused
-    ?atPubReused a ?atPubReusedType .
-    ?atPubReused roud-oeuvres:msIsAvantTextInGeneticDossier ?dossierPubReused .
-    ?atPubReused roud-oeuvres:manuscriptHasTitle ?titleAtPubReused .
-    ?atPubReused roud-oeuvres:manuscriptIsInArchive ?archiveAtPubReused .
-    ?atPubReused roud-oeuvres:manuscriptHasShelfmark ?shelfmarkAtPubReused .
-    # (only interesting if diary) ?atPubReused roud-oeuvres:manuscriptHasEditorialSet ?editorialSetAtPubReused . 
-    ?atPubReused roud-oeuvres:hasGeneticStage ?geneticStageAtPubReused .    
+    ?atPubReused a ?atPubReusedType ;
+                roud-oeuvres:msIsAvantTextInGeneticDossier ?dossierPubReused ;
+                roud-oeuvres:manuscriptHasTitle ?titleAtPubReused ;
+                roud-oeuvres:manuscriptIsInArchive ?archiveAtPubReused ;
+                roud-oeuvres:manuscriptHasShelfmark ?shelfmarkAtPubReused ;
+                # (only interesting if diary) ?atPubReused roud-oeuvres:manuscriptHasEditorialSet ?editorialSetAtPubReused . 
+                roud-oeuvres:hasGeneticStage ?geneticStageAtPubReused .    
    
     ## diary entries reused in pub reused
-    ?diaryReusedInPubReused a ?diaryReusedInPubReusedType .
-    ?diaryReusedInPubReused roud-oeuvres:msIsReusedInDossier ?dossierPubReused .
-    ?diaryReusedInPubReused roud-oeuvres:manuscriptHasTitle ?titleDiaryReusedInPubReused .
-    ?diaryReusedInPubReused roud-oeuvres:manuscriptIsInArchive ?archiveDiaryReusedInPubReused .
-    ?diaryReusedInPubReused roud-oeuvres:manuscriptHasShelfmark ?shelfmarkDiaryReusedInPubReused .
-    ?diaryReusedInPubReused roud-oeuvres:manuscriptHasEditorialSet ?editorialSetDiaryReusedInPubReused .
-    # (always "note" for diary) ?diaryReusedInPubReused roud-oeuvres:hasGeneticStage ?geneticStageDiaryReusedInPubReused .   
+    ?diaryReusedInPubReused a ?diaryReusedInPubReusedType ;
+                            roud-oeuvres:msIsReusedInDossier ?dossierPubReused ;
+                            roud-oeuvres:manuscriptHasTitle ?titleDiaryReusedInPubReused ;
+                            roud-oeuvres:manuscriptIsInArchive ?archiveDiaryReusedInPubReused ;
+                            roud-oeuvres:manuscriptHasShelfmark ?shelfmarkDiaryReusedInPubReused ;
+                            roud-oeuvres:manuscriptHasEditorialSet ?editorialSetDiaryReusedInPubReused .
+                            # (always "note" for diary) ?diaryReusedInPubReused roud-oeuvres:hasGeneticStage ?geneticStageDiaryReusedInPubReused .   
     
     
     ##################### PARTS OF MAIN PUBLICATION AND THEIR NETWORKS #####################
+    ## pub parts
     ?mainPubPart a ?mainPubPartType ;
              roud-oeuvres:pubPartIsPartOf ?mainPub ;
              roud-oeuvres:pubPartHasTitle ?mainPubPartTitle ;
              roud-oeuvres:pubPartHasNumber ?mainPubPartNumber .
-            
+    
+    ## pub parts dossiers
     ?dossierPartMainPub a ?dossierParMainPubtType ;
             roud-oeuvres:geneticDossierPartIsPartOfGeneticDossier ?dossierMainPub ;
             roud-oeuvres:geneticDossierPartResultsInPubPart ?mainPubPart .
+    
+    ## avant-textes of main pub parts
+    ?atMainPubPart  a ?atMainPubPartType ;
+                    roud-oeuvres:msIsAvantTextInGeneticDossier ?dossierPartMainPub ;
+                    roud-oeuvres:manuscriptHasTitle ?titleAtMainPubPart ;
+                    roud-oeuvres:manuscriptIsInArchive ?archiveAtMainPubPart ;
+                    roud-oeuvres:manuscriptHasShelfmark ?shelfmarkAtMainPubPart ;
+                    #  (only interesting if diary) roud-oeuvres:manuscriptHasEditorialSet ?editorialSetAtMainPub .
+                    roud-oeuvres:hasGeneticStage ?geneticStageAtMainPubPart . 
+    
+    ## diary entries (ms) reused in main pub parts
+    ?diaryReusedInPubPart   a ?diaryReusedInPubPartType ;
+                            roud-oeuvres:msIsReusedInDossierPart ?dossierPartMainPub ;
+                            roud-oeuvres:manuscriptHasTitle ?titleDiaryReusedInPubPart ;
+                            roud-oeuvres:manuscriptIsInArchive ?archiveDiaryReusedInPubPart ;
+                            roud-oeuvres:manuscriptHasShelfmark ?shelfmarkDiaryReusedInPubPart ;
+                            roud-oeuvres:manuscriptHasEditorialSet ?editorialSetDiaryReusedInPubPart .
+    
+    ## diary entries (msPart) reused in main pub parts
+    ?dReusedInPubPart   a ?dReusedInPubPartType ;
+                        roud-oeuvres:msPartIsReusedInDossierPart ?dossierPartMainPub ;
+                        roud-oeuvres:msPartHasTitle ?titleDReusedInPubPart ;
+                        roud-oeuvres:msPartHasNumber ?numberDReusedInPubPart ;
+                        roud-oeuvres:msPartIsPartOf ?dReusedInPubPartMs .
+    ?dReusedInPubPartMs roud-oeuvres:manuscriptHasTitle ?titleDReusedInPubPartMs ;
+                        roud-oeuvres:manuscriptIsInArchive ?archiveDReusedInPubPartMs ;
+                        roud-oeuvres:manuscriptHasShelfmark ?shelfmarkDReusedInPubPartMs .
+    
+    ## publication reusing main pub part
+    ?mainPubPart roud-oeuvres:pubPartIsReusedInDossier ?dossierPubReusingMainPubPart .
+    ?dossierPubReusingMainPubPart roud-oeuvres:geneticDossierResultsInPublication ?pubReusingMainPubPart .
+    ?pubReusingMainPubPart  roud-oeuvres:publicationHasTitle ?pubReusingMainPubPartTitle ;
+                            roud-oeuvres:publicationHasDate ?pubReusingMainPubPartDate ;
+                            roud-oeuvres:isPublishedInPeriodical ?pubReusingMainPubPartPeriodical ;
+                            roud-oeuvres:publicationHasPhoto ?pubReusingMainPubPartPhoto .
+    
+    
+    
+    ##################### RE-PUBLICATION #####################
+    ?mainPub roud-oeuvres:publicationIsRepublishedDossier ?mainPubRepubDossier .
+    ?mainPubRepubDossier roud-oeuvres:geneticDossierResultsInPublication ?mainPubRepub .
+    ?mainPubRepub   a ?mainPubRepubType ;
+                    roud-oeuvres:publicationHasTitle ?mainPubRepubTypeTitle ;
+                    roud-oeuvres:publicationHasDate ?mainPubRepubTypeDate ;
+                    roud-oeuvres:publicationHasPhoto ?mainPubRepubPhoto .
     
     
     
@@ -95,6 +144,9 @@ CONSTRUCT {
         ?mainPub roud-oeuvres:hasPublisher ?mainPubPublisherIRI .
         ?mainPubPublisherIRI roud-oeuvres:publisherHasName ?mainPubPublisherNameIRI .
         ?mainPubPublisherNameIRI knora-base:valueHasString ?mainPubPublisher .
+    }
+    optional {
+        ?mainPub roud-oeuvres:publicationHasPhoto ?mainPubPhoto .
     }
         
     ## dossier of main pub
@@ -145,6 +197,9 @@ CONSTRUCT {
         ?pubReusedInMainPub roud-oeuvres:isPublishedInPeriodical ?pubReusedInMainPubPeriodicalIRI .
         ?pubReusedInMainPubPeriodicalIRI roud-oeuvres:periodicalHasTitle ?pubReusedInMainPubPeriodicalTitleIRI .
         ?pubReusedInMainPubPeriodicalTitleIRI knora-base:valueHasString ?pubReusedInMainPubPeriodical .
+        optional {
+            ?pubReusedInMainPub roud-oeuvres:publicationHasPhoto ?pubReusedInMainPubPhoto .
+        }
         # following creates PROBLEMS ...
         # ?pubReusedInMainPub a ?pubReusedInMainPubType .
         # to avoid blank nodes
@@ -211,24 +266,119 @@ CONSTRUCT {
     
     ##################### PARTS OF MAIN PUBLICATION AND THEIR NETWORKS #####################
     ## parts of main publication
-    ?mainPubPart a ?mainPubPartType .
-    # to avoid blank nodes
-    FILTER(STRSTARTS(str(?mainPubPartType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
-    ?mainPubPart    roud-oeuvres:pubPartIsPartOf ?mainPub ;
-                    roud-oeuvres:pubPartHasTitle ?mainPubPartTitleIRI ;
-                    roud-oeuvres:pubPartHasNumber ?mainPubPartNumberIRI .
-    ?mainPubPartTitleIRI knora-base:valueHasString ?mainPubPartTitle .
-    ?mainPubPartNumberIRI knora-base:valueHasString ?mainPubPartNumber .
-            
-    ## parts of dossier of main publication
-    ?dossierPartMainPub a ?dossierParMainPubtType .
-    FILTER(STRSTARTS(str(?dossierParMainPubtType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
-    ?dossierPartMainPub roud-oeuvres:geneticDossierPartIsPartOfGeneticDossier ?dossierMainPub ;
-                        roud-oeuvres:geneticDossierPartResultsInPubPart ?mainPubPart .
-           
-            
-         
-            
+    optional {
+        ?mainPubPart a ?mainPubPartType .
+        # to avoid blank nodes
+        FILTER(STRSTARTS(str(?mainPubPartType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+        ?mainPubPart    roud-oeuvres:pubPartIsPartOf ?mainPub ;
+                        roud-oeuvres:pubPartHasTitle ?mainPubPartTitleIRI ;
+                        roud-oeuvres:pubPartHasNumber ?mainPubPartNumberIRI .
+        ?mainPubPartTitleIRI knora-base:valueHasString ?mainPubPartTitle .
+        ?mainPubPartNumberIRI knora-base:valueHasString ?mainPubPartNumber .
+
+        ## parts of dossier of main publication
+        ?dossierPartMainPub a ?dossierParMainPubtType .
+        FILTER(STRSTARTS(str(?dossierParMainPubtType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+        ?dossierPartMainPub roud-oeuvres:geneticDossierPartIsPartOfGeneticDossier ?dossierMainPub ;
+                            roud-oeuvres:geneticDossierPartResultsInPubPart ?mainPubPart .
+
+        ## avant-textes of main pub parts
+        optional {
+            ?atMainPubPart a ?atMainPubPartType .
+            # to avoid blank nodes
+            FILTER(STRSTARTS(str(?atMainPubPartType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+            ?atMainPubPart roud-oeuvres:msIsAvantTextInGeneticDossierPart ?dossierPartMainPub .
+            ?atMainPubPart roud-oeuvres:manuscriptHasTitle ?titleAtMainPubPartIRI .
+            ?titleAtMainPubPartIRI knora-base:valueHasString ?titleAtMainPubPart .
+            ?atMainPubPart roud-oeuvres:manuscriptIsInArchive ?archiveAtMainPubPartListIRI .
+            ?archiveAtMainPubPartListIRI knora-base:valueHasListNode ?archiveAtMainPubPartIRI .
+            ?archiveAtMainPubPartIRI rdfs:label ?archiveAtMainPubPart .
+            FILTER(LANG(?archiveAtMainPubPart) = "en")
+            ?atMainPubPart roud-oeuvres:manuscriptHasShelfmark ?shelfmarkAtMainPubPartIRI .
+            ?shelfmarkAtMainPubPartIRI knora-base:valueHasString ?shelfmarkAtMainPubPart .
+            ?atMainPubPart roud-oeuvres:manuscriptHasEditorialSet ?editorialSetAtMainPubPartListIRI .
+            ?editorialSetAtMainPubPartListIRI knora-base:valueHasListNode ?editorialSetAtMainPubPartIRI .
+            ?editorialSetAtMainPubPartIRI rdfs:label ?editorialSetAtMainPubPart .
+            FILTER(LANG(?editorialSetAtMainPubPart) = "en")
+            ?atMainPubPart roud-oeuvres:hasGeneticStage ?geneticStageAtMainPubPartListIRI .
+            ?geneticStageAtMainPubPartListIRI knora-base:valueHasListNode ?geneticStageAtMainPubPartIRI .
+            ?geneticStageAtMainPubPartIRI rdfs:label ?geneticStageAtMainPubPart .
+            FILTER(LANG(?geneticStageAtMainPubPart) = "en")
+            }   ## end avant-textes of main pub parts
+        
+        ## diary entries (ms) reused in main pub parts (NOT TESTED)
+        optional {
+            ?diaryReusedInPubPart a ?diaryReusedInPubPartType .
+            # to avoid blank nodes
+            FILTER(STRSTARTS(str(?diaryReusedInPubPartType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+            ?diaryReusedInPubPart roud-oeuvres:msIsReusedInDossierPart ?dossierPartMainPub .
+            ?diaryReusedInPubPart roud-oeuvres:manuscriptHasTitle ?titleDiaryReusedInPubPartIRI .
+            ?titleDiaryReusedInPubPartIRI knora-base:valueHasString ?titleDiaryReusedInPubPart .
+            ?diaryReusedInPubPart roud-oeuvres:manuscriptIsInArchive ?archiveDiaryReusedInPubPartListIRI .
+            ?archiveDiaryReusedInPubPartListIRI knora-base:valueHasListNode ?archiveDiaryReusedInPubPartIRI .
+            ?archiveDiaryReusedInPubPartIRI rdfs:label ?archiveDiaryReusedInPubPart .
+            FILTER(LANG(?archiveDiaryReusedInPubPart) = "en")
+            ?diaryReusedInPubPart roud-oeuvres:manuscriptHasShelfmark ?shelfmarkDiaryReusedInPubPartIRI .
+            ?shelfmarkDiaryReusedInPubPartIRI knora-base:valueHasString ?shelfmarkDiaryReusedInPubPart .
+            ?diaryReusedInPubPart roud-oeuvres:manuscriptHasEditorialSet ?editorialSetDiaryReusedInPubPartListIRI .
+            ?editorialSetDiaryReusedInPubPartListIRI knora-base:valueHasListNode ?editorialSetDiaryReusedInPubPartIRI .
+            ?editorialSetDiaryReusedInPubPartIRI rdfs:label ?editorialSetDiaryReusedInPubPart .
+            FILTER(LANG(?editorialSetDiaryReusedInPubPart) = "en")
+            ?diaryReusedInPubPart roud-oeuvres:hasGeneticStage ?geneticStageDiaryReusedInPubPartListIRI .
+            ?geneticStageDiaryReusedInPubPartListIRI knora-base:valueHasListNode ?geneticStageDiaryReusedInPubPartIRI .
+            ?geneticStageDiaryReusedInPubPartIRI rdfs:label ?geneticStageDiaryReusedInPubPart .
+            FILTER(LANG(?geneticStageDiaryReusedInPubPart) = "en")
+        } ## end diary entries (ms) reused in main pub parts
+        
+        ## diary entries (msPart) reused in main pub parts
+        optional {
+            ?dReusedInPubPart   a ?dReusedInPubPartType .
+            FILTER(STRSTARTS(str(?dReusedInPubPartType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+            ?dReusedInPubPart   roud-oeuvres:msPartIsReusedInDossierPart ?dossierPartMainPub ;
+                                roud-oeuvres:msPartHasTitle ?titleDReusedInPubPartIRI .
+            ?titleDReusedInPubPartIRI knora-base:valueHasString ?titleDReusedInPubPart .
+            ?dReusedInPubPart   roud-oeuvres:msPartHasNumber ?numberDReusedInPubPartIRI .
+            ?numberDReusedInPubPartIRI knora-base:valueHasString ?numberDReusedInPubPart .
+            ?dReusedInPubPart roud-oeuvres:msPartIsPartOf ?dReusedInPubPartMs .
+            ?dReusedInPubPartMs roud-oeuvres:manuscriptHasTitle ?titleDReusedInPubPartMsIRI .
+            ?titleDReusedInPubPartMsIRI knora-base:valueHasString ?titleDReusedInPubPartMs .
+            ?dReusedInPubPartMs roud-oeuvres:manuscriptHasShelfmark ?shelfmarkDReusedInPubPartMsIRI .
+            ?shelfmarkDReusedInPubPartMsIRI knora-base:valueHasString ?shelfmarkDReusedInPubPartMs .
+            ?dReusedInPubPartMs roud-oeuvres:manuscriptIsInArchive ?archiveDReusedInPubPartMsListIRI .
+            ?archiveDReusedInPubPartMsListIRI knora-base:valueHasListNode ?archiveDReusedInPubPartMsIRI .
+            ?archiveDReusedInPubPartMsIRI rdfs:label ?archiveDReusedInPubPartMs .
+            FILTER(LANG(?archiveDReusedInPubPartMs) = "en")
+        }
+        
+        ## publication reusing main pub part
+        optional {
+            ?mainPubPart roud-oeuvres:pubPartIsReusedInDossier ?dossierPubReusingMainPubPart .
+            ?dossierPubReusingMainPubPart roud-oeuvres:geneticDossierResultsInPublication ?pubReusingMainPubPart .
+            ?pubReusingMainPubPart  roud-oeuvres:publicationHasTitle ?pubReusingMainPubPartTitleIRI .
+            ?pubReusingMainPubPartTitleIRI knora-base:valueHasString ?pubReusingMainPubPartTitle .
+            ?pubReusingMainPubPart roud-oeuvres:publicationHasDate ?pubReusingMainPubPartDateIRI .
+            ?pubReusingMainPubPartDateIRI knora-base:valueHasString ?pubReusingMainPubPartDate .
+            ?pubReusingMainPubPart roud-oeuvres:isPublishedInPeriodical ?pubReusingMainPubPartPeriodicalListIRI .  
+            ?pubReusingMainPubPartPeriodicalListIRI roud-oeuvres:periodicalHasTitle ?pubReusingMainPubPartPeriodicalIRI .
+            ?pubReusingMainPubPartPeriodicalIRI knora-base:valueHasString ?pubReusingMainPubPartPeriodical .
+            optional {
+                ?pubReusingMainPubPart roud-oeuvres:publicationHasPhoto ?pubReusingMainPubPartPhoto .
+            }
+        }
+        
+    } ## end pub parts and their networks
+    
+    
+    
+    ##################### RE-PUBLICATION #####################
+    ?mainPub roud-oeuvres:publicationIsRepublishedDossier ?mainPubRepubDossier .
+    ?mainPubRepubDossier roud-oeuvres:geneticDossierResultsInPublication ?mainPubRepub .
+    ?mainPubRepub   a ?mainPubRepubType .
+    FILTER(STRSTARTS(str(?mainPubRepubType), "http://www.knora.org/ontology/0112/roud-oeuvres")) .
+    ?mainPubRepub roud-oeuvres:publicationHasTitle ?mainPubRepubTypeTitleIRI .
+    ?mainPubRepubTypeTitleIRI knora-base:valueHasString ?mainPubRepubTypeTitle .
+    ?mainPubRepub roud-oeuvres:publicationHasDate ?mainPubRepubTypeDateIRI .
+    ?mainPubRepubTypeDateIRI knora-base:valueHasString ?mainPubRepubTypeDate .
             
     
     
