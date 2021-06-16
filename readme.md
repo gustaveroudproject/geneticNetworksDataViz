@@ -15,7 +15,7 @@ In our work, we created a model for genetic data, [GENO](https://gen-o.github.io
 
 Technical note: classes and properties can be understood as nodes and edges. The domain of a property indicates the starting point of an edge, while the range indicates its ending point. Both classes and properties can have sub-classes and sub-properties. One can use both the human-readable label of a class or property (e.g. part of a manuscript), and its IRI (the last part of the IRI, e.g. `MsPart`) to identify it.
 
-See the [human-readable rendering](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgustaveroudproject%2FgeneticNetworksDataViz%2Fmaster%2Fdoc%2FRoudGeneticsSpecification.ttl&owlapi=true&lang=en) of the [specification](doc/specification.ttl) for a detailed description of classes and properties.
+See the [human-readable rendering](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgustaveroudproject%2FgeneticNetworksDataViz%2Fmaster%2Fdoc%2FRoudGeneticsSpecification.ttl&owlapi=true&lang=en) of the [specification](doc/RoudGeneticsSpecification.ttl) for a detailed description of classes and properties.
 
 ##### Summary
 - Here it is a [summary](doc/RoudGenetics.png) of all possible genetic relationships.
