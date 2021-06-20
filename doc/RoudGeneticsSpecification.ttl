@@ -60,7 +60,15 @@
 			rdfs:domain :Manuscript ;
 			rdfs:range rdfs:Literal ;
 			rdfs:comment "The genetic stage of a document. Suggested values are: note, plan, list, draft, clean copy, final manuscript, annotated proofs, annotated publication. Some examples of the use of the property are: the document CLSR GR MS 1 H1/3b is a clean copy; the document CRLR GR MS 6 G61b is a list of words for a translation."@en .
-	
+
+
+
+:manuscriptHasEditorialSet	a owl:DatatypeProperty ;
+				rdfs:label "has editorial set"@en ;
+				rdfs:domain :Manuscript ;
+				rdfs:range rdfs:Literal ;
+				rdfs:comment "The editorial set to which the document belongs. For diary materials, the value will be 'Diary'."@en .
+		
 
 
 :msIsAvantTextInGeneticDossier 	a owl:ObjectProperty ;
