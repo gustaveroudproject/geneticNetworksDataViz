@@ -119,3 +119,9 @@
 				rdfs:comment "A publication is used in a genetic dossier. This happens when the author reuses a publication for writing a new text. For example, the article 'Deux moments d'une quête' originally published in the journal 'Suisse Contemporaine' (1941-11) is reused for composing 'D'une quête' published in the journal 'Botteghe Oscure' (1950-05)."@en .
 
 
+
+:publicationIsRepublishedDossier	a owl:ObjectProperty ;
+					rdfs:label "is republished in genetic dossier"@en ;
+					rdfs:domain :Publication ;
+					rdfs:range :GeneticDossier ;
+					rdfs:comment "A publication is republished after years of the first publications. The property links the original publication with the genetic dossier of the second publication."@en .
