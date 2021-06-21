@@ -8,7 +8,7 @@
 
 <http://examples.com/geneticOnto/RoudImplementation> a owl:Ontology ;
     rdfs:label "Genetic networks for the project \"Gustave Roud, Oeuvres complètes\"."@en ;
-    dc:description "This specification documents the modelling of the genetic networks for the project \"Gustave Roud, Oeuvres complètes\", and it is an implementation of GENO (the Genetic Network Ontology, <https://gen-o.github.io>). The specification is only for documentation purposes for the design of ad-hoc data-visualisations by the Density Design Lab in collaboration with the project team at the University of Lausanne. The complete project ontology (available at <https://github.com/LaDHUL/oeuvres-roud>) is based on the ontology Knora-base, compliant with the framework Knora (<https://dsp.dasch.swiss/>); here the Knora-base layer has been removed. A visualisation of this specification is available through WebVOWL at <http://visualdataweb.de/webvowl/#opts=cd=240;filter_disjoint=false;mode_compact=true;mode_colorExt=false;#iri=https://raw.githubusercontent.com/gustaveroudproject/geneticNetworksDataViz/master/doc/RoudGeneticsSpecification.ttl> (for a better visualisation, scroll for 'Max label width' in the 'Options' menu)."@en .
+    dc:description "This specification documents the modelling of the genetic networks for the project \"Gustave Roud, Oeuvres complètes\", and it is an implementation of GENO (the Genetic Network Ontology, <https://gen-o.github.io>). The specification is only for documentation purposes for the design of ad-hoc data-visualisations by the Density Design Lab in collaboration with the project team at the University of Lausanne. The complete project ontology (available at <https://github.com/LaDHUL/oeuvres-roud>) is based on the ontology Knora-base, compliant with the framework Knora (<https://dsp.dasch.swiss/>); here the Knora-base layer has been removed. A visualisation of this specification is available through WebVOWL at <http://visualdataweb.de/webvowl/#opts=cd=240;filter_disjoint=false;mode_compact=true;mode_colorExt=false;#iri=https://raw.githubusercontent.com/gustaveroudproject/geneticNetworksDataViz/master/doc/RoudGeneticsSpecificationComplete.ttl> (for a better visualisation, scroll for 'Max label width' in the 'Options' menu)."@en .
 
 
 
@@ -112,7 +112,7 @@
 :geneticDossierPartResultsInPubPart	a owl:ObjectProperty ;
 					rdfs:label "results in the part of the publication"@en ;
 					rdfs:domain :GeneticDossierPart ;
-					rdfs:range :GeneticDossier ;
+					rdfs:range :PubPart ;
 					rdfs:comment "The genetic dossier of one section of a publication results in that section of the publication."@en .
 
 
@@ -173,7 +173,7 @@
 
 :msIsReusedInDossier	a owl:ObjectProperty ;
 			rdfs:subPropertyOf :isReusedInDossier ;
-			rdfs:label "is used in the genetic dossier (for diary only)"@en ;
+			rdfs:label "diary is used in the genetic dossier"@en ;
 			rdfs:domain :Manuscript ;
 			rdfs:range :GeneticDossier ;
 			rdfs:comment "A diary entry in a document is used in a genetic dossier. This happens when the author uses a part of his diary for writing a text. For example, the document CLSR GR MS 1 H1/2b is a diary entry on a small piece of paper, used in the genetic dossier of 'Dédicace' published in the journal Schweizer Annalen in 1935."@en .
@@ -182,7 +182,7 @@
 
 :msPartIsReusedInDossier	a owl:ObjectProperty ;
 				rdfs:subPropertyOf :isReusedInDossier ;
-				rdfs:label "is used in the genetic dossier (for diary only)"@en ;
+				rdfs:label "diary part is used in the genetic dossier"@en ;
 				rdfs:domain :MsPart ;
 				rdfs:range :GeneticDossier ;
 				rdfs:comment "A diary entry in a section of a document is used in a genetic dossier. This happens when the author uses a part of his diary for writing a text. For example, a diary entry in the notebook CLSR GR MS 4 A/1a is used in the genetic dossier of 'Cendre'."@en .
@@ -191,7 +191,7 @@
 
 :msIsReusedInDossierPart	a owl:ObjectProperty ;
 				rdfs:subPropertyOf :isReusedInDossierPart ;
-				rdfs:label "is used in the part of the genetic dossier (for diary only)"@en ;
+				rdfs:label "diary is used in the part of the genetic dossier "@en ;
 				rdfs:domain :Manuscript ;
 				rdfs:range :GeneticDossierPart ;
 				rdfs:comment "A diary entry in a document is used in a genetic dossier. This happens when the author uses a part of his diary for writing a text. For example, a diary entry on a small piece of paper is used in the genetic process of a section of a book."@en .
@@ -200,7 +200,7 @@
 
 :msPartIsReusedInDossierPart	a owl:ObjectProperty ;
 				rdfs:subPropertyOf :isReusedInDossierPart ;
-				rdfs:label "is used in the part of the genetic dossier (for diary only)"@en ;
+				rdfs:label "diary part is used in the part of the genetic dossier"@en ;
 				rdfs:domain :MsPart ;
 				rdfs:range :GeneticDossierPart ;
 				rdfs:comment "A diary entry in a document is used in the genetic dossier of a part of a publication. This happens when the author uses a part of his diary for writing a text. For example, a diary entry in a notebook is used in the genetic process of a section of a book."@en .
@@ -209,7 +209,7 @@
 
 :publicationIsReusedInDossier 	a owl:ObjectProperty ;
 				rdfs:subPropertyOf :isReusedInDossier ;
-				rdfs:label "is used in the genetic dossier (for publications only)"@en ;
+				rdfs:label "publication is used in the genetic dossier"@en ;
 				rdfs:domain :Publication ;
 				rdfs:range :GeneticDossier ;
 				rdfs:comment "A publication is used in a genetic dossier. This happens when the author reuses a publication for writing a new text. For example, the article 'Deux moments d'une quête' originally published in the journal 'Suisse Contemporaine' (1941-11) is reused for composing 'D'une quête' published in the journal 'Botteghe Oscure' (1950-05)."@en .
@@ -217,7 +217,7 @@
 
 
 :pubPartIsPartOf	a owl:ObjectProperty ;
-			rdfs:label "is part of the publication"@en ;
+			rdfs:label "publication section is part of the publication"@en ;
 			rdfs:domain :PubPart ;
 			rdfs:range :Publication ;
 			rdfs:comment "A section of a publication belongs to the publication."@en .
@@ -226,7 +226,7 @@
 
 :pubPartIsReusedInDossier	a owl:ObjectProperty ;
 				rdfs:subPropertyOf :isReusedInDossier ;
-				rdfs:label "is used in the genetic dossier"@en ;
+				rdfs:label "publication part is used in the genetic dossier"@en ;
 				rdfs:domain :PubPart ;
 				rdfs:range :GeneticDossier ;
 				rdfs:comment "A section of a publication is used in a genetic dossier. This happens when the author reuses a publication for writing a new text. For example, a part of a book is used in the genetic dossier of a new book."@en .
@@ -235,7 +235,7 @@
 
 :pubPartIsReusedInDossierPart	a owl:ObjectProperty ;
 				rdfs:subPropertyOf :isReusedInDossierPart ;
-				rdfs:label "is used in the part of the genetic dossier"@en ;
+				rdfs:label "publication part is used in the part of the genetic dossier"@en ;
 				rdfs:domain :PubPart ;
 				rdfs:range :GeneticDossierPart ;
 				rdfs:comment "A section of a publication is used in the genetic dossier of a part of a new publication. This happens when the author reuses a part of a publication for writing a part of a new text. For example, a part of an article is used in the genetic dossier of a chapter of a book."@en .
@@ -244,9 +244,9 @@
 
 :publicationIsReusedInDossierPart	a owl:ObjectProperty ;
 					rdfs:subPropertyOf :isReusedInDossierPart ;
-					rdfs:label "is used in the part of the genetic dossier"@en ;
+					rdfs:label "publication is used in the part of the genetic dossier"@en ;
 					rdfs:domain :Publication ;
 					rdfs:range :GeneticDossierPart ;
-					rdfs:comment "A publication is used in the genetic dossier of a part of a new publication. This happens when the author reuses a published text for writing a part of a new text. For example, the article 'Une petite pluie' published in 1931 in the journal Aujourd'hui is used as a section of the collection 'Air de la solitude' published in 1945."@en .
+					rdfs:comment "A publication is used in the genetic dossier of a part of a new publication. This happens when the author reuses a published text for writing a part of a new text. For example, the article 'Une petite pluie' published in 1931 in the journal Aujourd'hui is used as a section of the collection 'Air de la solitude' published in."@en .
 
 

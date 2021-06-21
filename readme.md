@@ -13,13 +13,20 @@ Data visualization of genetic networks for the project "Gustave Roud, *Œuvres c
 ## Model
 
 #### Classes and properties
-See the [human-readable rendering](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgustaveroudproject%2FgeneticNetworksDataViz%2Fmaster%2Fdoc%2FRoudGeneticsSpecification.ttl&owlapi=true&lang=en) of the [specification](doc/RoudGeneticsSpecification.ttl) for a detailed description of classes and properties.
+The modelling of the genetic networks of Gustave Roud's works are complexe, especially because each document or publication might be composed of multiple parts or sections.
+
+A simplified model of the genetic networks, without taking into accounts parts, is available in a [human-readable rendering](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgustaveroudproject%2FgeneticNetworksDataViz%2Fmaster%2Fdoc%2FRoudGeneticsSpecificationWithoutParts.ttl&owlapi=true&lang=en) or a [Turtle file](doc/RoudGeneticsSpecificationWithoutParts.ttl). This is the suggested starting point to read the model.
+
+The complete model, including parts, is available in a [human-readable rendering](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgustaveroudproject%2FgeneticNetworksDataViz%2Fmaster%2Fdoc%2FRoudGeneticsSpecificationComplete.ttl&owlapi=true&lang=en) or a [Turtle file](doc/RoudGeneticsSpecificationComplete.ttl).
 
 #### Visual rendering
-- Here it is a [summary](doc/RoudGenetics.png) of all possible genetic relationships.
+- [Summary](doc/RoudGenetics.png) of all possible genetic relationships
+- Visual [rendering](http://visualdataweb.de/webvowl/#opts=cd=240;filter_disjoint=false;mode_compact=true;mode_colorExt=false;#iri=https://raw.githubusercontent.com/gustaveroudproject/geneticNetworksDataViz/master/doc/RoudGeneticsSpecificationWithoutParts.ttl) of the simplified specification, without parts (through WebVOWL; for a better visualisation, scroll for 'Max label width' in the 'Options' menu). This link is also given in the specification itself.
+- Visual [rendering](http://visualdataweb.de/webvowl/#opts=cd=240;filter_disjoint=false;mode_compact=true;mode_colorExt=false;#iri=https://raw.githubusercontent.com/gustaveroudproject/geneticNetworksDataViz/master/doc/RoudGeneticsSpecificationComplete.ttl) of the complete specification (through WebVOWL; for a better visualisation, scroll for 'Max label width' in the 'Options' menu). This link is also given in the specification itself.
+
 
 #### Some info
-The project [ontology](https://github.com/LaDHUL/oeuvres-roud) is build on top of the `knora-base` ontology, that is a general purpose schema for data in the humanities and social sciences, compliant with the framework [Knora](https://dsp.dasch.swiss/). Our ontology aims to model archival objects, bibliographical records, persons, places, events and other information related to Roud's works. Here we'll list only the **classes** (nodes) and **properties** (edges) of the ontology that are relevant for the modelling of the **genetic relationships**.
+The project [ontology](https://github.com/LaDHUL/oeuvres-roud) is build on top of the `knora-base` ontology, that is a general purpose schema for data in the humanities and social sciences, compliant with the framework [Knora](https://dsp.dasch.swiss/). Our ontology aims to model archival objects, bibliographical records, persons, places, events and other information related to Roud's works. Here we removed the `knora-base` layer and list only the **classes** (nodes) and **properties** (edges) of the ontology that are relevant for the modelling of the **genetic relationships**. For instance, properties for **titles** and **dates** are not listed in the specification, but present in the data.
 
 In our work, we created a generic model for genetic data, [GENO](https://gen-o.github.io/). Our implementation in the project uses most of GENO's classes and properties, but not all of them; and adds classes and properties that do not exist in GENO, namely decomposing publications, manuscripts and dossiers in parts. 
 
@@ -32,9 +39,9 @@ What to show, make evident or consider in the visualisation for each node:
 * if type is :Publication and subtype :Book => title and date
 * if type is :Publication and subtype :PeriodicalArticle => title, date and periodical
 * if type is :Publication => if it has photo or not (default is not)
-* if type is :Manuscript => title, archive, shelfmark, editorial set (for Diary only), genetic stage (not for diary), date
-* if type is :MsPart or :PubPart => title and number
-* 
+* if type is :Manuscript => title, archive, shelfmark (id of the manuscript), editorial set (for Diary only), genetic stage (not for diary), date
+* if type is :MsPart or :PubPart => title and number indicating the order of the parts
+* if type is :GeneticDossier or :GeneticDossierPart, no need to visualize properties
 
 
 ## Sample data

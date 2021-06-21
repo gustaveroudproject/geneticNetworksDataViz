@@ -8,7 +8,7 @@
 
 <http://examples.com/geneticOnto/RoudImplementation> a owl:Ontology ;
     rdfs:label "Genetic networks for the project \"Gustave Roud, Oeuvres complètes\"."@en ;
-    dc:description "This specification documents the modelling of the genetic networks for the project \"Gustave Roud, Oeuvres complètes\", and it is an implementation of GENO (the Genetic Network Ontology, <https://gen-o.github.io>). The specification is only for documentation purposes for the design of ad-hoc data-visualisations by the Density Design Lab in collaboration with the project team at the University of Lausanne. The complete project ontology (available at <https://github.com/LaDHUL/oeuvres-roud>) is based on the ontology Knora-base, compliant with the framework Knora (<https://dsp.dasch.swiss/>); here the Knora-base layer has been removed. A visualisation of this specification is available through WebVOWL at <http://visualdataweb.de/webvowl/#opts=cd=240;filter_disjoint=false;mode_compact=true;mode_colorExt=false;#iri=https://raw.githubusercontent.com/gustaveroudproject/geneticNetworksDataViz/master/doc/RoudGeneticsSpecification.ttl> (for a better visualisation, scroll for 'Max label width' in the 'Options' menu)."@en .
+    dc:description "This specification documents the modelling of the genetic networks for the project \"Gustave Roud, Oeuvres complètes\", and it is an implementation of GENO (the Genetic Network Ontology, <https://gen-o.github.io>). The specification is only for documentation purposes for the design of ad-hoc data-visualisations by the Density Design Lab in collaboration with the project team at the University of Lausanne. In particular, this specification is simplified by the removal of the concept of parts (part of a publication, part of a manuscript and part of a genetic dossier). The complete project ontology (available at <https://github.com/LaDHUL/oeuvres-roud>) is based on the ontology Knora-base, compliant with the framework Knora (<https://dsp.dasch.swiss/>); here the Knora-base layer has been removed. A visualisation of this specification is available through WebVOWL at <http://visualdataweb.de/webvowl/#opts=cd=240;filter_disjoint=false;mode_compact=true;mode_colorExt=false;#iri=https://raw.githubusercontent.com/gustaveroudproject/geneticNetworksDataViz/master/doc/RoudGeneticsSpecificationWithoutParts.ttl> (for a better visualisation, scroll for 'Max label width' in the 'Options' menu)."@en .
 
 
 
@@ -21,18 +21,22 @@
 
 :Manuscript 	a owl:Class ;
 		rdfs:label "Archival document"@en ;
-		rdfs:comment "A manuscript, typescript or printed text with manuscript evidence kept in an archive or private collection. For the sake of brevity, these archival documents can be called manuscripts. For the genetic networks, there are two categories of archival documents: avant-textes and diary materials. An avant-texte might belong to the pre-redactional phase (note, plan, list) or to the redactional phase (draft, clean copy, final manuscript) of the genetic process; its genetic stage is indicated by the value of the property `hasGeneticStage`. Avant-textes are organised in genetic dossiers. A diary entry is identified as such by the presence of a place and date at the beginning of the entry or by the support. Diary manuscripts always have the property `manuscriptHasEditorialSet` with value `Diary`"@en .
+		rdfs:comment "A manuscript, typescript or printed text with manuscript evidence kept in an archive or private collection. For the sake of brevity, these archival documents can be called manuscripts. For the genetic networks, there are two categories of archival documents: avant-textes and diary materials. An avant-texte might belong to the pre-redactional phase (note, plan, list) or to the redactional phase (draft, clean copy, final manuscript) of the genetic process; its genetic stage is indicated by the value of the property `hasGeneticStage`. Avant-textes are organised in genetic dossiers. A diary entry is identified as such by the presence of a place and date at the beginning of the entry or by the support. Diary manuscripts always have the property `manuscriptHasEditorialSet` with value `Diary`. Diary materials can be used as preparatory materials, but are not avant-textes, because they have not been conceived within a genetic process; they can only be reused in a genetic dossier."@en .
+
+
 
 :Publication 	a owl:Class ;
                 rdfs:label "Publication"@en ;	
                 rdfs:comment "A published text. This class has three sub-classes: `Book`, `Book section` and `Periodical article`."@en .
 		
 
+
 :Book 	a owl:Class ;
         rdfs:label "Book"@en ;	
         rdfs:subClassOf :Publication ;
         rdfs:comment "A published book. This class is a subclass of the class `Publication`: each `Book` is also a `Publication`."@en .
 	
+
 
 :PeriodicalArticle 	a owl:Class ;
         rdfs:label "Periodical article"@en ;	
@@ -43,9 +47,7 @@
 
 :GeneticDossier		a owl:Class ;
 			rdfs:label "Genetic dossier"@en ;
-			dc:description ""@en ;
 			rdfs:comment "The genetic dossier includes all the avant-textes (preparatory materials) of a work, published or conceived for publication. For example, the genetic dossier of the book 'Air de la solitude', published in 1945, is composed by all the lists, plans and drafts for it. Another example: the genetic dossier of the article 'Cendre' published in the journal 'Aujourd'hui' in 1930 is made of a clean copy of its final manuscript and of the corrected proofs." .
-
 
 
 ###############
@@ -88,33 +90,32 @@
 
 
 :msIsRewrittenInMs 	a owl:ObjectProperty ;
-			rdfs:label "is rewritten in the document"@en ;
+			rdfs:label "is rewritten in the document (diary phases)"@en ;
 			rdfs:domain :Manuscript ;
 			rdfs:range :Manuscript ;
 			rdfs:comment "A diary entry is rewritten on a new support. The author might, for instance, copy a diary note taken on a small piece of paper onto a notebook, with or without modifications."@en .
 
 
 
+
 :isReusedInDossier 	a owl:ObjectProperty ;
-			rdfs:label "is reused in"@en ;
+			rdfs:label "is reused in the genetic dossier"@en ;
 			rdfs:range :GeneticDossier ;
-			rdfs:comment "See sub-properties."@en .
-
-
-
+			rdfs:comment "See sub-properties of this property."@en .
 :msIsReusedInDossier	a owl:ObjectProperty ;
 			rdfs:subPropertyOf :isReusedInDossier ;
-			rdfs:label "is used in the genetic dossier (for diary only)"@en ;
+			rdfs:label "diary is used in the genetic dossier"@en ;
 			rdfs:domain :Manuscript ;
 			rdfs:range :GeneticDossier ;
-			rdfs:comment "A diary entry is used in a genetic dossier. This happens when the author uses a part of his diary for writing a text. For example, the document CLSR GR MS 4 A/1a is a diary notebook used in the genetic dossier of 'Cendre'; the document CLSR GR MS 1 H1/2b is a diary entry on a small piece of paper, used in the genetic dossier of 'Dédicace' published in the journal Schweizer Annalen in 1935."@en .
+			rdfs:comment "A diary entry in a document is used in a genetic dossier. This happens when the author uses a part of his diary for writing a text. For example, the document CLSR GR MS 1 H1/2b is a diary entry on a small piece of paper, used in the genetic dossier of 'Dédicace' published in the journal Schweizer Annalen in 1935."@en .
 
 
 
 :publicationIsReusedInDossier 	a owl:ObjectProperty ;
 				rdfs:subPropertyOf :isReusedInDossier ;
-				rdfs:label "is used in the genetic dossier (for publications only)"@en ;
+				rdfs:label "publication is used in the genetic dossier"@en ;
 				rdfs:domain :Publication ;
 				rdfs:range :GeneticDossier ;
-				rdfs:comment "A publication is used in a genetic dossier. This happens when the author reuses a publication for writing a new text. For example, the article 'Deux moments d'une quête' originally published in the journal 'Suisse Contemporaine' (1941-11) is reused for composing 'D'une quête' published in the journal 'Botteghe Oscure' (1950-05))."@en .
+				rdfs:comment "A publication is used in a genetic dossier. This happens when the author reuses a publication for writing a new text. For example, the article 'Deux moments d'une quête' originally published in the journal 'Suisse Contemporaine' (1941-11) is reused for composing 'D'une quête' published in the journal 'Botteghe Oscure' (1950-05)."@en .
+
 
