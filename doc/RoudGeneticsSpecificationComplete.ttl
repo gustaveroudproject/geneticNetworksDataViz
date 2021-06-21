@@ -1,0 +1,252 @@
+@prefix : <http://www.knora.org/ontology/0112/roud-oeuvres#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+<http://examples.com/geneticOnto/RoudImplementation> a owl:Ontology ;
+    rdfs:label "Genetic networks for the project \"Gustave Roud, Oeuvres complètes\"."@en ;
+    dc:description "This specification documents the modelling of the genetic networks for the project \"Gustave Roud, Oeuvres complètes\", and it is an implementation of GENO (the Genetic Network Ontology, <https://gen-o.github.io>). The specification is only for documentation purposes for the design of ad-hoc data-visualisations by the Density Design Lab in collaboration with the project team at the University of Lausanne. The complete project ontology (available at <https://github.com/LaDHUL/oeuvres-roud>) is based on the ontology Knora-base, compliant with the framework Knora (<https://dsp.dasch.swiss/>); here the Knora-base layer has been removed. A visualisation of this specification is available through WebVOWL at <http://visualdataweb.de/webvowl/#opts=cd=240;filter_disjoint=false;mode_compact=true;mode_colorExt=false;#iri=https://raw.githubusercontent.com/gustaveroudproject/geneticNetworksDataViz/master/doc/RoudGeneticsSpecification.ttl> (for a better visualisation, scroll for 'Max label width' in the 'Options' menu)."@en .
+
+
+
+############
+##
+## CLASSES
+##
+############
+
+
+:Manuscript 	a owl:Class ;
+		rdfs:label "Archival document"@en ;
+		rdfs:comment "A manuscript, typescript or printed text with manuscript evidence kept in an archive or private collection. For the sake of brevity, these archival documents can be called manuscripts. For the genetic networks, there are two categories of archival documents: avant-textes and diary materials. An avant-texte might belong to the pre-redactional phase (note, plan, list) or to the redactional phase (draft, clean copy, final manuscript) of the genetic process; its genetic stage is indicated by the value of the property `hasGeneticStage`. Avant-textes are organised in genetic dossiers. A diary entry is identified as such by the presence of a place and date at the beginning of the entry or by the support. Diary manuscripts always have the property `manuscriptHasEditorialSet` with value `Diary`. Diary materials can be used as preparatory materials, but are not avant-textes, because they have not been conceived within a genetic process; they can only be reused in a genetic dossier."@en .
+
+
+:MsPart a owl:Class ;
+		    rdfs:label "Part of a manuscript (for diary only)"@en;
+		    rdfs:comment "Textual unit that occupies a part of a manuscript: a diary note."@en .
+
+
+:Publication 	a owl:Class ;
+                rdfs:label "Publication"@en ;	
+                rdfs:comment "A published text. This class has three sub-classes: `Book`, `Book section` and `Periodical article`."@en .
+		
+
+:PubPart    a owl:Class ;
+	    rdfs:label "Part of a publication"@en;
+	    rdfs:comment "Textual unit that occupies a part of a publication, for example a section, a chapter or a poem inside a collection."@en .
+
+
+:Book 	a owl:Class ;
+        rdfs:label "Book"@en ;	
+        rdfs:subClassOf :Publication ;
+        rdfs:comment "A published book. This class is a subclass of the class `Publication`: each `Book` is also a `Publication`."@en .
+	
+
+:PeriodicalArticle 	a owl:Class ;
+        rdfs:label "Periodical article"@en ;	
+        rdfs:subClassOf :Publication ;
+        rdfs:comment "An article published in a periodical publication, such as a newspaper, a journal, etc. This class is a subclass of the class `Publication`: each `Periodical article` is also a `Publication`."@en .
+		
+
+:GeneticDossier		a owl:Class ;
+			rdfs:label "Genetic dossier"@en ;
+			rdfs:comment "The genetic dossier includes all the avant-textes (preparatory materials) of a work, published or conceived for publication. For example, the genetic dossier of the book 'Air de la solitude', published in 1945, is composed by all the lists, plans and drafts for it. Another example: the genetic dossier of the article 'Cendre' published in the journal 'Aujourd'hui' in 1930 is made of a clean copy of its final manuscript and of the corrected proofs." .
+
+
+:GeneticDossierPart	a owl:Class ;
+			rdfs:label "Genetic dossier of one part of a publication"@en ;
+			rdfs:comment "The genetic dossier of only one part of the work published or conceived for publication. For example, the book 'Adieu' published in 1927 has two parts: first a poem, and then the prose; these two sections have different preparatory materials: for the first part, there are two avant-textes, and for the second, one avant-texte and multiple diary entries." .
+
+
+
+###############
+##
+## PROPERTIES
+##
+###############
+
+
+:hasGeneticStage	a owl:DatatypeProperty ;
+			rdfs:label "has genetic stage"@en ;
+			rdfs:domain :Manuscript ;
+			rdfs:range rdfs:Literal ;
+			rdfs:comment "The genetic stage of a document. Suggested values are: note, plan, list, draft, clean copy, final manuscript, annotated proofs, annotated publication. Some examples of the use of the property are: the document CLSR GR MS 1 H1/3b is a clean copy; the document CRLR GR MS 6 G61b is a list of words for a translation."@en .
+
+
+
+:manuscriptHasEditorialSet	a owl:DatatypeProperty ;
+				rdfs:label "has editorial set"@en ;
+				rdfs:domain :Manuscript ;
+				rdfs:range rdfs:Literal ;
+				rdfs:comment "The editorial set to which the document belongs. For diary materials, the value will be 'Diary'."@en .
+		
+
+
+:msIsAvantTextInGeneticDossier 	a owl:ObjectProperty ;
+				rdfs:label "is avant-text in the genetic dossier"@en ;
+				rdfs:domain :Manuscript ;
+				rdfs:range :GeneticDossier ;
+				rdfs:comment "The avant-texte is part of a genetic dossier. Some examples of the use of the property are: the document CLSR HLM D 1 ROU 4 is part of the genetic dossier of 'Feuillets'; the document CLSR GR MS 1 H1/1a is part of the genetic dossier of 'Dédicace' published in the journal Schweizer Annalen in 1935."@en .
+
+
+
+:geneticDossierResultsInPublication 	a owl:ObjectProperty ;
+					rdfs:label "results in the publication"@en ;
+					rdfs:domain :GeneticDossier ;
+					rdfs:range :Publication ;
+					rdfs:comment "The genetic dossier results in a publication (one of the sub-classes of class `Publication`: a book, an article or a section of a book)."@en .
+
+
+
+:geneticDossierPartIsPartOfGeneticDossier 	a owl:ObjectProperty ;
+						rdfs:label "is part of the genetic dossier"@en ;
+						rdfs:domain :GeneticDossierPart ;
+						rdfs:range :GeneticDossier ;
+						rdfs:comment "The genetic dossier of one section of a publication is part of the larger genetic dossier of the entire publication."@en .
+
+
+
+:geneticDossierPartResultsInPubPart	a owl:ObjectProperty ;
+					rdfs:label "results in the part of the publication"@en ;
+					rdfs:domain :GeneticDossierPart ;
+					rdfs:range :GeneticDossier ;
+					rdfs:comment "The genetic dossier of one section of a publication results in that section of the publication."@en .
+
+
+
+:msIsRewrittenInMs 	a owl:ObjectProperty ;
+			rdfs:label "is rewritten in the document (diary phases)"@en ;
+			rdfs:domain :Manuscript ;
+			rdfs:range :Manuscript ;
+			rdfs:comment "A diary entry is rewritten on a new support. The author might, for instance, copy a diary note taken on a small piece of paper onto a notebook, with or without modifications."@en .
+
+
+
+:msPartIsPartOf		a owl:ObjectProperty ;
+			rdfs:label "is part of the manuscript"@en ;
+			rdfs:domain :MsPart ;
+			rdfs:range :Manuscript ;
+			rdfs:comment "A diary note belongs to a manuscript."@en .
+ 
+
+
+:msIsRewrittenInMsPart 	a owl:ObjectProperty ;
+			rdfs:label "is rewritten in the section of the document (diary phases)"@en ;
+			rdfs:domain :Manuscript ;
+			rdfs:range :MsPart ;
+			rdfs:comment "The entire content of an archival document, for example a piece of paper, is rewritten as a section of a larger document, for example a notebook."@en .
+
+
+
+:msPartIsRewrittenInMs 	a owl:ObjectProperty ;
+			rdfs:label "is rewritten in the document (diary phases)"@en ;
+			rdfs:domain :MsPart ;
+			rdfs:range :Manuscript ;
+			rdfs:comment "The content of a section of a document, for example a diary entry in a notebook, is rewritten in a document, for example a small piece of paper."@en .
+
+
+
+:msPartIsRewrittenInMsPart 	a owl:ObjectProperty ;
+				rdfs:label "is rewritten in the section of the document (diary phases)"@en ;
+				rdfs:domain :MsPart ;
+				rdfs:range :MsPart ;
+				rdfs:comment "The content of a section of a document, for example a diary entry in an agenda, is rewritten in a section of another document, for example another agenda or a notebook."@en .
+
+
+
+:isReusedInDossier 	a owl:ObjectProperty ;
+			rdfs:label "is reused in the genetic dossier"@en ;
+			rdfs:range :GeneticDossier ;
+			rdfs:comment "See sub-properties of this property."@en .
+
+
+
+:isReusedInDossierPart 	a owl:ObjectProperty ;
+			rdfs:label "is reused in the part of the genetic dossier"@en ;
+			rdfs:range :GeneticDossierPart ;
+			rdfs:comment "See sub-properties of this property."@en .
+
+
+
+:msIsReusedInDossier	a owl:ObjectProperty ;
+			rdfs:subPropertyOf :isReusedInDossier ;
+			rdfs:label "is used in the genetic dossier (for diary only)"@en ;
+			rdfs:domain :Manuscript ;
+			rdfs:range :GeneticDossier ;
+			rdfs:comment "A diary entry in a document is used in a genetic dossier. This happens when the author uses a part of his diary for writing a text. For example, the document CLSR GR MS 1 H1/2b is a diary entry on a small piece of paper, used in the genetic dossier of 'Dédicace' published in the journal Schweizer Annalen in 1935."@en .
+
+
+
+:msPartIsReusedInDossier	a owl:ObjectProperty ;
+				rdfs:subPropertyOf :isReusedInDossier ;
+				rdfs:label "is used in the genetic dossier (for diary only)"@en ;
+				rdfs:domain :MsPart ;
+				rdfs:range :GeneticDossier ;
+				rdfs:comment "A diary entry in a section of a document is used in a genetic dossier. This happens when the author uses a part of his diary for writing a text. For example, a diary entry in the notebook CLSR GR MS 4 A/1a is used in the genetic dossier of 'Cendre'."@en .
+
+
+
+:msIsReusedInDossierPart	a owl:ObjectProperty ;
+				rdfs:subPropertyOf :isReusedInDossierPart ;
+				rdfs:label "is used in the part of the genetic dossier (for diary only)"@en ;
+				rdfs:domain :Manuscript ;
+				rdfs:range :GeneticDossierPart ;
+				rdfs:comment "A diary entry in a document is used in a genetic dossier. This happens when the author uses a part of his diary for writing a text. For example, a diary entry on a small piece of paper is used in the genetic process of a section of a book."@en .
+
+
+
+:msPartIsReusedInDossierPart	a owl:ObjectProperty ;
+				rdfs:subPropertyOf :isReusedInDossierPart ;
+				rdfs:label "is used in the part of the genetic dossier (for diary only)"@en ;
+				rdfs:domain :MsPart ;
+				rdfs:range :GeneticDossierPart ;
+				rdfs:comment "A diary entry in a document is used in the genetic dossier of a part of a publication. This happens when the author uses a part of his diary for writing a text. For example, a diary entry in a notebook is used in the genetic process of a section of a book."@en .
+
+
+
+:publicationIsReusedInDossier 	a owl:ObjectProperty ;
+				rdfs:subPropertyOf :isReusedInDossier ;
+				rdfs:label "is used in the genetic dossier (for publications only)"@en ;
+				rdfs:domain :Publication ;
+				rdfs:range :GeneticDossier ;
+				rdfs:comment "A publication is used in a genetic dossier. This happens when the author reuses a publication for writing a new text. For example, the article 'Deux moments d'une quête' originally published in the journal 'Suisse Contemporaine' (1941-11) is reused for composing 'D'une quête' published in the journal 'Botteghe Oscure' (1950-05)."@en .
+
+
+
+:pubPartIsPartOf	a owl:ObjectProperty ;
+			rdfs:label "is part of the publication"@en ;
+			rdfs:domain :PubPart ;
+			rdfs:range :Publication ;
+			rdfs:comment "A section of a publication belongs to the publication."@en .
+
+
+
+:pubPartIsReusedInDossier	a owl:ObjectProperty ;
+				rdfs:subPropertyOf :isReusedInDossier ;
+				rdfs:label "is used in the genetic dossier"@en ;
+				rdfs:domain :PubPart ;
+				rdfs:range :GeneticDossier ;
+				rdfs:comment "A section of a publication is used in a genetic dossier. This happens when the author reuses a publication for writing a new text. For example, a part of a book is used in the genetic dossier of a new book."@en .
+
+
+
+:pubPartIsReusedInDossierPart	a owl:ObjectProperty ;
+				rdfs:subPropertyOf :isReusedInDossierPart ;
+				rdfs:label "is used in the part of the genetic dossier"@en ;
+				rdfs:domain :PubPart ;
+				rdfs:range :GeneticDossierPart ;
+				rdfs:comment "A section of a publication is used in the genetic dossier of a part of a new publication. This happens when the author reuses a part of a publication for writing a part of a new text. For example, a part of an article is used in the genetic dossier of a chapter of a book."@en .
+
+
+
+:publicationIsReusedInDossierPart	a owl:ObjectProperty ;
+					rdfs:subPropertyOf :isReusedInDossierPart ;
+					rdfs:label "is used in the part of the genetic dossier"@en ;
+					rdfs:domain :Publication ;
+					rdfs:range :GeneticDossierPart ;
+					rdfs:comment "A publication is used in the genetic dossier of a part of a new publication. This happens when the author reuses a published text for writing a part of a new text. For example, the article 'Une petite pluie' published in 1931 in the journal Aujourd'hui is used as a section of the collection 'Air de la solitude' published in 1945."@en .
+
+

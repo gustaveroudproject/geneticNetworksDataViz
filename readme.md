@@ -7,30 +7,34 @@ Data visualization of genetic networks for the project "Gustave Roud, *Œuvres c
 - Christen, A., & Spadini, E. (2019). "Modeling genetic networks. Gustave Roud’s œuvre, from diary to poetry collections". *Umanistica Digitale*, 3(7). https://doi.org/10.6092/issn.2532-8816/9063. This article presents the data model used in the project to organize the genetic relationships between the manuscripts and the publications. Some aspects of the data model have evolved since the publication of the article (e.g., we do not take into account anymore the order of the *avant-textes* inside a genetic dossier), but the main concepts remain the same.
 - Web application development: https://github.com/gustaveroudproject/roud-oeuvres-app. Documentation: https://github.com/gustaveroudproject/roud-oeuvres-app/blob/master/DOCUMENTATION.md.
 - ARKs are persistent identifier in the form of URL pointing to our edition or to a generic interface.
+- Slides of a presentation about the collections (*recueils*) in the work of Gustave Roud: https://gustaveroudproject.github.io/talks/20180524_cuso_recueil.html#/ (hover to see details in some of the slides).
+
 
 ## Model
+
+#### Classes and properties
+See the [human-readable rendering](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgustaveroudproject%2FgeneticNetworksDataViz%2Fmaster%2Fdoc%2FRoudGeneticsSpecification.ttl&owlapi=true&lang=en) of the [specification](doc/RoudGeneticsSpecification.ttl) for a detailed description of classes and properties.
+
+#### Visual rendering
+- Here it is a [summary](doc/RoudGenetics.png) of all possible genetic relationships.
 
 #### Some info
 The project [ontology](https://github.com/LaDHUL/oeuvres-roud) is build on top of the `knora-base` ontology, that is a general purpose schema for data in the humanities and social sciences, compliant with the framework [Knora](https://dsp.dasch.swiss/). Our ontology aims to model archival objects, bibliographical records, persons, places, events and other information related to Roud's works. Here we'll list only the **classes** (nodes) and **properties** (edges) of the ontology that are relevant for the modelling of the **genetic relationships**.
 
 In our work, we created a generic model for genetic data, [GENO](https://gen-o.github.io/). Our implementation in the project uses most of GENO's classes and properties, but not all of them; and adds classes and properties that do not exist in GENO, namely decomposing publications, manuscripts and dossiers in parts. 
 
-Technical note: classes and properties can be understood as nodes and edges. The domain of a property indicates the category of the starting point of an edge, while the range indicates the category of its ending point. Both classes and properties can have sub-classes and sub-properties. One can use both the human-readable label of a class or property (e.g. part of a manuscript), and its IRI (the last part of the IRI, e.g. `MsPart`) to identify it.
-
-#### Classes and properties
-See the [human-readable rendering](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgustaveroudproject%2FgeneticNetworksDataViz%2Fmaster%2Fdoc%2FRoudGeneticsSpecification.ttl&owlapi=true&lang=en) of the [specification](doc/RoudGeneticsSpecification.ttl) for a detailed description of classes and properties.
-
-##### Summary
-- Here it is a [summary](doc/RoudGenetics.png) of all possible genetic relationships.
-
+Technical note: classes and properties can be understood as nodes and edges. The domain of a property indicates the category of the starting point of an edge and the range indicates the category of its ending point. The properties are predicates in a triple of subject-predicate-object. Both classes and properties can have sub-classes (which inherit the properties) and sub-properties (which share the object of the property). The value of an object-type property is a node in the graph, while the value of a data-type property is a string, or literal. One can use both the human-readable label of a class or property (e.g. part of a manuscript), and its IRI (the last part of the IRI, e.g. `MsPart`) to identify it. Unfortunately, in this specification there are a lot of inconsistencies in the naming of classes and properties. 
 
 
 ## About the visualization
-* For each **node**, show the resource type.
-* If the resource has type :**Publication** and subtype :Book, show title and date.
-* If the resource has type :Publication and subtype :PeriodicalArticle, show title, date and periodical.
-* If the resource has type :Publication, show if it has photo or not (default is not).
-* If the resource has type :**Manuscript**, show title, archive, shelfmark, editorial set (for Diary only), genetic stage (not for diary), date (***TO BE ADDED***).
+What to show, make evident or consider in the visualisation for each node:
+* type
+* if type is :Publication and subtype :Book => title and date
+* if type is :Publication and subtype :PeriodicalArticle => title, date and periodical
+* if type is :Publication => if it has photo or not (default is not)
+* if type is :Manuscript => title, archive, shelfmark, editorial set (for Diary only), genetic stage (not for diary), date
+* if type is :MsPart or :PubPart => title and number
+* 
 
 
 ## Sample data
