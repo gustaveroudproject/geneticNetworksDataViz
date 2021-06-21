@@ -8,13 +8,16 @@ Data visualization of genetic networks for the project "Gustave Roud, *Œuvres c
 - Web application development: https://github.com/gustaveroudproject/roud-oeuvres-app. Documentation: https://github.com/gustaveroudproject/roud-oeuvres-app/blob/master/DOCUMENTATION.md.
 - ARKs are persistent identifier in the form of URL pointing to our edition or to a generic interface.
 
-## Classes and properties
-The project [ontology](https://github.com/LaDHUL/oeuvres-roud) is build on top of the `knora-base` ontology, that is a general purpose schema for data in the humanities and social sciences; this is a requirement of the framework we use, Knora. Our ontology aims to model archival objects, bibliographical records, persons, places, events and other information related to Roud's works. Here we'll list only the **classes** (nodes) and **properties** (edges) of the ontology that are relevant for the modelling of the **genetic relationships**.
+## Model
 
-In our work, we created a model for genetic data, [GENO](https://gen-o.github.io/). Our implementation in the project uses most of GENO's classes and properties, but not all of them; and adds classes and properties that do not exist in GENO, namely decomposing publications, manuscripts and dossiers in parts. 
+#### Some info
+The project [ontology](https://github.com/LaDHUL/oeuvres-roud) is build on top of the `knora-base` ontology, that is a general purpose schema for data in the humanities and social sciences, compliant with the framework [Knora](https://dsp.dasch.swiss/). Our ontology aims to model archival objects, bibliographical records, persons, places, events and other information related to Roud's works. Here we'll list only the **classes** (nodes) and **properties** (edges) of the ontology that are relevant for the modelling of the **genetic relationships**.
 
-Technical note: classes and properties can be understood as nodes and edges. The domain of a property indicates the starting point of an edge, while the range indicates its ending point. Both classes and properties can have sub-classes and sub-properties. One can use both the human-readable label of a class or property (e.g. part of a manuscript), and its IRI (the last part of the IRI, e.g. `MsPart`) to identify it.
+In our work, we created a generic model for genetic data, [GENO](https://gen-o.github.io/). Our implementation in the project uses most of GENO's classes and properties, but not all of them; and adds classes and properties that do not exist in GENO, namely decomposing publications, manuscripts and dossiers in parts. 
 
+Technical note: classes and properties can be understood as nodes and edges. The domain of a property indicates the category of the starting point of an edge, while the range indicates the category of its ending point. Both classes and properties can have sub-classes and sub-properties. One can use both the human-readable label of a class or property (e.g. part of a manuscript), and its IRI (the last part of the IRI, e.g. `MsPart`) to identify it.
+
+#### Classes and properties
 See the [human-readable rendering](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgustaveroudproject%2FgeneticNetworksDataViz%2Fmaster%2Fdoc%2FRoudGeneticsSpecification.ttl&owlapi=true&lang=en) of the [specification](doc/RoudGeneticsSpecification.ttl) for a detailed description of classes and properties.
 
 ##### Summary
