@@ -1,0 +1,48 @@
+PREFIX knora-api: <http://api.knora.org/ontology/knora-api/simple/v2#>
+PREFIX roud-oeuvres: <http://www.knora.org/ontology/0112/roud-oeuvres#>
+PREFIX knora-base: <http://www.knora.org/ontology/knora-base#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {
+    
+    ## pub data
+    ?pub_0 a ?pub_0_type ;
+            roud-oeuvres:publicationHasTitle ?pub_0_title ;
+            roud-oeuvres:publicationHasDate ?pub_0_date ;
+            roud-oeuvres:isPublishedInPeriodical ?pub_0_periodical ;
+            # roud-oeuvres:publicationHasPhoto ?pub_0_photo ;
+            roud-oeuvres:hasPublisher ?pub_0_publisher .    
+}
+
+FROM <http://www.knora.org/data/0112/roud-oeuvres>
+# to avoid blank nodes
+FROM <http://www.ontotext.com/explicit>
+WHERE {
+    
+    BIND(<http://rdfh.ch/0112/t5NxkeItSUyrc3AYEcAuwA> as ?pub_0)
+    
+    ## pub data
+    ?pub_0 a ?pub_0_type .
+    ?pub_0 roud-oeuvres:publicationHasTitle ?pub_0_titleIRI .
+    ?pub_0_titleIRI knora-base:valueHasString ?pub_0_title .
+    ?pub_0 roud-oeuvres:publicationHasDate ?pub_0_dateIRI .
+    ?pub_0_dateIRI knora-base:valueHasString ?pub_0_date .
+    # if article
+    optional {
+        ?pub_0 roud-oeuvres:isPublishedInPeriodical ?pub_0_periodicalIRI .
+        ?pub_0_periodicalIRI roud-oeuvres:periodicalHasTitle ?pub_0_periodicalTitleIRI .
+        ?pub_0_periodicalTitleIRI knora-base:valueHasString ?pub_0_periodical .
+    }
+    # if book
+    optional {
+        ?pub_0 roud-oeuvres:hasPublisher ?pub_0_publisherIRI .
+        ?pub_0_publisherIRI roud-oeuvres:publisherHasName ?pub_0_publisherNameIRI .
+        ?pub_0_publisherNameIRI knora-base:valueHasString ?pub_0_publisher .
+    }
+    optional {
+        ?pub_0 roud-oeuvres:publicationHasPhoto ?pub_0_photo .
+    }
+        
+  
+    
+}
