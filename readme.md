@@ -44,23 +44,9 @@ What to show, make evident or consider in the visualisation for each node:
 * if type is :GeneticDossier or :GeneticDossierPart, no need to visualize properties
 
 
-## Sample data
+## Data
 
-#### "Deux moments d'une quête", *Suisse contemporaine*, 1941
-- **IRI**: <http://rdfh.ch/0112/OXLofRkPRCKOcLrEy6DZ8w>
-- **Genetic dossier IRI**: <http://rdfh.ch/0112/gtxOIRZySkGGkvXWg0nkEQ>
-- **ARK**: <http://ark.dasch.swiss/ark:/72163/1/0112/OXLofRkPRCKOcLrEy6DZ8wf.20180831T1412546Z>
-- **Description**. This publication reuses the article "Dédicace", published in the journal *Schweizer Annalen* in 1935 (property `roud-oeuvres:publicationIsReusedInDossier`). For the article "Dédicace", there are two *avant-textes* (`roud-oeuvres:msIsAvantTextInGeneticDossier`) and one diary entry reused in it (`roud-oeuvres:msIsReusedInDossier`).
-- **Data** are available in various formats (RDF-XML, TTL, JSON-LD) in the folder [`sample`](sample/DeuxMoments_SuisseContemporaine_1941).
-
-
-#### *Adieu*, 1927
-- **IRI**: <http://rdfh.ch/0112/K2OVZydJS42GUsMJvKhP-A>
-- **Genetic dossier IRI**: <http://rdfh.ch/0112/XqZUUgzjQXaX8rEnfyifJg>
-- **ARK**: <http://ark.dasch.swiss/ark:/72163/1/0112/K2OVZydJS42GUsMJvKhP=AE.20180919T155223417Z>
-- **Description**. This book is composed of two parts (`:PubPart` and `:GeneticDossierPart`). The first has two *avant-textes* (`:msIsAvantTextInGeneticDossierPart`), the second has one *avant-texte* and four diary entries reused in it (`:msIsReusedInDossierPart`). The book has been re-edited in 1944 with the publisher Éditions des Portes de France (`:publicationIsRepublishedDossier`) and in the volume *Écrits* in 1950. The first part alone has been reused in *Annonce d'un adieu* published in the journal « Présence » in 1932 (`:pubPartIsReusedInDossier`).
-- **Data** are available in JSON-LD in the folder [`sample`](sample/Adieu_1944).
-
+Data for each collection can be found in the folder [`data`](data).
 
 
 
