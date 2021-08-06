@@ -137,11 +137,6 @@
     "@id" : "http://rdfh.ch/0112/4taYLfkLTraS54Fa0fQiVQ"
   } ]
 }, {
-  "@id" : "http://rdfh.ch/0112/5Zeb8Zl4SYOQyebMp_ANcg",
-  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
-    "@id" : "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
-  } ]
-}, {
   "@id" : "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg",
   "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
   "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
@@ -301,11 +296,6 @@
     "@id" : "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
   } ]
 }, {
-  "@id" : "http://rdfh.ch/0112/ddSOsY3ISd-bN8aiH4SCUQ",
-  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
-    "@id" : "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
-  } ]
-}, {
   "@id" : "http://rdfh.ch/0112/gyBB1SlWRMaEX8I0E09okw",
   "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart" ],
   "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber" : [ {
@@ -420,16 +410,6 @@
     "@id" : "http://rdfh.ch/0112/9mDfDvGwQxqSbxjZWwT8fA"
   } ],
   "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart" : [ {
-    "@id" : "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
-  } ]
-}, {
-  "@id" : "http://rdfh.ch/0112/ub8pm4cES5K8dH9NA25fdA",
-  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
-    "@id" : "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
-  } ]
-}, {
-  "@id" : "http://rdfh.ch/0112/w77KbuWKQUe8-8au2llnpQ",
-  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
     "@id" : "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
   } ]
 }, {
@@ -1507,5 +1487,65 @@
   } ],
   "http://www.knora.org/ontology/0112/roud-oeuvres#msIsRewrittenInMsPart" : [ {
     "@id" : "http://rdfh.ch/0112/YOfPG2pmRsWSxslzGxuSOw"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/ddSOsY3ISd-bN8aiH4SCUQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1930-07-24 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Cendre"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/ub8pm4cES5K8dH9NA25fdA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1931-06-18 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Main de Faucheur, Halte, Réponses (rubrique \"Écrit à Carrouge\")"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/w77KbuWKQUe8-8au2llnpQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1930-07-10 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Cendre"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/5Zeb8Zl4SYOQyebMp_ANcg",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1931-07-02 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "D'un carnet de juin"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
   } ]
 } ]
