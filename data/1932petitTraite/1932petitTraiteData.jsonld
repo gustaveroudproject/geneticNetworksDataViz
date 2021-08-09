@@ -1,0 +1,631 @@
+[ {
+  "@id" : "http://rdfh.ch/0112/alvVK7HBT76h6npfYbkicA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1931-01-08 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Question"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/elbekzMJROm1S7Cq-b9H_Q"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/lXW5dPVjTuqf6n0jpgu2ng",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1930-10-23 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Le Corps et l'Ombre, fragments"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/vcoMinXoQWmtN6KHrDvl_w"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/s-J130sQReiaHxMKntZ16A",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1930-01-16 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Traité de la marche en plaine"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/Voq_lIcRSmGva3itCpPIIQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/Pv6MWvktS5mxK0CKjXDagg",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+    "@id" : "http://rdfh.ch/0112/tWQjZiL6QDKakkUfMqwRaw"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/tWQjZiL6QDKakkUfMqwRaw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1930-02-06 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Traité de la marche en plaine"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/Voq_lIcRSmGva3itCpPIIQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/ueJwmgm1SFmWZqISbRVZeg",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Corrected proofs"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "D-5-2-10/07"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Traité de la marche en plaine"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR Mermod"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/Pv6MWvktS5mxK0CKjXDagg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/BTVcm5QqRgqNzoKFa_jJFQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Alliance culturelle romande"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1967-05-01 CE - 1967-06-30 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Petit traité de la marche en plaine"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/evZhV5ugQ9y6Oi4S9EDiog",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+    "@id" : "http://rdfh.ch/0112/BTVcm5QqRgqNzoKFa_jJFQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/BbnLAVeaS8ChIeTqMi4wbQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Book" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher" : [ {
+    "@value" : "Mermod"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1950-09-15 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Écrits I"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/p0Ht5r5rQrqlggITYTSqLQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "3"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "Petit traité de la marche en plaine suivi de lettres dialogues et morceaux"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/BbnLAVeaS8ChIeTqMi4wbQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/tIinGRx9QGWtwB9uCFeHcw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/p0Ht5r5rQrqlggITYTSqLQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/41x_TfVKTEChDCrAkXQz_g",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1930-10-16 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Lettre"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/XlQis9AgRvSPN6VJl2drRQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/7uZtxDU3Rd2WgjR15pMiGw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1930-01-23 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Traité de la marche en plaine (suite)\u001E"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/Voq_lIcRSmGva3itCpPIIQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/F_GS8h4MRCieKCCIeudUUQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1930-05-08 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Ville de Pâques"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/3jPT2ni6S4eZlPDOdmm-ng"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/GbrKg7AZTzCWMAKw7Oh0cw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1931-07-09 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Récit"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/elbekzMJROm1S7Cq-b9H_Q"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/DU2E9MNUQLuxGRAlwDpdHw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Proofs not corrected"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "D-5-2-99/01"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Écrit à Carrouge, Visite au moulin"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR Mermod"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/NvNXstqMTVKofnwcpqrz7A"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/L4n8yxkET6exwnypoN4H3g",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1931-10-22 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Visite au moulin"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/jbo0o6cTT8O9HO2WUT0_NA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/NvNXstqMTVKofnwcpqrz7A",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+    "@id" : "http://rdfh.ch/0112/L4n8yxkET6exwnypoN4H3g"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/oasVpjUZSq-1sh4qqP9IhQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Draft"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 1 B/1a"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Écrit à Carrouge, (La Visite du) Moulin"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR GR"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/NvNXstqMTVKofnwcpqrz7A"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/yLo_ux93Roa1cp3FvvSe-A",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1931-02-12 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Réveil"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/O42H5DygQpa11MbwtiuIDg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/N4gOgye_TR270NQ-4s218Q",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1930-12-04 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Palinodie"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/lReuThoRSi-nWVX69T5QkA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/GsEcjBP5SWy-ad-UNzWQ-w",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Corrected proofs"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "D-5-2-09/08"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Titre sur deux colonnes"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR Mermod"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/mP09rp2xSs6RUjvBBDOtew"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/_52_yNjtRaa3VvlYr4Gg8Q",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Clean copy"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "D-5-2-09/08"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Traité de la marche en plaine (suite)"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR Mermod"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/mP09rp2xSs6RUjvBBDOtew"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/_hi-19WeRj-j594L2_nLAQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Aujourd'hui"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1930-01-30 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Traité de la marche en plaine (suite)\u001E"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/Voq_lIcRSmGva3itCpPIIQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/mP09rp2xSs6RUjvBBDOtew",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+    "@id" : "http://rdfh.ch/0112/_hi-19WeRj-j594L2_nLAQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/1J63YIK9So-9iX8taax7vw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber" : [ {
+    "@value" : "1"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle" : [ {
+    "@value" : "Colporteurs italiens [août 1924]"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/OFcm6ypoQUiD393Vp-Ds5g"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/Voq_lIcRSmGva3itCpPIIQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/2zD1Rvu_TP-rgIpWa6HzcQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "7"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "LETTRE II"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/TQcAaNeDT1e2CmEFtJePSA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/3jPT2ni6S4eZlPDOdmm-ng",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/6DQZI0eNRh6ItGGXFK0gqA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/5SDiD9rER3ar56MXdcHJMg",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "8"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "PALINODIE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/TQcAaNeDT1e2CmEFtJePSA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/6DQZI0eNRh6ItGGXFK0gqA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "2"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "VILLE DE PÂQUES"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/TQcAaNeDT1e2CmEFtJePSA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/8czUsbHSStWY5Ope8gsZkg",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+    "@id" : "http://rdfh.ch/0112/TQcAaNeDT1e2CmEFtJePSA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/C7_G0sJTS6mqORtUm52FOA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Note"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 5 D/2a"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "[Moissons d’autrefois…]"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR GR"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/XlQis9AgRvSPN6VJl2drRQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/O42H5DygQpa11MbwtiuIDg",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/kFIauTekQVOb4gPgEgHS1Q"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/OFcm6ypoQUiD393Vp-Ds5g",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 4 B/12a"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Colporteurs italiens"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR GR"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/OhcbF7brQYmq4rakbyoJEw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 4 B/18a"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "20 mars 27"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR GR"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/TQcAaNeDT1e2CmEFtJePSA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Book" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher" : [ {
+    "@value" : "Mermod"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1932-06-01 CE - 1932-06-30 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Petit traité de la marche en plaine suivi de Lettres, dialogues et morceaux"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/tIinGRx9QGWtwB9uCFeHcw"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/U0IQrM-uRPS1ZTOEFOIprA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "4"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "LETTRE I"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/TQcAaNeDT1e2CmEFtJePSA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/Voq_lIcRSmGva3itCpPIIQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/z5XeJKKURuqMyPcJDbjrZg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/W0lkeBTGSaS6gk3sSxZWzw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "6"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "VISITE AU MOULIN"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/TQcAaNeDT1e2CmEFtJePSA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/XlQis9AgRvSPN6VJl2drRQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/U0IQrM-uRPS1ZTOEFOIprA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/YJOupN1BTSCMQpy-Mh6MnA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Final manuscript"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 106/80"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Réveil"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "Bibliothèque La Chaux-de-Fonds"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/O42H5DygQpa11MbwtiuIDg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/aqQxWxJTS-OUQDw3Dn710A",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber" : [ {
+    "@value" : "12"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle" : [ {
+    "@value" : "22 juin 29"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/OhcbF7brQYmq4rakbyoJEw"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/Voq_lIcRSmGva3itCpPIIQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/cP5BxZyHSX-E8SEzNtsNNw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "3"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "LE CORPS ET L’OMBRE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/TQcAaNeDT1e2CmEFtJePSA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/elbekzMJROm1S7Cq-b9H_Q",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/2zD1Rvu_TP-rgIpWa6HzcQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/jbo0o6cTT8O9HO2WUT0_NA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/W0lkeBTGSaS6gk3sSxZWzw"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/kFIauTekQVOb4gPgEgHS1Q",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "5"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "RÉVEIL RÊVÉ"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/TQcAaNeDT1e2CmEFtJePSA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/lPNfAB_QTtSk6JsxZSYRRg",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Proofs not corrected"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "D-1-ROU-2"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Petit traité de la marche en plaine"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR Mermod"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/8czUsbHSStWY5Ope8gsZkg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/lReuThoRSi-nWVX69T5QkA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/5SDiD9rER3ar56MXdcHJMg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/vcoMinXoQWmtN6KHrDvl_w",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/cP5BxZyHSX-E8SEzNtsNNw"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/z5XeJKKURuqMyPcJDbjrZg",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "1"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "Petit traité de la marche en plaine"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/TQcAaNeDT1e2CmEFtJePSA"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/evZhV5ugQ9y6Oi4S9EDiog"
+  } ]
+} ]
