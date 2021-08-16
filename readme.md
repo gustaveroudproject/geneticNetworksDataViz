@@ -46,7 +46,17 @@ What to show, make evident or consider in the visualisation for each node:
 
 ## Data
 
-Data for each collection can be found in the folder [`data`](data).
+Data for each work by Gustave Roud can be found in the folder [`data`](data). The works are:
+* *Adieu*, Au Verseau, 1927
+* *Feuillets*, Mermod, 1929
+* *Petit traité de la marche en plaine suivi de Lettres, dialogues et morceaux*, Mermod, 1932
+* *Essai pour un paradis*, Mermod, 1933
+* *Pour un moissonneur*, Mermod, 1941
+* *Air de la solitude*, Mermod, 1945
+* *Haut-Jora*t, Éditions des Terreaux, 1949
+* *Le Repos du cavalier*, Bibliothèque des Arts, 1958
+* *Requiem*, Payot, 1967
+* *Campagne perdue*, Bibliothèque des Arts, 1972
 
 
 
