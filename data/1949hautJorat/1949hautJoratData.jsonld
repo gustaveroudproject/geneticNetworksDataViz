@@ -1,0 +1,202 @@
+[ {
+  "@id" : "http://rdfh.ch/0112/rq6-Ub5vTTKntSP5figmZQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Le Dragon romand"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1947-04-01 CE - 1947-04-30 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Les Courses villageoises"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/2h88dJrTRqqx0Lm71JVI5Q",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Suisse contemporaine"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1949-07-01 CE - 1949-08-31 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Haut-Jorat"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/35QMPBZpQfSUIBbFiGkrrw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Final manuscript"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "ACRGD1/1/10"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Haut-Jorat"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "BCU Simond"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/xUOFr0VIQC2X9_jCX9qCXg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/xUOFr0VIQC2X9_jCX9qCXg",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+    "@id" : "http://rdfh.ch/0112/2h88dJrTRqqx0Lm71JVI5Q"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/L3dqizvdQRik-MjyGEAriA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Corrected proofs"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 2 D/6a"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Le Jorat"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR GR"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/nLSxrsawRg-NoFsgwC8jLA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/LlBxShFTRSyZrqDmzft7OA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [ {
+    "@value" : "Courants"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1945-01-01 CE - 1945-12-31 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Le Jorat"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/xUOFr0VIQC2X9_jCX9qCXg"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/ND7HcsHkSIKCPeuj3opw_g",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber" : [ {
+    "@value" : "2"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle" : [ {
+    "@value" : "Jorat"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/yK4RcqWISw-Cy2bjs1NIuA"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/nLSxrsawRg-NoFsgwC8jLA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/nLSxrsawRg-NoFsgwC8jLA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+    "@id" : "http://rdfh.ch/0112/LlBxShFTRSyZrqDmzft7OA"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/yK4RcqWISw-Cy2bjs1NIuA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 4 D/6a"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "[Cahier sans titre]"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR GR"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/-1iEsqtuS-SowC2an_DyRA",
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart" : [ {
+    "@id" : "http://rdfh.ch/0112/psnWmMXYQf6lCynMoDeYew"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/3YvWCEIkTuqPeah8oy929Q",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber" : [ {
+    "@value" : "28"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle" : [ {
+    "@value" : "Sommeil d’Aimé"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf" : [ {
+    "@id" : "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Book" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher" : [ {
+    "@value" : "Mermod"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1945-03-01 CE - 1945-03-31 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Air de la solitude"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/psnWmMXYQf6lCynMoDeYew",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart" : [ {
+    "@id" : "http://rdfh.ch/0112/3YvWCEIkTuqPeah8oy929Q"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+    "@id" : "http://rdfh.ch/0112/tox6BvZGSkuSmn8kuIPqzw"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/t50lRPyCTzuVc6HnWbEuSg",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+    "@language" : "en",
+    "@value" : "Corrected original"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+    "@value" : "MS 1 F/1b"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+    "@value" : "Haut-Jorat"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+    "@language" : "en",
+    "@value" : "CRLR GR"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+    "@id" : "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
+  } ]
+}, {
+  "@id" : "http://rdfh.ch/0112/tox6BvZGSkuSmn8kuIPqzw",
+  "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Book" ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher" : [ {
+    "@value" : "Éditions des Terreaux"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [ {
+    "@value" : "1949-12-31 CE"
+  } ],
+  "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [ {
+    "@value" : "Haut-Jorat"
+  } ]
+} ]
