@@ -6,28 +6,21 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 CONSTRUCT {
     
    
-     ## publication part of pub
+    ## publication parts of pub
     ?pubPart_1 a ?pubPart_1_type ;
              roud-oeuvres:pubPartIsPartOf ?pub_0 ;
              roud-oeuvres:pubPartHasTitle ?pubPart_1_title ;
              roud-oeuvres:pubPartHasNumber ?pubPart_1_number .
-
-
-    ## pub data
-    ?pub_0 a ?pub_0_type ;
-            roud-oeuvres:publicationHasTitle ?pub_0_title ;
-            roud-oeuvres:publicationHasDate ?pub_0_date ;
-            roud-oeuvres:isPublishedInPeriodical ?pub_0_periodical ;
-            # roud-oeuvres:publicationHasPhoto ?pub_0_photo ;
-            roud-oeuvres:hasPublisher ?pub_0_publisher .
-
     
     ## pub parts dossiers
     ?pubPart_1_dossierPart a ?pubPart_1_dossierPart_type .
+    # remove because pub_0_dossier and its type is not shown anymore in results if this exists ... weird!
+    # ?pubPart_1_dossierPart  roud-oeuvres:geneticDossierPartIsPartOfGeneticDossier ?pub_0_dossier .
     ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_1 .
     
     ## publication reused in pub part (pubPart1)
     ?pub_down10 roud-oeuvres:publicationIsReusedInDossierPart ?pubPart_1_dossierPart .
+
     
     ## diary entries (ms) reused in pubPart (pubPart2)
     ?diaryReusedInPubPart_1   a ?diaryReusedInPubPart_1_type ;
@@ -35,14 +28,24 @@ CONSTRUCT {
                             roud-oeuvres:manuscriptHasTitle ?diaryReusedInPubPart_1_title ;
                             roud-oeuvres:manuscriptIsInArchive ?diaryReusedInPubPart_1_archive ;
                             roud-oeuvres:manuscriptHasShelfmark ?diaryReusedInPubPart_1_shelfmark ;
-                            roud-oeuvres:manuscriptHasEditorialSet ?diaryReusedInPubPart_1_editorialSet .
+                            roud-oeuvres:manuscriptHasEditorialSet ?diaryReusedInPubPart_1_editorialSet ;
+                            roud-oeuvres:manuscriptHasDateComputable ?diaryReusedInPubPart_1_dateComputable ;
+                            roud-oeuvres:manuscriptHasDateReadable ?diaryReusedInPubPart_1_dateReadable ;
+                            roud-oeuvres:manuscriptHasEstablishedDateAddition ?diaryReusedInPubPart_1_establishedDateAddition ;
+                            roud-oeuvres:manuscriptHasEstablishedDateComputable ?diaryReusedInPubPart_1_establishedDateComputable ;
+                            roud-oeuvres:manuscriptHasEstablishedDateReadable ?diaryReusedInPubPart_1_establishedDateReadable .
     ## diary levels (ms > ms)
     ?diaryRewrittenInDiaryReusedInPubPart_1 a ?diaryRewrittenInDiaryReusedInPubPart_1_type ;
             roud-oeuvres:msIsRewrittenInMs ?diaryReusedInPubPart_1 ;
             roud-oeuvres:manuscriptHasTitle ?diaryRewrittenInDiaryReusedInPubPart_1_title ;
             roud-oeuvres:manuscriptIsInArchive ?diaryRewrittenInDiaryReusedInPubPart_1_archive ;
             roud-oeuvres:manuscriptHasShelfmark ?diaryRewrittenInDiaryReusedInPubPart_1_shelfmark ;
-            roud-oeuvres:manuscriptHasEditorialSet ?diaryRewrittenInDiaryReusedInPubPart_1_editorialSet .
+            roud-oeuvres:manuscriptHasEditorialSet ?diaryRewrittenInDiaryReusedInPubPart_1_editorialSet ;
+            roud-oeuvres:manuscriptHasDateComputable ?diaryRewrittenInDiaryReusedInPubPart_1_dateComputable ;
+            roud-oeuvres:manuscriptHasDateReadable ?diaryRewrittenInDiaryReusedInPubPart_1_dateReadable ;
+            roud-oeuvres:manuscriptHasEstablishedDateAddition ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateAddition ;
+            roud-oeuvres:manuscriptHasEstablishedDateComputable ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateComputable ;
+            roud-oeuvres:manuscriptHasEstablishedDateReadable ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateReadable .
     ## diary levels (msPart > ms)
     ?diaryPartRewrittenInDiaryReusedInPubPart_1 a ?diaryPartRewrittenInDiaryReusedInPubPart_1_type ;
             roud-oeuvres:msPartIsRewrittenInMs ?diaryReusedInPubPart_1 ;
@@ -52,7 +55,12 @@ CONSTRUCT {
     ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms a ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_type ;
             roud-oeuvres:manuscriptHasTitle ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_title ;
             roud-oeuvres:manuscriptIsInArchive ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_archive ;
-            roud-oeuvres:manuscriptHasShelfmark ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_shelfmark .
+            roud-oeuvres:manuscriptHasShelfmark ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_shelfmark ;
+            roud-oeuvres:manuscriptHasDateComputable ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_dateComputable ;
+            roud-oeuvres:manuscriptHasDateReadable ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_dateReadable ;
+            roud-oeuvres:manuscriptHasEstablishedDateAddition ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateAddition ;
+            roud-oeuvres:manuscriptHasEstablishedDateComputable ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateComputable ;
+            roud-oeuvres:manuscriptHasEstablishedDateReadable ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateReadable .
 
     
     ## diary entries (msPart) reused in pubPart (pubPart3)
@@ -64,14 +72,24 @@ CONSTRUCT {
     ?dReusedInPubPart_1_Ms a ?dReusedInPubPart_1_Ms_type ;
                         roud-oeuvres:manuscriptHasTitle ?dReusedInPubPart_1_Ms_title ;
                         roud-oeuvres:manuscriptIsInArchive ?dReusedInPubPart_1_Ms_archive ;
-                        roud-oeuvres:manuscriptHasShelfmark ?dReusedInPubPart_1_Ms_shelfmark .
+                        roud-oeuvres:manuscriptHasShelfmark ?dReusedInPubPart_1_Ms_shelfmark ;
+                        roud-oeuvres:manuscriptHasDateComputable ?dReusedInPubPart_1_Ms_dateComputable ;
+                        roud-oeuvres:manuscriptHasDateReadable ?dReusedInPubPart_1_Ms_dateReadable ;
+                        roud-oeuvres:manuscriptHasEstablishedDateAddition ?dReusedInPubPart_1_Ms_establishedDateAddition ;
+                        roud-oeuvres:manuscriptHasEstablishedDateComputable ?dReusedInPubPart_1_Ms_establishedDateComputable ;
+                        roud-oeuvres:manuscriptHasEstablishedDateReadable ?dReusedInPubPart_1_Ms_establishedDateReadable .
     ## diary levels (ms > msPart)
     ?diaryRewrittenInDReusedInPubPart_1 a ?diaryRewrittenInDReusedInPubPart_1_type ;
             roud-oeuvres:msIsRewrittenInMsPart ?dReusedInPubPart_1 ;
             roud-oeuvres:manuscriptHasTitle ?diaryRewrittenInDReusedInPubPart_1_title ;
             roud-oeuvres:manuscriptIsInArchive ?diaryRewrittenInDReusedInPubPart_1_archive ;
             roud-oeuvres:manuscriptHasShelfmark ?diaryRewrittenInDReusedInPubPart_1_shelfmark ;
-            roud-oeuvres:manuscriptHasEditorialSet ?diaryRewrittenInDReusedInPubPart_1_editorialSet .
+            roud-oeuvres:manuscriptHasEditorialSet ?diaryRewrittenInDReusedInPubPart_1_editorialSet ;
+            roud-oeuvres:manuscriptHasDateComputable ?diaryRewrittenInDReusedInPubPart_1_dateComputable ;
+            roud-oeuvres:manuscriptHasDateReadable ?diaryRewrittenInDReusedInPubPart_1_dateReadable ;
+            roud-oeuvres:manuscriptHasEstablishedDateAddition ?diaryRewrittenInDReusedInPubPart_1_establishedDateAddition ;
+            roud-oeuvres:manuscriptHasEstablishedDateComputable ?diaryRewrittenInDReusedInPubPart_1_establishedDateComputable ;
+            roud-oeuvres:manuscriptHasEstablishedDateReadable ?diaryRewrittenInDReusedInPubPart_1_establishedDateReadable .
     ## diary levels (msPart > msPart)
     ?diaryPartRewrittenInDReusedInPubPart_1 a ?diaryPartRewrittenInDReusedInPubPart_1_type ;
             roud-oeuvres:msPartIsRewrittenInMsPart ?dReusedInPubPart_1 ;
@@ -81,8 +99,13 @@ CONSTRUCT {
     ?diaryPartRewrittenInDReusedInPubPart_1_Ms a ?diaryPartRewrittenInDReusedInPubPart_1_Ms_type ;
             roud-oeuvres:manuscriptHasTitle ?diaryPartRewrittenInDReusedInPubPart_1_Ms_title ;
             roud-oeuvres:manuscriptIsInArchive ?diaryPartRewrittenInDReusedInPubPart_1_Ms_archive ;
-            roud-oeuvres:manuscriptHasShelfmark ?diaryPartRewrittenInDReusedInPubPart_1_Ms_shelfmark .
-    
+            roud-oeuvres:manuscriptHasShelfmark ?diaryPartRewrittenInDReusedInPubPart_1_Ms_shelfmark ;
+            roud-oeuvres:manuscriptHasDateComputable ?diaryPartRewrittenInDReusedInPubPart_1_Ms_dateComputable ;
+            roud-oeuvres:manuscriptHasDateReadable ?diaryPartRewrittenInDReusedInPubPart_1_Ms_dateReadable ;
+            roud-oeuvres:manuscriptHasEstablishedDateAddition ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateAddition ;
+            roud-oeuvres:manuscriptHasEstablishedDateComputable ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateComputable ;
+            roud-oeuvres:manuscriptHasEstablishedDateReadable ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateReadable .
+    ## diary levels (msPart > msPart)
     
     
     ## avant-textes of pubPart (pubPart4)
@@ -91,7 +114,12 @@ CONSTRUCT {
                 roud-oeuvres:manuscriptHasTitle ?atPubPart_1_title ;
                 roud-oeuvres:manuscriptIsInArchive ?atPubPart_1_archive ;
                 roud-oeuvres:manuscriptHasShelfmark ?atPubPart_1_shelfmark ;
-                roud-oeuvres:hasGeneticStage ?atPubPart_1_geneticStage . 
+                roud-oeuvres:hasGeneticStage ?atPubPart_1_geneticStage ;
+                roud-oeuvres:manuscriptHasDateComputable ?atPubPart_1_dateComputable ;
+                roud-oeuvres:manuscriptHasDateReadable ?atPubPart_1_dateReadable ;
+                roud-oeuvres:manuscriptHasEstablishedDateAddition ?atPubPart_1_establishedDateAddition ;
+                roud-oeuvres:manuscriptHasEstablishedDateComputable ?atPubPart_1_establishedDateComputable ;
+                roud-oeuvres:manuscriptHasEstablishedDateReadable ?atPubPart_1_establishedDateReadable .
 
     ## pub parts reused in pub part (pubPart5)
     ?pubPart_down11 roud-oeuvres:pubPartIsReusedInDossierPart ?pubPart_1_dossierPart .
@@ -108,6 +136,7 @@ CONSTRUCT {
  
     
     
+    
 }
 
 FROM <http://www.knora.org/data/0112/roud-oeuvres>
@@ -120,63 +149,40 @@ WHERE {
     
     ## pub parts
     optional {
-        ?pubPart_1 a ?pubPart_1_type ;
+        ?pubPart_1 a ?pubPart_1_type .
+        ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 ;
                         roud-oeuvres:pubPartHasTitle ?pubPart_1_titleIRI ;
                         roud-oeuvres:pubPartHasNumber ?pubPart_1_numberIRI .
         ?pubPart_1_titleIRI knora-base:valueHasString ?pubPart_1_title .
         ?pubPart_1_numberIRI knora-base:valueHasString ?pubPart_1_number .
         ?pubPart_1 knora-base:isDeleted false .
-    }
-
-    ## pub data
-    ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
-    ?pub_0 a ?pub_0_type .
-    ?pub_0 roud-oeuvres:publicationHasTitle ?pub_0_titleIRI .
-    ?pub_0_titleIRI knora-base:valueHasString ?pub_0_title .
-    ?pub_0 roud-oeuvres:publicationHasDate ?pub_0_dateIRI .
-    ?pub_0_dateIRI knora-base:valueHasString ?pub_0_date .
-    # if article
-    optional {
-        ?pub_0 roud-oeuvres:isPublishedInPeriodical ?pub_0_periodicalIRI .
-        ?pub_0_periodicalIRI roud-oeuvres:periodicalHasTitle ?pub_0_periodicalTitleIRI .
-        ?pub_0_periodicalTitleIRI knora-base:valueHasString ?pub_0_periodical .
-    }
-    # if book
-    optional {
-        ?pub_0 roud-oeuvres:hasPublisher ?pub_0_publisherIRI .
-        ?pub_0_publisherIRI roud-oeuvres:publisherHasName ?pub_0_publisherNameIRI .
-        ?pub_0_publisherNameIRI knora-base:valueHasString ?pub_0_publisher .
-    }
-    optional {
-        ?pub_0 roud-oeuvres:publicationHasPhoto ?pub_0_photo .
-    }
-
-
-    ## pub parts dossiers
-    optional {
-        ?pubPart_1_dossierPart a ?pubPart_1_dossierPart_type .
-        # remove because pub_0_dossier and its type is not shown anymore in results if this exists ... weird!
-        # ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartIsPartOfGeneticDossier ?pub_0_dossier .
-        # ?pub_0_dossier roud-oeuvres:geneticDossierResultsInPublication ?pub_0 .
-        ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_1 .
-        ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
-        ?pubPart_1_dossierPart knora-base:isDeleted false .
-        
-        
-        ## publication reused in pub part (1)
+            
+        ## all the following inside the OPTIONAL pub part
+        ## pub parts dossiers
         optional {
-            ?pub_down10  roud-oeuvres:publicationIsReusedInDossierPart ?pubPart_1_dossierPart .
+            ?pubPart_1_dossierPart a ?pubPart_1_dossierPart_type .
+            # remove because pub_0_dossier and its type is not shown anymore in results if this exists ... weird!
+            # ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartIsPartOfGeneticDossier ?pub_0_dossier .
+            # ?pub_0_dossier roud-oeuvres:geneticDossierResultsInPublication ?pub_0 .
             ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_1 .
             ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
-            ?pub_down10 knora-base:isDeleted false .
-        }
+            ?pubPart_1_dossierPart knora-base:isDeleted false .
+            
+            
+            ## publication reused in pub part (1)
+            optional {
+                ?pub_down10  roud-oeuvres:publicationIsReusedInDossierPart ?pubPart_1_dossierPart .
+                ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_1 .
+                ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
+                ?pub_down10 knora-base:isDeleted false .
+            }
 
-    ## diary entries (ms) reused in pubPart (2)
+        ## diary entries (ms) reused in pubPart (2)
             optional {
                 ?diaryReusedInPubPart_1 a ?diaryReusedInPubPart_1_type .
                 ?diaryReusedInPubPart_1 roud-oeuvres:msIsReusedInDossierPart ?pubPart_1_dossierPart .
                 ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_1 .
-            	?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
+                ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
                 ?diaryReusedInPubPart_1 knora-base:isDeleted false .
                 ?diaryReusedInPubPart_1 roud-oeuvres:manuscriptHasTitle ?diaryReusedInPubPart_1_titleIRI .
                 ?diaryReusedInPubPart_1_titleIRI knora-base:valueHasString ?diaryReusedInPubPart_1_title .
@@ -190,6 +196,29 @@ WHERE {
                 ?diaryReusedInPubPart_1_editorialSetListIRI knora-base:valueHasListNode ?diaryReusedInPubPart_1_editorialSetIRI .
                 ?diaryReusedInPubPart_1_editorialSetIRI rdfs:label ?diaryReusedInPubPart_1_editorialSet .
                 FILTER(LANG(?diaryReusedInPubPart_1_editorialSet) = "en")
+                optional {
+                    ?diaryReusedInPubPart_1 roud-oeuvres:manuscriptHasDateComputable ?diaryReusedInPubPart_1_dateComputableIRI .
+                    ?diaryReusedInPubPart_1_dateComputableIRI knora-base:valueHasString ?diaryReusedInPubPart_1_dateComputable .
+                }
+                optional {
+                    ?diaryReusedInPubPart_1 roud-oeuvres:manuscriptHasDateReadable ?diaryReusedInPubPart_1_dateReadableIRI .
+                    ?diaryReusedInPubPart_1_dateReadableIRI knora-base:valueHasString ?diaryReusedInPubPart_1_dateReadable . 
+                }
+                
+                optional {
+                    ?diaryReusedInPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedList ?diaryReusedInPubPart_1_establishedDateAddition_ListIRI .
+                    ?diaryReusedInPubPart_1_establishedDateAddition_ListIRI knora-base:valueHasListNode ?diaryReusedInPubPart_1_establishedDateAddition_IRI .
+                    ?diaryReusedInPubPart_1_establishedDateAddition_IRI rdfs:label ?diaryReusedInPubPart_1_establishedDateAddition .
+                    FILTER(LANG(?diaryReusedInPubPart_1_establishedDateAddition) = "en")
+                }                
+                optional {
+                    ?diaryReusedInPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedComputable ?diaryReusedInPubPart_1_establishedDateComputableIRI .
+                    ?diaryReusedInPubPart_1_establishedDateComputableIRI knora-base:valueHasString ?diaryReusedInPubPart_1_establishedDateComputable .
+                }
+                optional {
+                    ?diaryReusedInPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedReadable ?diaryReusedInPubPart_1_establishedDateReadable_IRI .
+                    ?diaryReusedInPubPart_1_establishedDateReadable_IRI knora-base:valueHasString ?diaryReusedInPubPart_1_establishedDateReadable . 
+                }   
                 ## diary levels (ms > ms)
                 optional {                
                     ?diaryRewrittenInDiaryReusedInPubPart_1     a ?diaryRewrittenInDiaryReusedInPubPart_1_type .
@@ -210,6 +239,29 @@ WHERE {
                     ?diaryRewrittenInDiaryReusedInPubPart_1_editorialSet_ListIRI    knora-base:valueHasListNode ?diaryRewrittenInDiaryReusedInPubPart_1_editorialSet_IRI .
                     ?diaryRewrittenInDiaryReusedInPubPart_1_editorialSet_IRI    rdfs:label ?diaryRewrittenInDiaryReusedInPubPart_1_editorialSet .
                     FILTER(LANG(?diaryRewrittenInDiaryReusedInPubPart_1_editorialSet) = "en")
+                    optional {
+                        ?diaryRewrittenInDiaryReusedInPubPart_1 roud-oeuvres:manuscriptHasDateComputable ?diaryRewrittenInDiaryReusedInPubPart_1_dateComputableIRI .
+                        ?diaryRewrittenInDiaryReusedInPubPart_1_dateComputableIRI knora-base:valueHasString ?diaryRewrittenInDiaryReusedInPubPart_1_dateComputable .
+                    }
+                    optional {
+                        ?diaryRewrittenInDiaryReusedInPubPart_1 roud-oeuvres:manuscriptHasDateReadable ?diaryRewrittenInDiaryReusedInPubPart_1_dateReadableIRI .
+                        ?diaryRewrittenInDiaryReusedInPubPart_1_dateReadableIRI knora-base:valueHasString ?diaryRewrittenInDiaryReusedInPubPart_1_dateReadable . 
+                    }
+                    
+                    optional {
+                        ?diaryRewrittenInDiaryReusedInPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedList ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateAddition_ListIRI .
+                        ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateAddition_ListIRI knora-base:valueHasListNode ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateAddition_IRI .
+                        ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateAddition_IRI rdfs:label ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateAddition .
+                        FILTER(LANG(?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateAddition) = "en")
+                    }                
+                    optional {
+                        ?diaryRewrittenInDiaryReusedInPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedComputable ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateComputableIRI .
+                        ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateComputableIRI knora-base:valueHasString ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateComputable .
+                    }
+                    optional {
+                        ?diaryRewrittenInDiaryReusedInPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedReadable ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateReadable_IRI .
+                        ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateReadable_IRI knora-base:valueHasString ?diaryRewrittenInDiaryReusedInPubPart_1_establishedDateReadable . 
+                    }   
                 }
                 ## diary levels (msPart > ms)
                 optional {
@@ -233,6 +285,29 @@ WHERE {
                     ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_archiveListIRI knora-base:valueHasListNode ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_archiveIRI .
                     ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_archiveIRI rdfs:label ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_archive .
                     FILTER(LANG(?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_archive) = "en")
+                    optional {
+                        ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateComputable ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_dateComputableIRI .
+                        ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_dateComputableIRI knora-base:valueHasString ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_dateComputable .
+                    }
+                    optional {
+                        ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateReadable ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_dateReadableIRI .
+                        ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_dateReadableIRI knora-base:valueHasString ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_dateReadable . 
+                    }
+                    
+                    optional {
+                        ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateEstablishedList ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateAddition_ListIRI .
+                        ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateAddition_ListIRI knora-base:valueHasListNode ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateAddition_IRI .
+                        ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateAddition_IRI rdfs:label ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateAddition .
+                        FILTER(LANG(?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateAddition) = "en")
+                    }                
+                    optional {
+                        ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateEstablishedComputable ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateComputableIRI .
+                        ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateComputableIRI knora-base:valueHasString ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateComputable .
+                    }
+                    optional {
+                        ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateEstablishedReadable ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateReadable_IRI .
+                        ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateReadable_IRI knora-base:valueHasString ?diaryPartRewrittenInDiaryReusedInPubPart_1_Ms_establishedDateReadable . 
+                    }   
                 }
             } 
 
@@ -243,7 +318,7 @@ WHERE {
                 ?dReusedInPubPart_1   roud-oeuvres:msPartIsReusedInDossierPart ?pubPart_1_dossierPart ;
                                     roud-oeuvres:msPartHasTitle ?dReusedInPubPart_1_titleIRI .
                 ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_1 .
-            	?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
+                ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
                 ?dReusedInPubPart_1_titleIRI knora-base:valueHasString ?dReusedInPubPart_1_title .
                 ?dReusedInPubPart_1   roud-oeuvres:msPartHasNumber ?dReusedInPubPart_1_numberIRI .
                 ?dReusedInPubPart_1_numberIRI knora-base:valueHasString ?dReusedInPubPart_1_number .
@@ -257,6 +332,29 @@ WHERE {
                 ?dReusedInPubPart_1_Ms_archiveListIRI knora-base:valueHasListNode ?dReusedInPubPart_1_Ms_archiveIRI .
                 ?dReusedInPubPart_1_Ms_archiveIRI rdfs:label ?dReusedInPubPart_1_Ms_archive .
                 FILTER(LANG(?dReusedInPubPart_1_Ms_archive) = "en")
+                optional {
+                    ?dReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateComputable ?dReusedInPubPart_1_Ms_dateComputableIRI .
+                    ?dReusedInPubPart_1_Ms_dateComputableIRI knora-base:valueHasString ?dReusedInPubPart_1_Ms_dateComputable .
+                }
+                optional {
+                    ?dReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateReadable ?dReusedInPubPart_1_Ms_dateReadableIRI .
+                    ?dReusedInPubPart_1_Ms_dateReadableIRI knora-base:valueHasString ?dReusedInPubPart_1_Ms_dateReadable . 
+                }
+                
+                optional {
+                    ?dReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateEstablishedList ?dReusedInPubPart_1_Ms_establishedDateAddition_ListIRI .
+                    ?dReusedInPubPart_1_Ms_establishedDateAddition_ListIRI knora-base:valueHasListNode ?dReusedInPubPart_1_Ms_establishedDateAddition_IRI .
+                    ?dReusedInPubPart_1_Ms_establishedDateAddition_IRI rdfs:label ?dReusedInPubPart_1_Ms_establishedDateAddition .
+                    FILTER(LANG(?dReusedInPubPart_1_Ms_establishedDateAddition) = "en")
+                }                
+                optional {
+                    ?dReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateEstablishedComputable ?dReusedInPubPart_1_Ms_establishedDateComputableIRI .
+                    ?dReusedInPubPart_1_Ms_establishedDateComputableIRI knora-base:valueHasString ?dReusedInPubPart_1_Ms_establishedDateComputable .
+                }
+                optional {
+                    ?dReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateEstablishedReadable ?dReusedInPubPart_1_Ms_establishedDateReadable_IRI .
+                    ?dReusedInPubPart_1_Ms_establishedDateReadable_IRI knora-base:valueHasString ?dReusedInPubPart_1_Ms_establishedDateReadable . 
+                }   
                 ## diary levels (ms > msPart)
                 optional {                
                     ?diaryRewrittenInDReusedInPubPart_1     a   ?diaryRewrittenInDReusedInPubPart_1_type .
@@ -277,6 +375,29 @@ WHERE {
                     ?diaryRewrittenInDReusedInPubPart_1_editorialSet_ListIRI    knora-base:valueHasListNode ?diaryRewrittenInDReusedInPubPart_1_editorialSet_IRI .
                     ?diaryRewrittenInDReusedInPubPart_1_editorialSet_IRI    rdfs:label ?diaryRewrittenInDReusedInPubPart_1_editorialSet .
                     FILTER(LANG(?diaryRewrittenInDReusedInPubPart_1_editorialSet) = "en")
+                    optional {
+                        ?diaryRewrittenInDReusedInPubPart_1 roud-oeuvres:manuscriptHasDateComputable ?diaryRewrittenInDReusedInPubPart_1_dateComputableIRI .
+                        ?diaryRewrittenInDReusedInPubPart_1_dateComputableIRI knora-base:valueHasString ?diaryRewrittenInDReusedInPubPart_1_dateComputable .
+                    }
+                    optional {
+                        ?diaryRewrittenInDReusedInPubPart_1 roud-oeuvres:manuscriptHasDateReadable ?diaryRewrittenInDReusedInPubPart_1_dateReadableIRI .
+                        ?diaryRewrittenInDReusedInPubPart_1_dateReadableIRI knora-base:valueHasString ?diaryRewrittenInDReusedInPubPart_1_dateReadable . 
+                    }
+                    
+                    optional {
+                        ?diaryRewrittenInDReusedInPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedList ?diaryRewrittenInDReusedInPubPart_1_establishedDateAddition_ListIRI .
+                        ?diaryRewrittenInDReusedInPubPart_1_establishedDateAddition_ListIRI knora-base:valueHasListNode ?diaryRewrittenInDReusedInPubPart_1_establishedDateAddition_IRI .
+                        ?diaryRewrittenInDReusedInPubPart_1_establishedDateAddition_IRI rdfs:label ?diaryRewrittenInDReusedInPubPart_1_establishedDateAddition .
+                        FILTER(LANG(?diaryRewrittenInDReusedInPubPart_1_establishedDateAddition) = "en")
+                    }                
+                    optional {
+                        ?diaryRewrittenInDReusedInPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedComputable ?diaryRewrittenInDReusedInPubPart_1_establishedDateComputableIRI .
+                        ?diaryRewrittenInDReusedInPubPart_1_establishedDateComputableIRI knora-base:valueHasString ?diaryRewrittenInDReusedInPubPart_1_establishedDateComputable .
+                    }
+                    optional {
+                        ?diaryRewrittenInDReusedInPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedReadable ?diaryRewrittenInDReusedInPubPart_1_establishedDateReadable_IRI .
+                        ?diaryRewrittenInDReusedInPubPart_1_establishedDateReadable_IRI knora-base:valueHasString ?diaryRewrittenInDReusedInPubPart_1_establishedDateReadable . 
+                    }   
                 }
                 ## diary levels (msPart > msPart)
                 optional {
@@ -300,56 +421,106 @@ WHERE {
                     ?diaryPartRewrittenInDReusedInPubPart_1_Ms_archiveListIRI knora-base:valueHasListNode ?diaryPartRewrittenInDReusedInPubPart_1_Ms_archiveIRI .
                     ?diaryPartRewrittenInDReusedInPubPart_1_Ms_archiveIRI rdfs:label ?diaryPartRewrittenInDReusedInPubPart_1_Ms_archive .
                     FILTER(LANG(?diaryPartRewrittenInDReusedInPubPart_1_Ms_archive) = "en")
+                    optional {
+                        ?diaryPartRewrittenInDReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateComputable ?diaryPartRewrittenInDReusedInPubPart_1_Ms_dateComputableIRI .
+                        ?diaryPartRewrittenInDReusedInPubPart_1_Ms_dateComputableIRI knora-base:valueHasString ?diaryPartRewrittenInDReusedInPubPart_1_Ms_dateComputable .
+                    }
+                    optional {
+                        ?diaryPartRewrittenInDReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateReadable ?diaryPartRewrittenInDReusedInPubPart_1_Ms_dateReadableIRI .
+                        ?diaryPartRewrittenInDReusedInPubPart_1_Ms_dateReadableIRI knora-base:valueHasString ?diaryPartRewrittenInDReusedInPubPart_1_Ms_dateReadable . 
+                    }
+                    
+                    optional {
+                        ?diaryPartRewrittenInDReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateEstablishedList ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateAddition_ListIRI .
+                        ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateAddition_ListIRI knora-base:valueHasListNode ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateAddition_IRI .
+                        ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateAddition_IRI rdfs:label ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateAddition .
+                        FILTER(LANG(?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateAddition) = "en")
+                    }                
+                    optional {
+                        ?diaryPartRewrittenInDReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateEstablishedComputable ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateComputableIRI .
+                        ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateComputableIRI knora-base:valueHasString ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateComputable .
+                    }
+                    optional {
+                        ?diaryPartRewrittenInDReusedInPubPart_1_Ms roud-oeuvres:manuscriptHasDateEstablishedReadable ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateReadable_IRI .
+                        ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateReadable_IRI knora-base:valueHasString ?diaryPartRewrittenInDReusedInPubPart_1_Ms_establishedDateReadable . 
+                    }   
                 }
             }
       
-        
-    ## avant-textes of pubPart (4)
-        optional {
-            ?atPubPart_1 a ?atPubPart_1_type .
-            ?atPubPart_1 knora-base:isDeleted false .
-            ?atPubPart_1 roud-oeuvres:msIsAvantTextInGeneticDossierPart ?pubPart_1_dossierPart .
-            ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_1 .
-            ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
-            ?atPubPart_1 roud-oeuvres:manuscriptHasTitle ?atPubPart_1_titleIRI .
-            ?atPubPart_1_titleIRI knora-base:valueHasString ?atPubPart_1_title .
-            ?atPubPart_1 roud-oeuvres:manuscriptIsInArchive ?atPubPart_1_archiveListIRI .
-            ?atPubPart_1_archiveListIRI knora-base:valueHasListNode ?atPubPart_1_archiveIRI .
-            ?atPubPart_1_archiveIRI rdfs:label ?atPubPart_1_archive .
-            FILTER(LANG(?atPubPart_1_archive) = "en")
-            ?atPubPart_1 roud-oeuvres:manuscriptHasShelfmark ?atPubPart_1_shelfmarkIRI .
-            ?atPubPart_1_shelfmarkIRI knora-base:valueHasString ?atPubPart_1_shelfmark .
-            ?atPubPart_1 roud-oeuvres:hasGeneticStage ?atPubPart_1_geneticStageListIRI .
-            ?atPubPart_1_geneticStageListIRI knora-base:valueHasListNode ?atPubPart_1_geneticStageIRI .
-            ?atPubPart_1_geneticStageIRI rdfs:label ?atPubPart_1_geneticStage .
-            FILTER(LANG(?atPubPart_1_geneticStage) = "en")
-        }  
-        
-    ## pub parts reused in pub part (5)
-        optional {
-            ?pubPart_down11 roud-oeuvres:pubPartIsReusedInDossierPart ?pubPart_1_dossierPart .
-            ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_1 .
-            ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
-            ?pubPart_down11 knora-base:isDeleted false .
-        }
-
-    } ## end optional dossier of pub part
+            
+        ## avant-textes of pubPart (4)
+            optional {
+                ?atPubPart_1 a ?atPubPart_1_type .
+                ?atPubPart_1 knora-base:isDeleted false .
+                ?atPubPart_1 roud-oeuvres:msIsAvantTextInGeneticDossierPart ?pubPart_1_dossierPart .
+                ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_1 .
+                ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
+                ?atPubPart_1 roud-oeuvres:manuscriptHasTitle ?atPubPart_1_titleIRI .
+                ?atPubPart_1_titleIRI knora-base:valueHasString ?atPubPart_1_title .
+                ?atPubPart_1 roud-oeuvres:manuscriptIsInArchive ?atPubPart_1_archiveListIRI .
+                ?atPubPart_1_archiveListIRI knora-base:valueHasListNode ?atPubPart_1_archiveIRI .
+                ?atPubPart_1_archiveIRI rdfs:label ?atPubPart_1_archive .
+                FILTER(LANG(?atPubPart_1_archive) = "en")
+                ?atPubPart_1 roud-oeuvres:manuscriptHasShelfmark ?atPubPart_1_shelfmarkIRI .
+                ?atPubPart_1_shelfmarkIRI knora-base:valueHasString ?atPubPart_1_shelfmark .
+                ?atPubPart_1 roud-oeuvres:hasGeneticStage ?atPubPart_1_geneticStageListIRI .
+                ?atPubPart_1_geneticStageListIRI knora-base:valueHasListNode ?atPubPart_1_geneticStageIRI .
+                ?atPubPart_1_geneticStageIRI rdfs:label ?atPubPart_1_geneticStage .
+                FILTER(LANG(?atPubPart_1_geneticStage) = "en")
+                optional {
+                    ?atPubPart_1 roud-oeuvres:manuscriptHasDateComputable ?atPubPart_1_dateComputableIRI .
+                    ?atPubPart_1_dateComputableIRI knora-base:valueHasString ?atPubPart_1_dateComputable .
+                }
+                optional {
+                    ?atPubPart_1 roud-oeuvres:manuscriptHasDateReadable ?atPubPart_1_dateReadableIRI .
+                    ?atPubPart_1_dateReadableIRI knora-base:valueHasString ?atPubPart_1_dateReadable . 
+                }
+                
+                optional {
+                    ?atPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedList ?atPubPart_1_establishedDateAddition_ListIRI .
+                    ?atPubPart_1_establishedDateAddition_ListIRI knora-base:valueHasListNode ?atPubPart_1_establishedDateAddition_IRI .
+                    ?atPubPart_1_establishedDateAddition_IRI rdfs:label ?atPubPart_1_establishedDateAddition .
+                    FILTER(LANG(?atPubPart_1_establishedDateAddition) = "en")
+                }                
+                optional {
+                    ?atPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedComputable ?atPubPart_1_establishedDateComputableIRI .
+                    ?atPubPart_1_establishedDateComputableIRI knora-base:valueHasString ?atPubPart_1_establishedDateComputable .
+                }
+                optional {
+                    ?atPubPart_1 roud-oeuvres:manuscriptHasDateEstablishedReadable ?atPubPart_1_establishedDateReadable_IRI .
+                    ?atPubPart_1_establishedDateReadable_IRI knora-base:valueHasString ?atPubPart_1_establishedDateReadable . 
+                }   
+            }  
+            
+        ## pub parts reused in pub part (5)
+            optional {
+                ?pubPart_down11 roud-oeuvres:pubPartIsReusedInDossierPart ?pubPart_1_dossierPart .
+                ?pubPart_1_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_1 .
+                ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
+                ?pubPart_down11 knora-base:isDeleted false .
+            }
     
+        } ## end optional dossier of pub part
         
-    ## publication reusing pub part (7)
-    optional {
-        ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
-        ?pubPart_1 roud-oeuvres:pubPartIsReusedInDossier ?pub_up10_dossier .
-        ?pub_up10_dossier roud-oeuvres:geneticDossierResultsInPublication ?pub_up10 .
-        ?pub_up10 knora-base:isDeleted false .
-    }
-        
-    ## pub part reusing pub part (8)
-    optional {
-        ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
-        ?pubPart_1 roud-oeuvres:pubPartIsReusedInDossierPart ?pubPart_up11_dossierPart .
-        ?pubPart_up11_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_up11 .
-        ?pubPart_up11 knora-base:isDeleted false .
-    }   
+          
+        ## publication reusing pub part (7)
+        optional {
+            ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
+            ?pubPart_1 roud-oeuvres:pubPartIsReusedInDossier ?pub_up10_dossier .
+            ?pub_up10_dossier roud-oeuvres:geneticDossierResultsInPublication ?pub_up10 .
+            ?pub_up10 knora-base:isDeleted false .
+        }
+            
+        ## pub part reusing pub part (8)
+        optional {
+            ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
+            ?pubPart_1 roud-oeuvres:pubPartIsReusedInDossierPart ?pubPart_up11_dossierPart .
+            ?pubPart_up11_dossierPart roud-oeuvres:geneticDossierPartResultsInPubPart ?pubPart_up11 .
+            ?pubPart_up11 knora-base:isDeleted false .
+        }   
+            
+    }  ## end optional parts
+    
+   
         
     } 
