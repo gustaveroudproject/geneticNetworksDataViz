@@ -10,7 +10,7 @@ CONSTRUCT {
             roud-oeuvres:publicationHasTitle ?pub_0_title ;
             roud-oeuvres:publicationHasDate ?pub_0_date ;
             roud-oeuvres:isPublishedInPeriodical ?pub_0_periodical ;
-            # roud-oeuvres:publicationHasPhoto ?pub_0_photo ;
+            roud-oeuvres:publicationHasPhoto ?pub_0_photo ;
             roud-oeuvres:hasPublisher ?pub_0_publisher .
     
     ## dossier pub
@@ -295,7 +295,8 @@ WHERE {
         ?pub_0_publisherNameIRI knora-base:valueHasString ?pub_0_publisher .
     }
     optional {
-        ?pub_0 roud-oeuvres:publicationHasPhoto ?pub_0_photo .
+        ?pub_0 roud-oeuvres:publicationHasPhoto ?pub_0_photo_IRI .
+        ?pub_0_photo_IRI knora-base:valueHasString ?pub_0_photo .
     }
         
     ## dossier of pub

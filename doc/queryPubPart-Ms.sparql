@@ -11,6 +11,13 @@ CONSTRUCT {
              roud-oeuvres:pubPartIsPartOf ?pub_0 ;
              roud-oeuvres:pubPartHasTitle ?pubPart_1_title ;
              roud-oeuvres:pubPartHasNumber ?pubPart_1_number .
+
+    ?pub_0 a ?pub_0_type ;
+            roud-oeuvres:publicationHasTitle ?pub_0_title ;
+            roud-oeuvres:publicationHasDate ?pub_0_date ;
+            roud-oeuvres:isPublishedInPeriodical ?pub_0_periodical ;
+            roud-oeuvres:publicationHasPhoto ?pub_0_photo ;
+            roud-oeuvres:hasPublisher ?pub_0_publisher . 
     
     ## pub parts dossiers
     ?pubPart_1_dossierPart a ?pubPart_1_dossierPart_type .
@@ -156,6 +163,31 @@ WHERE {
         ?pubPart_1_titleIRI knora-base:valueHasString ?pubPart_1_title .
         ?pubPart_1_numberIRI knora-base:valueHasString ?pubPart_1_number .
         ?pubPart_1 knora-base:isDeleted false .
+
+        ## pub data
+        ?pub_0 a ?pub_0_type .
+        ?pubPart_1    roud-oeuvres:pubPartIsPartOf ?pub_0 .
+        ?pub_0 roud-oeuvres:publicationHasTitle ?pub_0_titleIRI .
+        ?pub_0_titleIRI knora-base:valueHasString ?pub_0_title .
+        ?pub_0 roud-oeuvres:publicationHasDate ?pub_0_dateIRI .
+        ?pub_0_dateIRI knora-base:valueHasString ?pub_0_date .
+        # if article
+        optional {
+            ?pub_0 roud-oeuvres:isPublishedInPeriodical ?pub_0_periodicalIRI .
+            ?pub_0_periodicalIRI roud-oeuvres:periodicalHasTitle ?pub_0_periodicalTitleIRI .
+            ?pub_0_periodicalTitleIRI knora-base:valueHasString ?pub_0_periodical .
+        }
+        # if book
+        optional {
+            ?pub_0 roud-oeuvres:hasPublisher ?pub_0_publisherIRI .
+            ?pub_0_publisherIRI roud-oeuvres:publisherHasName ?pub_0_publisherNameIRI .
+            ?pub_0_publisherNameIRI knora-base:valueHasString ?pub_0_publisher .
+        }
+        optional {
+            ?pub_0 roud-oeuvres:publicationHasPhoto ?pub_0_photo_IRI .
+            ?pub_0_photo_IRI knora-base:valueHasString ?pub_0_photo .
+            ?pub_0_photo_IRI knora-base:isDeleted false .
+        }
             
         ## all the following inside the OPTIONAL pub part
         ## pub parts dossiers
