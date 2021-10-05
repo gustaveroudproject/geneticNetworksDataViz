@@ -38,7 +38,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
             {
-                "@value": "1928-01-01 CE - 1928-12-31 CE"
+                "@value": "1928"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -54,7 +54,7 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
             {
                 "@language": "en",
-                "@value": "Collection priv\u00e9e"
+                "@value": "Collection privée"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
@@ -164,7 +164,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "\u3008lundi, \u300922 f\u00e9vrier 1926 - \u3008mercredi, \u300925 avril 1928"
+                "@value": "〈lundi, 〉22 février 1926 - 〈mercredi, 〉25 avril 1928"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -174,7 +174,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahier \u00ab Notes. 1926 \u00bb, 1926-1928"
+                "@value": "Cahier « Notes. 1926 », 1926-1928"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -248,7 +248,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "2 notes retrouv\u00e9es"
+                "@value": "2 notes retrouvées"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -305,7 +305,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "18 ao\u00fbt [1924]"
+                "@value": "18 août [1924]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -331,7 +331,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "12 f\u00e9vrier [1924]"
+                "@value": "12 février [1924]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -383,7 +383,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "(Note retrouv\u00e9e de l\u2019hiver)"
+                "@value": "(Note retrouvée de l’hiver)"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -409,7 +409,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "\u3008dimanche, \u300910 octobre 1926"
+                "@value": "〈dimanche, 〉10 octobre 1926"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
@@ -419,7 +419,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "\u3008dimanche, \u300910 octobre 1926 - d\u00e9cembre 1932"
+                "@value": "〈dimanche, 〉10 octobre 1926 - décembre 1932"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -503,7 +503,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "\u2013 5 f\u00e9vrier [1923]"
+                "@value": "– 5 février [1923]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -581,7 +581,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "Pentec\u00f4te [8 juin 1924]"
+                "@value": "Pentecôte [8 juin 1924]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -633,7 +633,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "18 f\u00e9vrier [1924]"
+                "@value": "18 février [1924]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -685,13 +685,13 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "Notes allant du 20 mars 1927 \u00e0 1929"
+                "@value": "Notes allant du 20 mars 1927 à 1929"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
             {
                 "@language": "en",
-                "@value": "apr\u00e8s"
+                "@value": "après"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
@@ -701,7 +701,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "\u3008dimanche, \u300920 mars 1927. Notes allant du 1927-03-20 \u00e0 1929"
+                "@value": "〈dimanche, 〉20 mars 1927. Notes allant du 1927-03-20 à 1929"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -759,7 +759,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "3 f\u00e9vrier [1923]"
+                "@value": "3 février [1923]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -792,12 +792,12 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
             {
-                "@value": "1926-08-01 CE - 1926-08-31 CE"
+                "@value": "1926-08"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "ao\u00fbt 1926"
+                "@value": "août 1926"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -843,12 +843,12 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
             {
                 "@language": "en",
-                "@value": "apr\u00e8s"
+                "@value": "après"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
             {
-                "@value": "1924-01-01 CE - 1924-12-31 CE"
+                "@value": "1924"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
@@ -863,7 +863,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Dactylogramme \u00ab Lussery \u00bb"
+                "@value": "Dactylogramme « Lussery »"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -885,7 +885,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "Chap[elle] de V[ucherens] 9 ao\u00fbt [1926]"
+                "@value": "Chap[elle] de V[ucherens] 9 août [1926]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -911,7 +911,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "23 ao\u00fbt 25"
+                "@value": "23 août 25"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -943,17 +943,17 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
             {
                 "@language": "en",
-                "@value": "apr\u00e8s"
+                "@value": "après"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
             {
-                "@value": "1922-01-01 CE - 1922-12-31 CE"
+                "@value": "1922"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "1922. Notes allant de ????-09-02 \u00e0 1924-03-18"
+                "@value": "1922. Notes allant de ????-09-02 à 1924-03-18"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -963,7 +963,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahier \u00ab\u2009Roud. Notes 1922-3 \u00bb, 1922-1924"
+                "@value": "Cahier « Roud. Notes 1922-3 », 1922-1924"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -985,7 +985,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "23 ao\u00fbt [1925]"
+                "@value": "23 août [1925]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -1014,7 +1014,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "3 ao\u00fbt [1926]"
+                "@value": "3 août [1926]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -1036,7 +1036,7 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
             {
                 "@language": "en",
-                "@value": "apr\u00e8s"
+                "@value": "après"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
@@ -1046,7 +1046,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "\u3008jeudi, \u300928 ao\u00fbt 1930"
+                "@value": "〈jeudi, 〉28 août 1930"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -1078,7 +1078,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "Deux notes retrouv\u00e9es"
+                "@value": "Deux notes retrouvées"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -1104,7 +1104,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "Foire de Payerne 16 d\u00e9cembre [1926]"
+                "@value": "Foire de Payerne 16 décembre [1926]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -1156,13 +1156,13 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "Notes allant du 4 avril 1924 au 23 ao\u00fbt 1925."
+                "@value": "Notes allant du 4 avril 1924 au 23 août 1925."
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
             {
                 "@language": "en",
-                "@value": "apr\u00e8s"
+                "@value": "après"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
@@ -1172,7 +1172,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "\u3008vendredi, \u30094 avril 1924. Notes allant du 1924-04-04 au 1925-08-23"
+                "@value": "〈vendredi, 〉4 avril 1924. Notes allant du 1924-04-04 au 1925-08-23"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -1182,7 +1182,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahier \u00ab\u2009Roud. Notes. 24. 25. \u00bb, 1924-1925"
+                "@value": "Cahier « Roud. Notes. 24. 25. », 1924-1925"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -1204,7 +1204,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "22 f\u00e9vrier [1926]"
+                "@value": "22 février [1926]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -1334,7 +1334,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "[Dimanche 1er ao\u00fbt 1926]"
+                "@value": "[Dimanche 1er août 1926]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -1386,7 +1386,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "\u3008dimanche, \u300930 mai 1926 - \u3008dimanche, \u300921 juin 1931"
+                "@value": "〈dimanche, 〉30 mai 1926 - 〈dimanche, 〉21 juin 1931"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -1396,7 +1396,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[j\u2019ai cueilli quatre tiges de pulmonaires\u2026]"
+                "@value": "[j’ai cueilli quatre tiges de pulmonaires…]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -1418,13 +1418,13 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "Notes allant du 11 mai 1917 au 1 d\u00e9cembre 1918."
+                "@value": "Notes allant du 11 mai 1917 au 1 décembre 1918."
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
             {
                 "@language": "en",
-                "@value": "apr\u00e8s"
+                "@value": "après"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
@@ -1434,7 +1434,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "\u3008vendredi, \u300911 mai 1917. 1917-05-11 \u2013 1918-12-01"
+                "@value": "〈vendredi, 〉11 mai 1917. 1917-05-11 – 1918-12-01"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -1444,7 +1444,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahier \u00ab notes 1916. 1917 R. \u00bb, 1917-1918"
+                "@value": "Cahier « notes 1916. 1917 R. », 1917-1918"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -1492,7 +1492,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "L\u2019image-marcotte, l\u2019image bouture"
+                "@value": "L’image-marcotte, l’image bouture"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -1524,7 +1524,7 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
             {
                 "@language": "en",
-                "@value": "apr\u00e8s"
+                "@value": "après"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
@@ -1534,7 +1534,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "\u3008lundi, \u300923 septembre 1918. Notes allant du 1918-09-23 \u00e0 1922"
+                "@value": "〈lundi, 〉23 septembre 1918. Notes allant du 1918-09-23 à 1922"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -1544,7 +1544,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahier \u00ab\u2009Roud notes 1919 \u00bb, 1918-[1925]"
+                "@value": "Cahier « Roud notes 1919 », 1918-[1925]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -1699,7 +1699,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "Lussery (Moulin) 23 ao\u00fbt [1925]"
+                "@value": "Lussery (Moulin) 23 août [1925]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -1782,7 +1782,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "7 d\u00e9cembre [1922]"
+                "@value": "7 décembre [1922]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -1955,7 +1955,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "14 f\u00e9vrier [1924]"
+                "@value": "14 février [1924]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -1981,7 +1981,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "6 ao\u00fbt [1923]"
+                "@value": "6 août [1923]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -2033,7 +2033,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
             {
-                "@value": "1929-10-01 CE - 1929-10-31 CE"
+                "@value": "1929-10"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
@@ -2184,7 +2184,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
             {
-                "@value": "1919-01-01 CE - 1919-01-31 CE"
+                "@value": "1919-01"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
@@ -2273,7 +2273,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "\u3008mardi, \u300925 septembre 1917"
+                "@value": "〈mardi, 〉25 septembre 1917"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -2283,7 +2283,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Pri\u00e8re"
+                "@value": "Prière"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -2305,7 +2305,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "P[adoue] 5 [avril 1920] apr\u00e8s[-midi]"
+                "@value": "P[adoue] 5 [avril 1920] après[-midi]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -2363,7 +2363,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateComputable": [
             {
-                "@value": "1920-04-01 CE - 1920-04-30 CE"
+                "@value": "1920-04"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
@@ -2378,13 +2378,13 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahiers \u00ab Italie 1-2-3 \u00bb, 1920"
+                "@value": "Cahiers « Italie 1-2-3 », 1920"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
             {
                 "@language": "en",
-                "@value": "Biblioth\u00e8que La Chaux-de-Fonds"
+                "@value": "Bibliothèque La Chaux-de-Fonds"
             }
         ]
     },
@@ -2426,7 +2426,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "27 d\u00e9cembre [1920]"
+                "@value": "27 décembre [1920]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -2457,7 +2457,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "Confession \u00e0 Olivier"
+                "@value": "Confession à Olivier"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -2468,37 +2468,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
             {
                 "@id": "http://rdfh.ch/0112/eSF90andRUaJJlfHjXis-w"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/eSF90andRUaJJlfHjXis-w",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
-            {
-                "@value": "14"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
-            {
-                "@value": "SAN GIMIGNANO"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
-            {
-                "@id": "http://rdfh.ch/0112/9mDfDvGwQxqSbxjZWwT8fA"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/O66EW59rSFKUWwzXs5plzQ"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
             }
         ]
     },
@@ -2520,7 +2489,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "\u3008jeudi, \u300915 avril 1920"
+                "@value": "〈jeudi, 〉15 avril 1920"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -2530,7 +2499,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Le voyage de Milan \u00e0 Padoue la nuit"
+                "@value": "Le voyage de Milan à Padoue la nuit"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -2656,7 +2625,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "\u3008vendredi, \u300923 avril 1920 - \u3008mardi, \u300927 avril 1920"
+                "@value": "〈vendredi, 〉23 avril 1920 - 〈mardi, 〉27 avril 1920"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -2745,7 +2714,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "\u3008dimanche, \u300918 juillet 1920"
+                "@value": "〈dimanche, 〉18 juillet 1920"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
@@ -2755,7 +2724,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "\u3008dimanche, \u300918 juillet 1920 - \u3008mardi, \u30091 mars 1932"
+                "@value": "〈dimanche, 〉18 juillet 1920 - 〈mardi, 〉1 mars 1932"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -2765,7 +2734,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Carnet \u00ab\u00a0Roud 1920\u00a0\u00bb, 1920-[1927]"
+                "@value": "Carnet « Roud 1920 », 1920-[1927]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -2909,7 +2878,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "\u00c9crit \u00e0 Carrouge. Main de faucheur. Halte. R\u00e9ponses\u001e"
+                "@value": "Écrit à Carrouge. Main de faucheur. Halte. Réponses\u001e"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
@@ -3081,7 +3050,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
             {
-                "@value": "1917-01-01 CE - 1917-12-31 CE"
+                "@value": "1917"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
@@ -3175,7 +3144,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "(retrouv\u00e9)"
+                "@value": "(retrouvé)"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -3248,7 +3217,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahier \u00ab notes-septembre 1918-novembre 1918-janvier 19 \u00bb, 1918-1919"
+                "@value": "Cahier « notes-septembre 1918-novembre 1918-janvier 19 », 1918-1919"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -3310,7 +3279,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "Cimeti\u00e8re"
+                "@value": "Cimetière"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -3422,7 +3391,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "\u3008mardi, \u30095 avril 1927 - \u3008lundi, \u30096 mai 1929"
+                "@value": "〈mardi, 〉5 avril 1927 - 〈lundi, 〉6 mai 1929"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEditorialSet": [
@@ -3438,7 +3407,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[Mon Dieu donnez-moi\u2026]"
+                "@value": "[Mon Dieu donnez-moi…]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -3471,17 +3440,17 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
             {
                 "@language": "en",
-                "@value": "apr\u00e8s"
+                "@value": "après"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
             {
-                "@value": "1916-05-01 CE - 1916-05-31 CE"
+                "@value": "1916-05"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "mai 1916. Notes allant de 1916-05 \u00e0 1917-03-10"
+                "@value": "mai 1916. Notes allant de 1916-05 à 1917-03-10"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -3491,7 +3460,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahier \u00ab mai 16 - mars 17 \u00bb, 1916 -1917"
+                "@value": "Cahier « mai 16 - mars 17 », 1916 -1917"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -3547,7 +3516,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "II Apr\u00e8s le 24 mai [1916]"
+                "@value": "II Après le 24 mai [1916]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -3573,7 +3542,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "D\u00e9cembre 22"
+                "@value": "Décembre 22"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -3661,7 +3630,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "Dimanche [29] ao\u00fbt [1920]"
+                "@value": "Dimanche [29] août [1920]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -3807,7 +3776,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "XVIII Missy 11\u00a0h et \u00bd soir"
+                "@value": "XVIII Missy 11 h et ½ soir"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -3862,7 +3831,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "\u3008dimanche, \u300910 avril 1927"
+                "@value": "〈dimanche, 〉10 avril 1927"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEditorialSet": [
@@ -3957,7 +3926,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "Cim[eti\u00e8re]"
+                "@value": "Cim[etière]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -3983,7 +3952,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "24 d\u00e9cembre [1923]"
+                "@value": "24 décembre [1923]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -4055,37 +4024,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/gyBB1SlWRMaEX8I0E09okw",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
-            {
-                "@value": "12"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
-            {
-                "@value": "(OFFICES)"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
-            {
-                "@id": "http://rdfh.ch/0112/9mDfDvGwQxqSbxjZWwT8fA"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/y1gtsfRLTO-_YV3OyA8WRw"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/ZbJ05owTR_-z96d9x5d88w",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
@@ -4149,7 +4087,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "La derni\u00e8re visite aux Offices"
+                "@value": "La dernière visite aux Offices"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -4279,7 +4217,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "29 septembre-2 octobre [1926] \u2013 Nuit \u00e0 Estavayer"
+                "@value": "29 septembre-2 octobre [1926] – Nuit à Estavayer"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -4336,7 +4274,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "14 d\u00e9cembre [1923]"
+                "@value": "14 décembre [1923]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -4502,7 +4440,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "22 d\u00e9cembre [1920]"
+                "@value": "22 décembre [1920]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -4581,6 +4519,37 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/y1gtsfRLTO-_YV3OyA8WRw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/zrK9lSAvSFu-VT5WOdSOGw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "15"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "S[AN] GIMIGNANO"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/9mDfDvGwQxqSbxjZWwT8fA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/y1gtsfRLTO-_YV3OyA8WRw"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
             }
         ]
     },
@@ -4690,7 +4659,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "\u00c9t\u00e9 [1921]"
+                "@value": "Été [1921]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -4804,7 +4773,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "Jet\u00e9e de Chevroux 21 juin [1931]"
+                "@value": "Jetée de Chevroux 21 juin [1931]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -4899,7 +4868,7 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
             {
                 "@language": "en",
-                "@value": "apr\u00e8s"
+                "@value": "après"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
@@ -4909,7 +4878,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "\u3008vendredi, \u300919 juin 1931. Notes allant de 1931-06-19 \u00e0 1931-09-04."
+                "@value": "〈vendredi, 〉19 juin 1931. Notes allant de 1931-06-19 à 1931-09-04."
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -4919,7 +4888,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahier \u00ab juin 1931 \u00bb, 1931"
+                "@value": "Cahier « juin 1931 », 1931"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -5061,38 +5030,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/zrK9lSAvSFu-VT5WOdSOGw",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
-            {
-                "@value": "15"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
-            {
-                "@value": "S[AN] GIMIGNANO"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
-            {
-                "@id": "http://rdfh.ch/0112/9mDfDvGwQxqSbxjZWwT8fA"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/y1gtsfRLTO-_YV3OyA8WRw"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/6bFtFYKNTU2MSxh8n-Db3A"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/hHPurk94S2yIfj_C9BNR7w",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
@@ -5177,7 +5114,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "\u3008dimanche, \u30092 juin 1935 - \u3008mardi, \u30094 juin 1935"
+                "@value": "〈dimanche, 〉2 juin 1935 - 〈mardi, 〉4 juin 1935"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -5210,7 +5147,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
             {
-                "@value": "1972-04-01 CE - 1972-04-30 CE"
+                "@value": "1972-04"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
@@ -5225,7 +5162,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Dactylogramme \u00ab Notes transcrites \u00bb / \u00ab\u2009Transcriptions \u201cpossibles\u201d faites pour Campagne p[erdue] \u00bb, 1934-1957"
+                "@value": "Dactylogramme « Notes transcrites » / « Transcriptions “possibles” faites pour Campagne p[erdue] », 1934-1957"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -5248,7 +5185,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
             {
-                "@value": "1949-01-01 CE - 1949-12-31 CE"
+                "@value": "1949"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
@@ -5263,7 +5200,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahier \u00ab\u2009A. R. \u00bb, 1947-1950"
+                "@value": "Cahier « A. R. », 1947-1950"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -5300,6 +5237,37 @@
         ]
     },
     {
+        "@id": "http://rdfh.ch/0112/gyBB1SlWRMaEX8I0E09okw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "12"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "(OFFICES)"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/9mDfDvGwQxqSbxjZWwT8fA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/y1gtsfRLTO-_YV3OyA8WRw"
+            }
+        ]
+    },
+    {
         "@id": "http://rdfh.ch/0112/4XT6s5k-QsqKsgbV5H4FDg",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
@@ -5311,7 +5279,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "\u3008lundi, \u30097 janvier 1935 - \u3008jeudi, \u300922 septembre 1955"
+                "@value": "〈lundi, 〉7 janvier 1935 - 〈jeudi, 〉22 septembre 1955"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -5321,7 +5289,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahier \u00ab 1935 Petites Notes Quotidiennes (ou presque) \u00bb, 1935-1936"
+                "@value": "Cahier « 1935 Petites Notes Quotidiennes (ou presque) », 1935-1936"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -5343,7 +5311,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
             {
-                "@value": "Ascension [24 mai 1938] \u2013 \u00ab Sur la Croix \u00bb Ferlens"
+                "@value": "Ascension [24 mai 1938] – « Sur la Croix » Ferlens"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
@@ -5540,6 +5508,37 @@
         ]
     },
     {
+        "@id": "http://rdfh.ch/0112/eSF90andRUaJJlfHjXis-w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "14"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "SAN GIMIGNANO"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/9mDfDvGwQxqSbxjZWwT8fA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/O66EW59rSFKUWwzXs5plzQ"
+            }
+        ]
+    },
+    {
         "@id": "http://rdfh.ch/0112/iDSCE4QeSxWysCMgU7MlQQ",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
@@ -5582,7 +5581,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "\u00c9crits\u001e"
+                "@value": "Écrits\u001e"
             }
         ]
     },
@@ -5657,7 +5656,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
             {
-                "@value": "1950-01-01 CE - 1950-12-31 CE"
+                "@value": "1950"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
@@ -5672,7 +5671,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Note des textes \u201cpossibles\u201d pour Feuillets II"
+                "@value": "Note des textes “possibles” pour Feuillets II"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -5706,7 +5705,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
             {
-                "@value": "1950-01-01 CE - 1950-12-31 CE"
+                "@value": "1950"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
@@ -5743,13 +5742,13 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
             {
-                "@value": "Notes allant du 27 juin au 8 septembre 1931. Le dernier feuillet pr\u00e9sente une note manuscrite du 15 janvier."
+                "@value": "Notes allant du 27 juin au 8 septembre 1931. Le dernier feuillet présente une note manuscrite du 15 janvier."
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
             {
                 "@language": "en",
-                "@value": "apr\u00e8s"
+                "@value": "après"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
@@ -5762,7 +5761,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
             {
-                "@value": "\u3008samedi, \u300927 juin 1931. Notes allant du [1931]-06-27 au 1931-09-08. La dernier feuillet pr\u00e9sente une note manuscrite du 15 janvier [1931?]."
+                "@value": "〈samedi, 〉27 juin 1931. Notes allant du [1931]-06-27 au 1931-09-08. La dernier feuillet présente une note manuscrite du 15 janvier [1931?]."
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
@@ -5772,7 +5771,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Dactylogramme \u00ab 1931 \u00bb, 1931"
+                "@value": "Dactylogramme « 1931 », 1931"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -5810,7 +5809,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Cahier \u00ab 1941 \u00bb, 1941-1946"
+                "@value": "Cahier « 1941 », 1941-1946"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
