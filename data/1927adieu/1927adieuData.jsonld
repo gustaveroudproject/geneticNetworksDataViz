@@ -1,0 +1,118 @@
+[
+    {
+        "@id": "http://rdfh.ch/0112/EV5wMXrLTLeaHs9MhMJctQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/t5NxkeItSUyrc3AYEcAuwA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/t5NxkeItSUyrc3AYEcAuwA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+            {
+                "@value": "Éditions des Portes de France"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1944-05-01"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasPhoto": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Adieu"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/GkPmbbLyR4uLxlmzwlsWDA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "2"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "Adieu"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/t5NxkeItSUyrc3AYEcAuwA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/N8-KPfkrS9OeOiS34kdQCg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/qat2AbggR022DPSwnUfogQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "Adieu"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/BbnLAVeaS8ChIeTqMi4wbQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/N8-KPfkrS9OeOiS34kdQCg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/qat2AbggR022DPSwnUfogQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/BbnLAVeaS8ChIeTqMi4wbQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+            {
+                "@value": "Mermod"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1950-09-15"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Écrits\u001e"
+            }
+        ]
+    }
+]
