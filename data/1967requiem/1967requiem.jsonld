@@ -1,0 +1,5061 @@
+[
+    {
+        "@id": "http://rdfh.ch/0112/pjltrE6qRyuvDr2naz02JA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/7f"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Ô mère…], [Leur fidélité, leur familiarité…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/xx1KWnQISTGod7eqyZuNtA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Note"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/4b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "enchaînement de la suite"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/NRM-r-6OTbyn0E_HQfhOdQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Corrected original"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "après"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1950-05"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "mai 1950"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/4f"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "D’une quête"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/7ZadSekgRmqwbQCD4HVoTQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/2c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Entre les roses noircies…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/ptJX9wp4Qk2wWSZWUDTQkg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Note"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/8b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[I, Non pas cette neige…], [Les deux hirondelles chaque matin…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/XZaJ4j4CQaOtHMJJ-FcJlg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-09-16"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈samedi, 〉16 septembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/9b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Leurs cris, leurs chants…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/dbEus1QCQoOIuMi4yuyhHA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1968-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈vendredi, 〉8 novembre 1968"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/11b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Le laboureur près de moi…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/4AUAaRsSRGqEdBII8_DMqQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/8w8gQ_OJR4OWmuhdSpF6qQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/dLZh7RHCQf-qojoE95YC6g",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/9c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[…Des pépiements angoissés…], [Vos cris, vos chants…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/QcSsCEJCRfuzWqcoq6AqUA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/8e"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Hirondelle, découvreuse d’espaces…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/lUrsnOv6SO-72ceXCfwGSw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/Sp_Gcm6fTsGBuYitYex_SA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/FMXQZpKTQkuC83NFh_daww",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/17a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Payot - Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/lUrsnOv6SO-72ceXCfwGSw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/KC39elszQaqY4ADNFSSIeQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/9e"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Ainsi des ans…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/Dki4mMhxRl2Q6NIaLDwNAA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/13e"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[une tache couleur de ciel…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/ZC18xFIGQ7GqZBjMfeoPJA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/5f"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Cette demeure…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/5OUgBcuVTjOrHR-jsYDsDg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/5g"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Cette demeure…], [Suite après \"ô tristesse des retours…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/57fDBZSUTu6QBJqOGUG5wg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "3"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "III"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/Sp_Gcm6fTsGBuYitYex_SA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/Q0yzPCybQ6m-RKIO-8toZg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/2b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[J’irai…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/5yCWTMnmQqaNwibnkOT4MQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/13b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Suite et fin (ébauche)"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/1gky3WSaSImJ04rPGP8B4Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/13f"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[tache de ciel…], [Tout y ressurgit dans la transparence…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/sMhZGF23R8alZX1hHyOYZw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/5c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[enchaînement: la fidélité des oiseaux…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/KzmGBTwJSeO6d3SVB55YJg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/10g"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[…y parvienne…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/-DZtAHmUS3aaX5MmX6Kmug",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/9f"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Ainsi des ans…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/R7t-KrX9RcqcyPZ1gTgBRQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/14a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Au-delà des fenêtres…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/lUrsnOv6SO-72ceXCfwGSw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/YCBMwaaOQt6cbNvljVQkJw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/7g"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Mais l’infinie fidélité des oiseaux…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/8lKTBCzSSA6WxYggd1G_Ow",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/5d"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Cette demeure…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/57fDBZSUTu6QBJqOGUG5wg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/YTsvrjHzSo2LdzXcVDbsDw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/6c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Non pas cette maison…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/75VkF9BZR72l7Iu41h_nhg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/8d"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Hirondelle, découvreuse d’espaces…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/SO2xylZwStySX1kZ_CnXXA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/12d"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Tu me précèdes dans la transparence…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/8iS4yGf4TXahgnPsGiYAwQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/7c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Mais l’infinie fidélité des oiseaux…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/Us1iU6ChQ1a9b7NQyJVoXw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/13g"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Apatriement profond…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/VVz0lizST--M9RTmAbUaKA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/7a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Mais l’infinie fidélité des oiseaux…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/visttUpBRv68M7pLk6cfIw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/3a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Je pose un pas…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/OF2Z0ylSS_-v9QLByZchVQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/10c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[J’ai veillé parfois…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/oc0i6KmiRGakFuYcaDSExA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/7b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Mais l’infinie fidélité des oiseaux…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/nubrUADhTdygSdX5P4BM8w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/2e"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Entre les roses noircies…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/6EwRXzs1Sxy2hoDkjm5qeg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Note"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-03-07"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mardi, 〉7 mars 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/4c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Feuillet, 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/dA42BwBmQ-at14qOedwd2w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/13h"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Une tache de ciel…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/K4_bni12Sz2uvy92I3PPCg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/5b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Cette demeure…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/Pb9V3qLYQUSICJc6gJd6fA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/8a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[L’hirondelle chaque matin…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/V5l63T3kQGmVXvaUHCSkrA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/8c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Hirondelle, chaque matin…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/vsj85JXYT2etjOKUelqneg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/12b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Tu me précèdes dans la transparence…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/T_WuRLidTe-9HJRk1D7YYg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/7d"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Mais l’infinie fidélité des oiseaux…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/UAfP5y7pTAecxaBARpiwgg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/12e"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[La longue chaîne de bleus…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/Sp_Gcm6fTsGBuYitYex_SA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+            {
+                "@value": "Payot"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Requiem"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/nz25vo1WS5SOhKoDolVHiA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "I"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/Sp_Gcm6fTsGBuYitYex_SA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/qFC0b8ckToaAmzChid9Ohg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/13d"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[La tache de bleuets…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/jU8M7dECQim96UXwtT7A7A",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/10e"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[…Nos pépiements angoissés…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/QDqC2ENaQQ2omJueNErtOQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/1a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "D’un Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/O3wAAxonQY6zRQgWkFdCRA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/9a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Relevé des notes utiles, [Ainsi des ans…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/gQ0YmdC4QEC-4cOo1xEnsg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/12c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Et moi, vais-je rester…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/m8BtdlH7RDOhlCWzhkI14w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/7h"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Mais l’infinie fidélité des oiseaux…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/tvYQlcXaSM2E5kwzN5hHDw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/6b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Non pas la demeure d’ici…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/Aau2DzCMQUmb5xc04EuDrA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/10f"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[…Nos pépiements angoissés…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/MaRVj9UWRq6l3a3VJVaH6g",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/5a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Enchaînement, [du monde, vos vains appels…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/UKeP7sOCTqGdiQZ7OHQYjg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/13k"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[une tache couleur de ciel…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/HA-5vXSvRdCfreloB9w8hg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Note"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1966-07-14"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈jeudi, 〉14 juillet 1966"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/2d"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Ne chante plus…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/-hRfhGUQTSOddfEs_J9rrA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/13j"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[une tache couleur de ciel…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/P2jqiuylS8GUIhBoahxnfQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/7e"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Leur fidélité, leur familiarité…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/XoNOM9Z-QXCvE2O1s3_SmA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/10h"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[…y parvienne…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/RXM5cKkUQnKlSh37ov1RqA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/5e"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Cette demeure…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/8w8gQ_OJR4OWmuhdSpF6qQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "2"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "II"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/Sp_Gcm6fTsGBuYitYex_SA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/SaT82qWmRDOn29W0ocJUMQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/11d"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Le laboureur étendu…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/OtjUWMWZRi6gcVQ78uqKRA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/10d"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Traduit de l’hirondelle"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/X_7sqJWvS2G267iF3EoWpw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/16a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "D’un Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/lUrsnOv6SO-72ceXCfwGSw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/xqSoWv6nQk-lyFP1J-hShw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Note"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/6a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Thème de la corne-cor"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/WgrY_zX1SuO4dMbLTSTc2w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/13i"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Une touffe couleur de ciel…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/QYfCmepPRWyvaWwReMlhcg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/13c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[tache de ciel…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/9nEnl31qQxKG1zqXC4UE-Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/10a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "(Transmission du secret)"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/f3xeMFtTQySPAu2ZVdtzGw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/11a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Le laboureur près de moi…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/3XXzMthbT0CJzGmpjTC9Lw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/12f"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Ou vais-je rester prisonnier…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/6Z4SqQZUQj2oqJiNXnJ3vQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Corrected original"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "après"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1955-12"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "décembre 1955"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/5a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Pour un requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/4AUAaRsSRGqEdBII8_DMqQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/L41Mspy5TBaW9_2efd7mnQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/2a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[IV, entre les roses noircies…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/bKKKgT2VT_i8T_oSvFULnQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/15a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "D’un Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/lUrsnOv6SO-72ceXCfwGSw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/nz25vo1WS5SOhKoDolVHiA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/4eIUtxu6RmGUOgtaJqZQkQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/12a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[…il y aura ce frôlement…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/9MLK46sCQtCEw_VLnhERbQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/11c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Le laboureur étendu…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/fGwIhri6QoOnTX11ZlnJqQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/10b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Ô mère, c’en est fini…], [Conçois l’espace intérieur…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/-nx4YkRHRYeFiU1BWR1hrA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/13a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Mais non, ce n’est pas la demeure d’ici…], [une tache couleur de ciel…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/QGSlS9tuTjyw71tvucKQrA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/9d"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Ainsi des ans…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/PsztlbNYRniNkicJsrbvsA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Note"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1967-11-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉8 novembre 1967"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H2/4a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Suite des notes importantes"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DA16BQYfT7yeprAkqzy43Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/LjkZYkSVRFWnkQAMWrxpww",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@value": "Gazette de Lausanne"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1967-04-22 - 1967-04-23"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "D'un Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/jOOE-6e5SoihHIYdrH4MkQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/LjkZYkSVRFWnkQAMWrxpww"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/GF8ULm7gShyV_-ZMQspcHg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateComputable": [
+            {
+                "@value": "1949-11"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
+            {
+                "@value": "novembre 1949"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/3c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Non pas cette neige…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/2hxlRPPWTsmZkp4qvxIbOQ"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/gtxOIRZySkGGkvXWg0nkEQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/_7X8AhOFS02XbfwmFYk7yg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1950"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "1950"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/4c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "D’un Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/2hxlRPPWTsmZkp4qvxIbOQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/2hxlRPPWTsmZkp4qvxIbOQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/SyjZ51JuRkGYu1zbgnJCjQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/SyjZ51JuRkGYu1zbgnJCjQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@value": "Botteghe oscure"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1950-05"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "D'une quête"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/bJ_CCQCwQDSHCtM6Dw-Tmg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1950"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "1950"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/4e"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Non pas cette neige…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/2hxlRPPWTsmZkp4qvxIbOQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/2t4e-i_-SeKKYY-aQLAQBQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Note"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1950"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "1950"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/4d"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "D’un Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/2hxlRPPWTsmZkp4qvxIbOQ"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/k4QXJYDWQDmkU0rM5fb8Vw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@value": "Pour l'Art"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1955-11 - 1955-12"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Pour un Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/4AUAaRsSRGqEdBII8_DMqQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/0bF1K42gRcqUZD3Bo_zjog",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/k4QXJYDWQDmkU0rM5fb8Vw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/f-Cd9oDOTZG4nk61yOVatg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "75"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Fragment d'un requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/4XT6s5k-QsqKsgbV5H4FDg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/0bF1K42gRcqUZD3Bo_zjog"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/4XT6s5k-QsqKsgbV5H4FDg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateComputable": [
+            {
+                "@value": "1935-01-07 - 1955-09-22"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
+            {
+                "@value": "〈lundi, 〉7 janvier 1935 - 〈jeudi, 〉22 septembre 1955"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 4 C/14a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Cahier « 1935 Petites Notes Quotidiennes (ou presque) », 1935-1936, 1955"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/3ECEirgSSKKYsUy6-TwOqA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Dimanche 11 août 63"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/h-UTr4KgTLWU44_7nTxYrQ"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/IM8QG9nNTfiu9MYeL65MTg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/_E-DqRPFTruVM1PxJYHjQA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Note"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1964-04"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "avril 1964"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/6c"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Au verso d’un bulletin de commande (La Guilde du livre) daté du 26 mars 1964, [1964]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/IM8QG9nNTfiu9MYeL65MTg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/IM8QG9nNTfiu9MYeL65MTg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/zjOplbjlS1qZ7d5OfmTR_A"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/zjOplbjlS1qZ7d5OfmTR_A",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@value": "Écriture"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1964-04"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "D'un Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/4AUAaRsSRGqEdBII8_DMqQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/h-UTr4KgTLWU44_7nTxYrQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "circa"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1965-01-01 - 1967-12-31"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "vers 1963"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 4 D/13a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Bloc-notes, 1963-1964"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/xoFkUIrtSGu-4LvTmSvCHA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "4"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "[13 septembre 1942]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/hQhUjw1iTvePqeLvtkFfPg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/gwnUrEYTTtSCp4DMVsY2rQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/ityM1mgMTPO_6rGqxteJ-A",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1964-04"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "avril 1964"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/6f"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "D’un Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/IM8QG9nNTfiu9MYeL65MTg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/_WSglT7mTwmo5YL2ujvMcA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1964-04"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "avril 1964"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/6d"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "D’un Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/IM8QG9nNTfiu9MYeL65MTg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/gwnUrEYTTtSCp4DMVsY2rQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "40"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "S[ans] d[ate] [13 septembre 1942]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/92u4IlLZQ4KTt7I-t4fnhA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/IM8QG9nNTfiu9MYeL65MTg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/GID6olreTSmOcF36XBqZug",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1964-04"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "avril 1964"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/6e"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "D’un Requiem"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/IM8QG9nNTfiu9MYeL65MTg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/92u4IlLZQ4KTt7I-t4fnhA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1972-04"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "avril 1972"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 I/3a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Dactylogramme « Notes transcrites » / « Transcriptions “possibles” faites pour Campagne p[erdue] », 1934-1957"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/hQhUjw1iTvePqeLvtkFfPg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateComputable": [
+            {
+                "@value": "1941"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
+            {
+                "@value": "1941"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1942-11-30"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈lundi, 〉30 novembre 1942"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 6 B3/6a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Cahier « H[ölderlin] 1941 (mots) », 1942"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/3bf_CjgZSMeoB4YtSuve0w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1964-04"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "avril 1964"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/6a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Rêve, ô regagner…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/IM8QG9nNTfiu9MYeL65MTg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/nfKSEdV8SIC-rROsRUZDxw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/fbFHZ-0pQWeSG0w2vKCvRg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/fbFHZ-0pQWeSG0w2vKCvRg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@value": "Le Radio"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1934-11-23"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Moulin de Lussery\u001e"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/1BFkKldwQbexYHuQ8ILYXA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateComputable": [
+            {
+                "@value": "1933-11"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
+            {
+                "@value": "novembre 1933"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 106/75"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Moulin de Lussery"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "Bibliothèque La Chaux-de-Fonds"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/nfKSEdV8SIC-rROsRUZDxw"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/ycHroH7rQzSiKgkZTP_omg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/dhJd3TlZQt-NVFNsZbBOtw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "circa"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1933"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "1933"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/1a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[La bise et vers midi…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/ycHroH7rQzSiKgkZTP_omg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/DU6XIhJ_SSiLx4NaGBXpSg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1935-11"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "novembre 1935"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/2a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Dédicace"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/ycHroH7rQzSiKgkZTP_omg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/1zghr1zVQuOsXkqMtc8N5Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@value": "Schweizer Annalen / Annales suisses"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1935-11"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Dédicace"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/jOOE-6e5SoihHIYdrH4MkQ"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/gtxOIRZySkGGkvXWg0nkEQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/ycHroH7rQzSiKgkZTP_omg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/1zghr1zVQuOsXkqMtc8N5Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/1L-Y6bRHQzGmoZesFv2t8g",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEditorialSet": [
+            {
+                "@language": "en",
+                "@value": "Diary"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1935-11"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "novembre 1935"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/2b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[La neige de la nuit…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/ycHroH7rQzSiKgkZTP_omg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/OXLofRkPRCKOcLrEy6DZ8w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@value": "Suisse contemporaine"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1941-11 - 1941-12"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Deux moments d'une quête"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/2hxlRPPWTsmZkp4qvxIbOQ"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/aypjprQIQXCn0KdR-xqzeg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/Kpj1xjGzRKqHFWPLVljnqw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "après"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1941-11-10"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈lundi, 〉10 novembre 1941"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/3a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Quête"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/gtxOIRZySkGGkvXWg0nkEQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/gtxOIRZySkGGkvXWg0nkEQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/OXLofRkPRCKOcLrEy6DZ8w"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/ixK69aK0Sjm48HTbxRKdYQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Clean copy"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1941-12"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "décembre 1941"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/3b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Deux moments d’une quête"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/gtxOIRZySkGGkvXWg0nkEQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/UiedBeOHRPW-fMYIgcGvBg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1942-11-30"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈lundi, 〉30 novembre 1942"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 H1/4a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Le Vatican"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/gtxOIRZySkGGkvXWg0nkEQ"
+            }
+        ]
+    }
+]
