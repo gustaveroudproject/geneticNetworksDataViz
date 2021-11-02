@@ -86,13 +86,24 @@
         ]
     },
     {
+        "@id": "http://rdfh.ch/0112/Mugrcj1DRh--_VbIvtU7BQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
+            {
+                "@value": "Le Dragon romand"
+            }
+        ]
+    },
+    {
         "@id": "http://rdfh.ch/0112/rq6-Ub5vTTKntSP5figmZQ",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Le Dragon romand"
+                "@id": "http://rdfh.ch/0112/Mugrcj1DRh--_VbIvtU7BQ"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -129,7 +140,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Suisse contemporaine"
+                "@id": "http://rdfh.ch/0112/9YnHw6WST6G7I13QsBRlCA"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -198,13 +209,65 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/nLSxrsawRg-NoFsgwC8jLA",
+        "@id": "http://rdfh.ch/0112/9YnHw6WST6G7I13QsBRlCA",
         "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
         ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
             {
-                "@id": "http://rdfh.ch/0112/LlBxShFTRSyZrqDmzft7OA"
+                "@value": "Suisse contemporaine"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/LlBxShFTRSyZrqDmzft7OA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@id": "http://rdfh.ch/0112/JT_1NnCdRJmXVX8Dh2myUw"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1945"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Le Jorat"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/xUOFr0VIQC2X9_jCX9qCXg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/ND7HcsHkSIKCPeuj3opw_g",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "2"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Jorat"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yK4RcqWISw-Cy2bjs1NIuA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/nLSxrsawRg-NoFsgwC8jLA"
             }
         ]
     },
@@ -296,75 +359,24 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/ND7HcsHkSIKCPeuj3opw_g",
+        "@id": "http://rdfh.ch/0112/JT_1NnCdRJmXVX8Dh2myUw",
         "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
         ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
-            {
-                "@value": "2"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
-            {
-                "@value": "Jorat"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
-            {
-                "@id": "http://rdfh.ch/0112/yK4RcqWISw-Cy2bjs1NIuA"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/nLSxrsawRg-NoFsgwC8jLA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/LlBxShFTRSyZrqDmzft7OA",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
             {
                 "@value": "Courants"
             }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
-            {
-                "@value": "1945"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
-            {
-                "@value": "Le Jorat"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/xUOFr0VIQC2X9_jCX9qCXg"
-            }
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA",
+        "@id": "http://rdfh.ch/0112/nLSxrsawRg-NoFsgwC8jLA",
         "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
         ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
             {
-                "@value": "Mermod"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
-            {
-                "@value": "1945-03"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
-            {
-                "@value": "Air de la solitude"
+                "@id": "http://rdfh.ch/0112/LlBxShFTRSyZrqDmzft7OA"
             }
         ]
     },
@@ -391,6 +403,27 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+            {
+                "@value": "Mermod"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1945-03"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Air de la solitude"
             }
         ]
     }
