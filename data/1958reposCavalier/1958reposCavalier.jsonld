@@ -1,5 +1,131 @@
 [
     {
+        "@id": "http://rdfh.ch/0112/QBppfvV_T1-61QiswV2Bsg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "8"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "Comme on ajoute…"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/kh57vd3ATGmJG3949B-dFA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/wvlxsAfeRfyyPndE1gibTA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "5"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "Les cueilleurs de pommes"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/hADKA2t_TjSTH8MIVJ4tUw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/PF2bzOCGT8apTShMK7hTSg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/QBppfvV_T1-61QiswV2Bsg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/54xyUuXbSmiYNVEBRTUU5A",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "L’enclave"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/5ZLtysAaQMeaiszgDN7OpA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "6"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "Étoile"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/EcLlq-WDRS2NvfHcpKrNaA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "7"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "Lettre"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
+            }
+        ]
+    },
+    {
         "@id": "http://rdfh.ch/0112/pV_7uaXdQnaYUAw5WB3nGg",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
@@ -49,73 +175,13 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/qwxKgjaASgO4NiOKFjwtEA",
+        "@id": "http://rdfh.ch/0112/I8LfBiT9Tqapf_uzQszWXA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
             {
-                "@id": "http://rdfh.ch/0112/5ZLtysAaQMeaiszgDN7OpA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/zTDoFyw1RG6S-lXVoKMSzQ",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
-            {
-                "@language": "en",
-                "@value": "Corrected original"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
-            {
-                "@language": "en",
-                "@value": "après"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
-            {
-                "@value": "1946-11"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
-            {
-                "@value": "novembre 1946"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
-            {
-                "@value": "MS 1 G/2b"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
-            {
-                "@value": "Cueilleurs de pommes à Monnéaz"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
-            {
-                "@language": "en",
-                "@value": "CLSR GR"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/uOPwATbFRlmyd0nF0wB8vQ"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/PuvyLiWlRrCaD7tvf74AuQ",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/EcLlq-WDRS2NvfHcpKrNaA"
+                "@id": "http://rdfh.ch/0112/SI4rXA9zRZGirwjkvHYDzw"
             }
         ]
     },
@@ -169,6 +235,120 @@
         ]
     },
     {
+        "@id": "http://rdfh.ch/0112/0E0UOX3fQwGBjWWh_S1gfw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/nZFkf58uRDC5TCoWwel4Mw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/jmRpx7yDSl6QWUM_wv0ZMw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1958-10"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "octobre 1958"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 G/5b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Comme on ajoute"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/PF2bzOCGT8apTShMK7hTSg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/FHskYNSwRbGric5wi3wPzw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "2"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "L’attente"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/hADKA2t_TjSTH8MIVJ4tUw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/ciT06BTRTuaTCgWvn8Vm9A"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/WzDYnRZsSoSOBZ185VojtA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/YhYUZF0aTcCRyKeyEYPXOA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/FHskYNSwRbGric5wi3wPzw"
+            }
+        ]
+    },
+    {
         "@id": "http://rdfh.ch/0112/nvbhm0nBTyaaXA5BXZRWwQ",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
@@ -218,13 +398,83 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/I8LfBiT9Tqapf_uzQszWXA",
+        "@id": "http://rdfh.ch/0112/qwxKgjaASgO4NiOKFjwtEA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
             {
-                "@id": "http://rdfh.ch/0112/SI4rXA9zRZGirwjkvHYDzw"
+                "@id": "http://rdfh.ch/0112/5ZLtysAaQMeaiszgDN7OpA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/SI4rXA9zRZGirwjkvHYDzw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "3"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "Le repos du cavalier"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/QgQcVwjSQm2qeC9qLaYXnQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Note"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1958-10"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "octobre 1958"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 G/5a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Envisager ce texte…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/PF2bzOCGT8apTShMK7hTSg"
             }
         ]
     },
@@ -241,6 +491,11 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
             {
                 "@value": "1958-10"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasIllustration": [
+            {
+                "@value": "true"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
@@ -320,13 +575,73 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/uOPwATbFRlmyd0nF0wB8vQ",
+        "@id": "http://rdfh.ch/0112/kh57vd3ATGmJG3949B-dFA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/4wp8T6oUSFqwj09o88eQTg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/PuvyLiWlRrCaD7tvf74AuQ",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
             {
-                "@id": "http://rdfh.ch/0112/wvlxsAfeRfyyPndE1gibTA"
+                "@id": "http://rdfh.ch/0112/EcLlq-WDRS2NvfHcpKrNaA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/zTDoFyw1RG6S-lXVoKMSzQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Corrected original"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "après"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1946-11"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "novembre 1946"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 G/2b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Cueilleurs de pommes à Monnéaz"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/uOPwATbFRlmyd0nF0wB8vQ"
             }
         ]
     },
@@ -338,38 +653,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
             {
                 "@id": "http://rdfh.ch/0112/54xyUuXbSmiYNVEBRTUU5A"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/FHskYNSwRbGric5wi3wPzw",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
-            {
-                "@value": "2"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
-            {
-                "@value": "L’attente"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
-            {
-                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/0E0UOX3fQwGBjWWh_S1gfw",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/nZFkf58uRDC5TCoWwel4Mw"
             }
         ]
     },
@@ -423,269 +706,24 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/EcLlq-WDRS2NvfHcpKrNaA",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
-            {
-                "@value": "7"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
-            {
-                "@value": "Lettre"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
-            {
-                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/SI4rXA9zRZGirwjkvHYDzw",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
-            {
-                "@value": "3"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
-            {
-                "@value": "Le repos du cavalier"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
-            {
-                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/WzDYnRZsSoSOBZ185VojtA",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
-            {
-                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/QBppfvV_T1-61QiswV2Bsg",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
-            {
-                "@value": "8"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
-            {
-                "@value": "Comme on ajoute…"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
-            {
-                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/kh57vd3ATGmJG3949B-dFA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/YhYUZF0aTcCRyKeyEYPXOA",
+        "@id": "http://rdfh.ch/0112/uOPwATbFRlmyd0nF0wB8vQ",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
             {
-                "@id": "http://rdfh.ch/0112/FHskYNSwRbGric5wi3wPzw"
+                "@id": "http://rdfh.ch/0112/wvlxsAfeRfyyPndE1gibTA"
             }
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/wvlxsAfeRfyyPndE1gibTA",
+        "@id": "http://rdfh.ch/0112/2kNjbFboR1OcHUH3hCOJ4w",
         "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
         ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
             {
-                "@value": "5"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
-            {
-                "@value": "Les cueilleurs de pommes"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
-            {
-                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/hADKA2t_TjSTH8MIVJ4tUw"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/54xyUuXbSmiYNVEBRTUU5A",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
-            {
-                "@value": "1"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
-            {
-                "@value": "L’enclave"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
-            {
-                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/jmRpx7yDSl6QWUM_wv0ZMw",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
-            {
-                "@language": "en",
-                "@value": "Draft"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
-            {
-                "@language": "en",
-                "@value": "before"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
-            {
-                "@value": "1958-10"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
-            {
-                "@value": "octobre 1958"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
-            {
-                "@value": "MS 1 G/5b"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
-            {
-                "@value": "Comme on ajoute"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
-            {
-                "@language": "en",
-                "@value": "CLSR GR"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/PF2bzOCGT8apTShMK7hTSg"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/5ZLtysAaQMeaiszgDN7OpA",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
-            {
-                "@value": "6"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
-            {
-                "@value": "Étoile"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
-            {
-                "@id": "http://rdfh.ch/0112/xT56jykER8-mlgxi-jFXsA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/PF2bzOCGT8apTShMK7hTSg",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/QBppfvV_T1-61QiswV2Bsg"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/QgQcVwjSQm2qeC9qLaYXnQ",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
-            {
-                "@language": "en",
-                "@value": "Note"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
-            {
-                "@language": "en",
-                "@value": "before"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
-            {
-                "@value": "1958-10"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
-            {
-                "@value": "octobre 1958"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
-            {
-                "@value": "MS 1 G/5a"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
-            {
-                "@value": "[Envisager ce texte…]"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
-            {
-                "@language": "en",
-                "@value": "CLSR GR"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/PF2bzOCGT8apTShMK7hTSg"
+                "@value": "Pays du Lac"
             }
         ]
     },
@@ -696,7 +734,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Pays du Lac"
+                "@id": "http://rdfh.ch/0112/2kNjbFboR1OcHUH3hCOJ4w"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -738,13 +776,24 @@
         ]
     },
     {
+        "@id": "http://rdfh.ch/0112/m9xP3XtFQXK7JeVPZThoNw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
+            {
+                "@value": "Guilde du Livre"
+            }
+        ]
+    },
+    {
         "@id": "http://rdfh.ch/0112/bK1NTk-sQxK0AWQNUMAB4A",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Guilde du Livre"
+                "@id": "http://rdfh.ch/0112/m9xP3XtFQXK7JeVPZThoNw"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -770,7 +819,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Guilde du Livre"
+                "@id": "http://rdfh.ch/0112/m9xP3XtFQXK7JeVPZThoNw"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -844,13 +893,24 @@
         ]
     },
     {
+        "@id": "http://rdfh.ch/0112/rhjF-pIjTc6oM-b71frT8Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/9u-OCfSiTGyfY6SjeGfG0Q"
+            }
+        ]
+    },
+    {
         "@id": "http://rdfh.ch/0112/9u-OCfSiTGyfY6SjeGfG0Q",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Guilde du Livre"
+                "@id": "http://rdfh.ch/0112/m9xP3XtFQXK7JeVPZThoNw"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -929,17 +989,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/rhjF-pIjTc6oM-b71frT8Q",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
-            {
-                "@id": "http://rdfh.ch/0112/9u-OCfSiTGyfY6SjeGfG0Q"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/LpF9PKm4RImdTgsDlaukdQ",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
@@ -989,13 +1038,35 @@
         ]
     },
     {
+        "@id": "http://rdfh.ch/0112/4VUJoFSHQYKISeume6G60Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
+            {
+                "@value": "La Gazette littéraire"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/8nwo5d-RQgOijoTCyPrgWg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/msvsTFwjSdeyDjSKafjQ4Q"
+            }
+        ]
+    },
+    {
         "@id": "http://rdfh.ch/0112/msvsTFwjSdeyDjSKafjQ4Q",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "La Gazette littéraire"
+                "@id": "http://rdfh.ch/0112/4VUJoFSHQYKISeume6G60Q"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -1015,13 +1086,13 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/8nwo5d-RQgOijoTCyPrgWg",
+        "@id": "http://rdfh.ch/0112/bxcDKD8gT0CWjgLmBC1_JQ",
         "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
         ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
             {
-                "@id": "http://rdfh.ch/0112/msvsTFwjSdeyDjSKafjQ4Q"
+                "@value": "Gazette de Lausanne"
             }
         ]
     },
@@ -1032,7 +1103,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Gazette de Lausanne"
+                "@id": "http://rdfh.ch/0112/bxcDKD8gT0CWjgLmBC1_JQ"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -1058,7 +1129,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Le Thyrse"
+                "@id": "http://rdfh.ch/0112/UCcy-vLUSe2gQT5eUc1dPw"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -1073,13 +1144,24 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/hADKA2t_TjSTH8MIVJ4tUw",
+        "@id": "http://rdfh.ch/0112/UCcy-vLUSe2gQT5eUc1dPw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
+            {
+                "@value": "Le Thyrse"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/BfnLG3nVSjmnT24dgvoK2g",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
             {
-                "@id": "http://rdfh.ch/0112/ciT06BTRTuaTCgWvn8Vm9A"
+                "@id": "http://rdfh.ch/0112/bjmgipgDScyPEkmSVIUtkg"
             }
         ]
     },
@@ -1090,7 +1172,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Gazette de Lausanne"
+                "@id": "http://rdfh.ch/0112/bxcDKD8gT0CWjgLmBC1_JQ"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -1110,24 +1192,13 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/kh57vd3ATGmJG3949B-dFA",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
-            {
-                "@id": "http://rdfh.ch/0112/4wp8T6oUSFqwj09o88eQTg"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/0HoE3QD4Sv6Tpz_TZp_M2w",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Gazette de Lausanne"
+                "@id": "http://rdfh.ch/0112/bxcDKD8gT0CWjgLmBC1_JQ"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -1153,7 +1224,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Aujourd'hui"
+                "@id": "http://rdfh.ch/0112/_-Tvd6hVSv2RS5WiU-bsGA"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -1173,44 +1244,13 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/rhNYWbgLSAOfYDMj5yDlXQ",
+        "@id": "http://rdfh.ch/0112/_-Tvd6hVSv2RS5WiU-bsGA",
         "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
         ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
             {
-                "@value": "Pour l'Art"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
-            {
-                "@value": "1952-10"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasPhoto": [
-            {
-                "@value": "false"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
-            {
-                "@value": "Étoile"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/8nwo5d-RQgOijoTCyPrgWg"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/4RXZ2NG6Qiqow_mOXYbSKA",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
-            {
-                "@id": "http://rdfh.ch/0112/rhNYWbgLSAOfYDMj5yDlXQ"
+                "@value": "Aujourd'hui"
             }
         ]
     },
@@ -1249,6 +1289,91 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
                 "@value": "Étoile"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/4RXZ2NG6Qiqow_mOXYbSKA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/rhNYWbgLSAOfYDMj5yDlXQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+            {
+                "@value": "Pour l'Art"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1952-10"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasIllustration": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasPhoto": [
+            {
+                "@value": "false"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Étoile"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/8nwo5d-RQgOijoTCyPrgWg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/gqqnKBAaQx-4EntEAC0wWQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "circa"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1952"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "1952"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 G/3b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Étoile des neiges"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -1307,62 +1432,13 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/gqqnKBAaQx-4EntEAC0wWQ",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
-            {
-                "@language": "en",
-                "@value": "Draft"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
-            {
-                "@language": "en",
-                "@value": "circa"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
-            {
-                "@value": "1952"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
-            {
-                "@value": "1952"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
-            {
-                "@value": "MS 1 G/3b"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
-            {
-                "@value": "Étoile des neiges"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
-            {
-                "@language": "en",
-                "@value": "CLSR GR"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/4RXZ2NG6Qiqow_mOXYbSKA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/BfnLG3nVSjmnT24dgvoK2g",
+        "@id": "http://rdfh.ch/0112/4RXZ2NG6Qiqow_mOXYbSKA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
             {
-                "@id": "http://rdfh.ch/0112/bjmgipgDScyPEkmSVIUtkg"
+                "@id": "http://rdfh.ch/0112/rhNYWbgLSAOfYDMj5yDlXQ"
             }
         ]
     },
@@ -1373,7 +1449,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Coopération"
+                "@id": "http://rdfh.ch/0112/8b721_FLQkSAmFZknaUcdg"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -1384,6 +1460,38 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
                 "@value": "Comme on ajoute…"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/8b721_FLQkSAmFZknaUcdg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
+            {
+                "@value": "Coopération"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/BbnLAVeaS8ChIeTqMi4wbQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+            {
+                "@value": "Mermod"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1950-09-15"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Écrits"
             }
         ]
     },
@@ -1414,34 +1522,13 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/BbnLAVeaS8ChIeTqMi4wbQ",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
-            {
-                "@value": "Mermod"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
-            {
-                "@value": "1950-09-15"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
-            {
-                "@value": "Écrits"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/uCJw-kKHTlGas-nqpQLTjA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Aujourd'hui"
+                "@id": "http://rdfh.ch/0112/_-Tvd6hVSv2RS5WiU-bsGA"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -1462,7 +1549,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Papillons"
+                "@id": "http://rdfh.ch/0112/p_p9I-7yRkSREofOqKCMWA"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
@@ -1482,13 +1569,35 @@
         ]
     },
     {
+        "@id": "http://rdfh.ch/0112/p_p9I-7yRkSREofOqKCMWA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
+            {
+                "@value": "Papillons"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/ri4Pq8z2QG2cQAVSe623Fw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
+            {
+                "@value": "Vie"
+            }
+        ]
+    },
+    {
         "@id": "http://rdfh.ch/0112/GFmc8a1eRySTsRyuwP07jg",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
             {
-                "@value": "Vie"
+                "@id": "http://rdfh.ch/0112/ri4Pq8z2QG2cQAVSe623Fw"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
