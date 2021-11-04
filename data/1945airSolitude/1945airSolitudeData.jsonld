@@ -107,14 +107,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/e3GMuONPSdCvXCW-xluYcQ",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/QylTob2SSdC7ObTegjn2RA"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/t-5Q96T9ShGFsnneFcz59g",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
@@ -137,14 +129,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/j2G8CsUPQQiV-9vY2XgfgQ"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/wvhZM-djRJilgSCmNzEYlg",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/Ec22kvfSRIGujYosr7FE1g"
             }
         ]
     },
@@ -199,14 +183,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
             {
                 "@id": "http://rdfh.ch/0112/AXtzomWiQriOf-pSe2Bb5g"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/nrUdn970SVGQNdh_XBdOCw",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/Sj4fjsZCQ9CLlg42Q24FcQ"
             }
         ]
     },
@@ -276,14 +252,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
             {
                 "@id": "http://rdfh.ch/0112/gT93dy5NRVm894vaMK5zpg"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/08C_TxA2R3ulLh26SuPPtw",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/licr_YtpQ4uFVWJYbkbpEg"
             }
         ]
     },
@@ -455,14 +423,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/5fz4QzG5Qhuz9yrF7YG9BA",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/lGd7bnDlQW-hUPtYExvqQw"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/T18-m0tJQqaxafYLRZk7Iw",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
@@ -523,22 +483,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
             {
                 "@id": "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/B5vdBom5RPivCcfgn8GwRA",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/reRnq2OoSVWuvfgA70yhxQ"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/STQhgSf6SJCfvjE-erEHnQ",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/YMhhIMKLStmIDjXdL-ESYQ"
             }
         ]
     },
@@ -625,14 +569,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/Sjl6lFyYSUSl1UU5lhRILw",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/5-E-jj_RSkWblq58gU1u1A"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/vvRPjy3LTBCy-ZMMDloW3g",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
@@ -650,14 +586,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
             {
                 "@id": "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/-1iEsqtuS-SowC2an_DyRA",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/psnWmMXYQf6lCynMoDeYew"
             }
         ]
     },
@@ -700,22 +628,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
             {
                 "@id": "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/ar1Y34pzTc2Yv5KlC9Gr8g",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/_8_3iGRjQ_eLCD1BxNDRsQ"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/lvIAbQDnQr2Xk_ICNZiK_g",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/pjKfHUIZR7ytUryt9KmGtg"
             }
         ]
     },
@@ -789,14 +701,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/A8NHkcxcQzCPtRnkBEfBBw",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/qXOgEZO3Rfy5FfUMk92RzQ"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/u-k09XovTJynQAA_EFdzUw",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
@@ -844,17 +748,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/w77KbuWKQUe8-8au2llnpQ",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/15cMiM2LSSGKayFfK6lNZQ"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/aUnNpJTXRQij7bdhWYK6EA"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/gdUV4viLQ4S3hHFAH7nrwg",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
@@ -894,17 +787,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
             {
                 "@id": "http://rdfh.ch/0112/O2yrWk8VTIW8leZbzCVJvg"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/ub8pm4cES5K8dH9NA25fdA",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/BE9QuMyPRAOk6-7MctGY7w"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/wkrgbwQ-Q9WYXH_rDfnJTA"
             }
         ]
     },
@@ -952,20 +834,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/SkxKzTPGQyKOMDX-JBPTNQ",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/jeq8IuP-SweCRuCC1ysIlw"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/Q7fUoIUHQKWRy9kzsUw-oA"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/LFIqVH3eQciPhSVnc3YcAg"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/L6jghLdWStaPM6Cgl3zYQQ",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
@@ -994,14 +862,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
             {
                 "@id": "http://rdfh.ch/0112/-DexANXyTvaLL5Rl7E4IDQ"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/ksB3qITKQkqAax4nsX6eoA",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/xdJRvLWET_OT36QcuDEQFw"
             }
         ]
     },
@@ -1081,14 +941,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/BQZaW4WUReip3sbWJJJhrw",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/AsVWg9yoSwqIaBjamL8KxQ"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/a2aEDdz2RFCQHg4Z2A25MQ",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
@@ -1111,45 +963,10 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/jJwToINBSp212XBWtqm70A",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/AE8NkywfQHqK9htFp_qlFQ"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/Ivp7eWpGRBWKe-BfmYKoZQ",
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
             {
                 "@id": "http://rdfh.ch/0112/fpY-ckoXR3CBatA_kGUizA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/EcAjZF_hTLmkN6-70_mAAg",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/Q9j4lCj-Tcqxiecc0HJE5A"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/5Zeb8Zl4SYOQyebMp_ANcg",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/WWTw31kKQ0KSWrvOi-p_rw"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/UjsVFd-gQwWJeJCGQOgQjw"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/hnpgqz2XS0i7kxCVUHAVeA",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/sQTw3qNLR2iFDergYA3usA"
             }
         ]
     },
@@ -1193,14 +1010,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
             {
                 "@id": "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/c0gp0elQTdmw9c_cE26eJw",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/zfHz2ko6SJmhg9-UKD6loA"
             }
         ]
     },
@@ -1333,14 +1142,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/uCJw-kKHTlGas-nqpQLTjA",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/00rwabnoTyKY4vGYwGvXjg"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/fpY-ckoXR3CBatA_kGUizA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
@@ -1385,22 +1186,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/xlPzPYH7TZu8eusWkyUKDg"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/F46s7B3zSUu2JDDP-RZD3w",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/j2gsL_qlRgy5Fqpu0JSkTw"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/LRf4nDqCRSK085wjOYYvTw",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/4rRnLHU4SzORMSylXbSDuQ"
             }
         ]
     },
@@ -1644,14 +1429,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/7MXGYyjrSsOr5fYeA8RS_g",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/mpqNn-fFR7CdPotpeZb5-g"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/Q7fUoIUHQKWRy9kzsUw-oA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
@@ -1713,14 +1490,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
             {
                 "@id": "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/f4LizVHHS4eykL3zb1Ej4w",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/zdp0wnFaSlmhQPUq8KDbKw"
             }
         ]
     },
@@ -1821,14 +1590,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/DW5gym5iQqWrligaNJiRLA",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/mL8ZEJ2fQcus24lZqkHX2A"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/i33zYweNS3e6bsL_Z3OXxA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
@@ -1893,14 +1654,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
             {
                 "@id": "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/6qxI9ZX9QIyrfOLis1SS_Q",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/E5irQ6KiRpa22Jz3nNRQUA"
             }
         ]
     },
@@ -1995,14 +1748,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/99kfD9-bSuCeKzrjDGbwnA",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/juw-4q4QREyU2IQRjVw1uA"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/hQhUjw1iTvePqeLvtkFfPg",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
@@ -2047,14 +1792,6 @@
             {
                 "@language": "en",
                 "@value": "CLSR GR"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/o2Z8aP2LQq--ZnAp3zl32A",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/juw-4q4QREyU2IQRjVw1uA"
             }
         ]
     },
@@ -2194,14 +1931,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/72t9iIlgSSe1Rlx9zB43UA",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/juw-4q4QREyU2IQRjVw1uA"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/lvIAbQDnQr2Xk_ICNZiK_g",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
@@ -2218,7 +1947,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Calendrier. Adieux\u001e"
+                "@value": "Calendrier. Adieux"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2273,6 +2002,9 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
             {
                 "@id": "http://rdfh.ch/0112/tluK679vSLqcuU8RNmZxyg"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/XABkCFf9Sd-kHViAxFQ86Q"
             }
         ]
     },
@@ -2465,7 +2197,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Bouvreuil (rubrique \"Saisons\")"
+                "@value": "Bouvreuil (rubrique 'Saisons')"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2562,7 +2294,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Écrit à Carrouge. Il va bien sans dire que ni le désir…\u001e"
+                "@value": "Écrit à Carrouge. Il va bien sans dire que ni le désir…"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2588,7 +2320,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "[Je n'ai jamais retrouvé ce village…] (rubrique \"Écrit à Carrouge\")"
+                "@value": "[Je n'ai jamais retrouvé ce village…] (rubrique 'Écrit à Carrouge')"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2614,7 +2346,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Écrit à Carrouge. Lettre\u001e"
+                "@value": "Écrit à Carrouge. Lettre"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2773,6 +2505,9 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
             {
                 "@id": "http://rdfh.ch/0112/DzCenZg8TsSiDugOZpg_Vg"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/XABkCFf9Sd-kHViAxFQ86Q"
             }
         ]
     },
@@ -2804,7 +2539,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Premier coup de faux, \"Dirigeable\" vu d'en bas, Suicide de Maïakovsky, Photographies (rubrique \"aujourd'hui\")"
+                "@value": "Premier coup de faux, 'Dirigeable' vu d'en bas, Suicide de Maïakovsky, Photographies (rubrique 'aujourd'hui')"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2830,7 +2565,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Point de vue (rubrique \"Écrit à Carrouge\")"
+                "@value": "Point de vue (rubrique 'Écrit à Carrouge')"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2875,7 +2610,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Trois feuillets d’un printemps perdu\u001e"
+                "@value": "Trois feuillets d’un printemps perdu"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -3018,7 +2753,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Fernand contre le ciel\u001e"
+                "@value": "Fernand contre le ciel"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -3110,20 +2845,12 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Deux poèmes du temps de la moisson\u001e"
+                "@value": "Deux poèmes du temps de la moisson"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
             {
                 "@id": "http://rdfh.ch/0112/psnWmMXYQf6lCynMoDeYew"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/IOiqgkULRq-ABDZheHlEfQ",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/nShtPpi_TgyxWRYs76sYyw"
             }
         ]
     },
@@ -3344,55 +3071,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/j2GssfyzR9CqQFQp0OD_qQ",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
-            {
-                "@language": "en",
-                "@value": "Clean copy"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
-            {
-                "@language": "en",
-                "@value": "before"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
-            {
-                "@value": "1940-11"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
-            {
-                "@value": "novembre 1940"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
-            {
-                "@value": "MS 106/72"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
-            {
-                "@value": "Extrême-automne, D'une certaine pureté"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
-            {
-                "@language": "en",
-                "@value": "Bibliothèque La Chaux-de-Fonds"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/XABkCFf9Sd-kHViAxFQ86Q"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/3HOy50zLTmaxW40NzHh0oA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
@@ -3426,7 +3104,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Gustave Roud : fragment d’une ébauche de \"D’une certaine pureté\""
+                "@value": "Gustave Roud : fragment d’une ébauche de 'D’une certaine pureté'"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -3528,55 +3206,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/luakbiZVSqOG--fZgggnvw",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
-            {
-                "@language": "en",
-                "@value": "Draft"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
-            {
-                "@language": "en",
-                "@value": "before"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
-            {
-                "@value": "1940-01"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
-            {
-                "@value": "janvier 1940"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
-            {
-                "@value": "MS 106/71"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
-            {
-                "@value": "D'une certaine pureté, Air de la solitude (suite)"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
-            {
-                "@language": "en",
-                "@value": "Bibliothèque La Chaux-de-Fonds"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/XABkCFf9Sd-kHViAxFQ86Q"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/yhQJrcw_Ty6LaCKJpWHdIA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
@@ -3642,7 +3271,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Calendrier. Ils ont dit que sous la mince toison…\u001e"
+                "@value": "Calendrier. Ils ont dit que sous la mince toison…"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
@@ -3736,18 +3365,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Automne\u001e"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/FMmnCqkcQXeRHi1VCMVU9w",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/55Qc-zpYT7-UbDxorffksA"
+                "@value": "Automne"
             }
         ]
     },
@@ -3774,18 +3392,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "\"Bain d'un faucheur\" et \"Extrême automne\""
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/FMmnCqkcQXeRHi1VCMVU9w",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/GdprgzCNSY6VR1GyVfrjOA"
+                "@value": "'Bain d'un faucheur' et 'Extrême automne'"
             }
         ]
     },
@@ -3817,51 +3424,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": " Fragments \u001e"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/Lq6izEO_QiylwjeJGCyoEA",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/sYdvuTW1RbGtLGtVEMps_A"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/i33zYweNS3e6bsL_Z3OXxA",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/sYdvuTW1RbGtLGtVEMps_A"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/2jaSlVPMSC-lxQ7jUg3G8A",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/sYdvuTW1RbGtLGtVEMps_A"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/i3fGK5ePSJqkHXzObqMChw",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/alvI5GzpTQObwjzJisX1qg"
+                "@value": " Fragments "
             }
         ]
     },
@@ -3910,17 +3473,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
                 "@value": "Mémoire"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/t-5Q96T9ShGFsnneFcz59g",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/j2G8CsUPQQiV-9vY2XgfgQ"
             }
         ]
     },
@@ -4088,35 +3640,13 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Fernand contre le ciel\u001e"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/s8gCziiCRuSaNtD4b_EEYg",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/a2aEDdz2RFCQHg4Z2A25MQ"
+                "@value": "Fernand contre le ciel"
             }
         ]
     },
     {
         "@id": "http://rdfh.ch/0112/2h88dJrTRqqx0Lm71JVI5Q",
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/3YvWCEIkTuqPeah8oy929Q",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
             }
@@ -4217,17 +3747,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/Sex4zStmSKmftYxRW86B_w",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/xlPzPYH7TZu8eusWkyUKDg"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/69JuCGzbQeu9ZxbqHg-_pA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
@@ -4317,9 +3836,19 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Petites notes\u001e"
+                "@value": "Petites notes"
             }
-        ]
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/jeq8IuP-SweCRuCC1ysIlw"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/Q7fUoIUHQKWRy9kzsUw-oA"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/LFIqVH3eQciPhSVnc3YcAg"
+            }
     },
     {
         "@id": "http://rdfh.ch/0112/ddSOsY3ISd-bN8aiH4SCUQ",
@@ -4338,7 +3867,12 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Cendre II\u001e"
+                "@value": "Cendre II"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/bPBMv95AQESZ5krQ59p4hg"
             }
         ]
     },
@@ -4361,6 +3895,14 @@
             {
                 "@value": "Cendre"
             }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/15cMiM2LSSGKayFfK6lNZQ"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/aUnNpJTXRQij7bdhWYK6EA"
+            }
         ]
     },
     {
@@ -4380,7 +3922,15 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Écrit à Carrouge. Main de faucheur. Halte. Réponses\u001e"
+                "@value": "Écrit à Carrouge. Main de faucheur. Halte. Réponses"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/BE9QuMyPRAOk6-7MctGY7w"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/wkrgbwQ-Q9WYXH_rDfnJTA"
             }
         ]
     },
@@ -4402,6 +3952,14 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
                 "@value": "D'un carnet de juin"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/WWTw31kKQ0KSWrvOi-p_rw"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/UjsVFd-gQwWJeJCGQOgQjw"
             }
         ]
     },
@@ -4435,6 +3993,11 @@
             {
                 "@value": "Deux images de juin"
             }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/reRnq2OoSVWuvfgA70yhxQ"
+            }
         ]
     },
     {
@@ -4454,7 +4017,12 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "D’un carnet d’été. Moulin de Lussery \u001e"
+                "@value": "D’un carnet d’été. Moulin de Lussery "
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/fpY-ckoXR3CBatA_kGUizA"
             }
         ]
     },
@@ -4475,7 +4043,12 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Pages d’extrême-automne\u001e"
+                "@value": "Pages d’extrême-automne"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/lEZp0eo8Q0W4_bpbuOX-HQ"
             }
         ]
     }
