@@ -2378,5 +2378,12 @@
                 "@value": "Jeunes paysans dans la lumière"
             }
         ]
-    }
+    },
+    {
+        "@id" : "http://rdfh.ch/0112/_-Tvd6hVSv2RS5WiU-bsGA",
+        "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical" ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle" : [ {
+          "@value" : "Aujourd'hui"
+        } ]
+      }
 ]
