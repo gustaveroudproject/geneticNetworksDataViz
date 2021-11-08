@@ -2385,5 +2385,51 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle" : [ {
           "@value" : "Aujourd'hui"
         } ]
+    },
+    {
+        "@id" : "http://rdfh.ch/0112/2hWGpGbcQwS7rpCl9Inntg",
+        "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier" ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication" : [ {
+          "@id" : "http://rdfh.ch/0112/GFmc8a1eRySTsRyuwP07jg"
+        } ]
+    },
+    {
+        "@id" : "http://rdfh.ch/0112/KMRnOWbwTdmEmXujbyBZsg",
+        "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript" ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage" : [ {
+          "@language" : "en",
+          "@value" : "Corrected original"
+        } ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition" : [ {
+          "@language" : "en",
+          "@value" : "circa"
+        } ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable" : [ {
+          "@value" : "1953-05-01 CE - 1953-05-31 CE"
+        } ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable" : [ {
+          "@value" : "mai 1953"
+        } ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark" : [ {
+          "@value" : "MS 2 E/10a"
+        } ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle" : [ {
+          "@value" : "Feuillet, 1947, au dos de « Jeunes paysans dans la lumière »"
+        } ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive" : [ {
+          "@language" : "en",
+          "@value" : "CLSR GR"
+        } ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier" : [ {
+          "@id" : "http://rdfh.ch/0112/2hWGpGbcQwS7rpCl9Inntg"
+        } ]
+    },
+    {
+        "@id" : "http://rdfh.ch/0112/ufGYdhjLSa6YlNFu3q71RA",
+        "@type" : [ "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart" ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier" : [ {
+          "@id" : "http://rdfh.ch/0112/2hWGpGbcQwS7rpCl9Inntg"
+        } ]
       }
+
 ]
