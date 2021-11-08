@@ -1,0 +1,2380 @@
+[
+    {
+        "@id": "http://rdfh.ch/0112/T5JHP3P3RMSX9vFtwdOt8Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "22"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "19 mai [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/yjglKr1YSpSo8CTXwWMAGw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/d5_Sqe48SD24d-0U2uEJAg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "24"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "6 septembre [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/-Rnhgo1bTOW7X3Oqpy9sog"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/C4YJiZucRk6AVJeMp2Sf6g",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/77091I9JRjKobAxkN3hE0g"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/X1--7QLOTKmbsUDOzCiY1Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "9"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "21 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/77091I9JRjKobAxkN3hE0g",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "I. Nuit"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/l4W4K1uOSsGJ-mQSj5CZkA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/r_3rh1ZgTJqiOt_oetHdLw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/DzjsiwasSCmrfcESztWgzQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "34"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "20 juin [1932]. La Croix"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateComputable": [
+            {
+                "@value": "1932"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
+            {
+                "@value": "1932"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1932-03 - 1932-06"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "mars 1932 - juin 1932"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 C/1a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Notes 1932"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/FlDeApH2RtOF4we_ZAkWsQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "30"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "18 juin [1932]. Mur du cimetière"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/PeqfRozURUiQ2GpcoBLrwg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/llYB3LvXQFWJWTXfyEbcUA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "32"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "16 juin [1932], après-midi"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/oQmwMwCkQJG2tkZUZ-LUJg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "37"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Cahier de juin"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/dZwjIEjuSg2Iqs-QFEOEvg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/cIZjEG0KRuGRCzv6NqhuoA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "16"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Verger d’Olivier 31 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/1AbHB0ajRRu2GcPmM1HJlA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/CVa5OvCWTWOJLYd6xbYADA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "23"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "30 mai [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/Fz1DB2wLRVmrQvUWRI-C8g"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/y69O7qKNTHmijqbXXGW0bA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "16"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "30 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/C1gWbz-ASvGq5hXHbScHdA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "36"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "1er juin [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/R7aAZwUaQZ2ri-63ajK_hw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/1AbHB0ajRRu2GcPmM1HJlA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "17"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Verger d’Olivier 31 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/OM1UdIeHRB296MOtiayV7w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "37"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "30 juin [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/xW-Rv7kdTYe221_T8YPadg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "II. V. 17 Saint-I[mier]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/kmunQ4gfQ7i5z9dI20HBmQ"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/C4YJiZucRk6AVJeMp2Sf6g"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/DwuKld-ARlGWfGyJ88JZMg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "5"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "6 septembre [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/GO4Rv7I4Ss2khdsJOmJN1A"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/d5_Sqe48SD24d-0U2uEJAg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/W2iC0w4ATeyQ79g9KIqWuA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "5"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "« Carrée de La G[ottaz] »"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/-Rnhgo1bTOW7X3Oqpy9sog"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/hmuOb16aQiiVtkKj04wV7Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "8"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "19 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7qEOUhnKQxKCoJ5rht52ww"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/GO4Rv7I4Ss2khdsJOmJN1A",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
+            {
+                "@value": "4 juillet – 5 novembre"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1932-07-04 - 1932-11-05"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈lundi, 〉4 juillet 1932 - 〈samedi, 〉5 novembre 1932"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 4 C/5a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Feuillets de cahier, 1932"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/EOy_MtzSQ8i3UO_vD3d4nQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Final manuscript"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "circa"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1933-05"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "mai 1933"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 106/70"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Essai pour un paradis"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "Bibliothèque La Chaux-de-Fonds"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/C4YJiZucRk6AVJeMp2Sf6g"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/l4W4K1uOSsGJ-mQSj5CZkA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+            {
+                "@value": "Mermod"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1933-05"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Essai pour un paradis"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/kmunQ4gfQ7i5z9dI20HBmQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateComputable": [
+            {
+                "@value": "1917-05-11 - 1918-12-01"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
+            {
+                "@value": "Notes allant du 11 mai 1917 au 1 décembre 1918."
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "après"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1917-05-11"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈vendredi, 〉11 mai 1917. 1917-05-11 – 1918-12-01"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 4 A/4a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Cahier « notes 1916. 1917 R. », 1917-1918"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/PeqfRozURUiQ2GpcoBLrwg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "33"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "18 juin [1932]. Mur du cimetière"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/vv_0vsIPTNWaerEpvU-kpw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "13"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Notes retrouvées"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/e8GW7DEsSwOCatdDKIGsPw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/2CovgIU7R-SYBbdJIw1h9w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "7"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Samedi 18 (avril) [1931]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/-Rnhgo1bTOW7X3Oqpy9sog"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/Fz1DB2wLRVmrQvUWRI-C8g",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "23"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "30 mai [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/Q09tv9xJSWq6RK-DoRSZhg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "31"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "16 juin [1932], après-midi"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/llYB3LvXQFWJWTXfyEbcUA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/atcD8JI-SIS2xomziHmgcA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "3"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Mercredi 14 [décembre 1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/0BvvBwDKS4-W0d9_587pmg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/yQNy4pEyROS7e1T0H1iumA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "3"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "7 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/F3UY1tmuT4Cnzp-_neOlvA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/fds7UkVpSFarkL-aw1ZDlg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "10"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "22 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/QpO8vDHvTVWqgeMfPbkzZQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/ak6cG_sUQmOVRc2gxM6vmQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "26"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "30 juin [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/OM1UdIeHRB296MOtiayV7w"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/7v3xhyK7TkSJYmywkq2d-w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "20"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Mardi 3 juin [1924]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/lLmqvjfzSOOvzF4srBqeQg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/v_6XDtDMQG2f38hR_3XB3w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "2"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "II. Année"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/l4W4K1uOSsGJ-mQSj5CZkA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/u-QWRtYiSQuAHQ2YjapMcg"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/nShtPpi_TgyxWRYs76sYyw"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/r_3rh1ZgTJqiOt_oetHdLw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/zqG4SRfKTlO-HNxg9LpMsQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "29"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "20 juin [1932]. La Croix"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/DzjsiwasSCmrfcESztWgzQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/tjzMp_Z8TPOAeo-Ho_Wwuw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "15"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "30 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/y69O7qKNTHmijqbXXGW0bA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/1esm3-PLQfCGgZnh6eqLjQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "25"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "4 octobre [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/-Rnhgo1bTOW7X3Oqpy9sog"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/lLmqvjfzSOOvzF4srBqeQg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateComputable": [
+            {
+                "@value": "1924-04-04 - 1925-08-23"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
+            {
+                "@value": "Notes allant du 4 avril 1924 au 23 août 1925."
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "après"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1924-04-04"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈vendredi, 〉4 avril 1924. Notes allant du 1924-04-04 au 1925-08-23"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 4 B/7a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Cahier « Roud. Notes. 24. 25. », 1924-1925"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/pGzJNP9aTFiTvtd23EFH-w",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "36"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "27 juin [1932]. À La Croix"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/gbwIa2m-RK6G3kvpjlxDPA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "6"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "4 octobre 1932"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/GO4Rv7I4Ss2khdsJOmJN1A"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/1esm3-PLQfCGgZnh6eqLjQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/hkWOxmrISc6FS0aSKpBsXA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "6"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "12 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/MU2guPS8Tw6jV-QlGQxG8g",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "35"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "23 juin [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/QpO8vDHvTVWqgeMfPbkzZQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "10"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "22 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/0BvvBwDKS4-W0d9_587pmg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "circa"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1932-12"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "décembre 1932"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 4 C/7a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Feuillet, 1932 "
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/LYE7zxlkSC6On7j0U5xv4Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Draft"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1933-05"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "mai 1933"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "IS 4391, boîte 52"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "[Pour Étienne Chevalley…]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "BCU Chevalley"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/-Rnhgo1bTOW7X3Oqpy9sog",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateComputable": [
+            {
+                "@value": "1931"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
+            {
+                "@value": "1931"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1931-06-09 - 1933-11-23"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "1931-06-09 – 1933-11-23"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 C/1b"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Dactylogramme « Supplément aux notes », 1931-1932 - Dactylogramme « Notes retrouvées », [1926]-1933 "
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/yjglKr1YSpSo8CTXwWMAGw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "22"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "19 mai [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/VANNtFkNSwys9HaLCUw61Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "9"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "26 avril [1931]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/-Rnhgo1bTOW7X3Oqpy9sog"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/nShtPpi_TgyxWRYs76sYyw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/-1iEsqtuS-SowC2an_DyRA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/C4NAGPUpTWW5-FOT6qiJww",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "31"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "15 juin [1932], suite"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/R7aAZwUaQZ2ri-63ajK_hw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "28"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "1er juin [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/QqJr76a0TEmi60lz5Qr7ng",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "7"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "17 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/hkWOxmrISc6FS0aSKpBsXA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/w_piL6T0S8ezjT-ns9_Hig",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "3"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "III. Fin"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/l4W4K1uOSsGJ-mQSj5CZkA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/v_6XDtDMQG2f38hR_3XB3w"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/V0ZP1sJ1TdWyolYSg_k7gg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "14"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "S[ans] d[ate]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/-Rnhgo1bTOW7X3Oqpy9sog"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/PvKlHMVrRk2hKj7acdPARQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "32"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "15 juin [1932], suite"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/C4NAGPUpTWW5-FOT6qiJww"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/e8GW7DEsSwOCatdDKIGsPw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "14"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "16 mars"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/ekGZaCOkShGq8Pq3dSOAAA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "[Ah l’innocence de mon bonheur]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/xYoWbaWeSbaNSIpIwM36pA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/r_3rh1ZgTJqiOt_oetHdLw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/ufGYdhjLSa6YlNFu3q71RA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/9HD2rA7oTlqHLdPtTXoxAw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/w_piL6T0S8ezjT-ns9_Hig"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/KoExGGlySlKTcEVou6CvKA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Plan"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1933-05"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "mai 1933"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 106/69"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Plan de l'Année"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "Bibliothèque La Chaux-de-Fonds"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/C4YJiZucRk6AVJeMp2Sf6g"
+            },
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/pMapMgxIQPOTju14d63aaw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Corrected proofs"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "before"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1933-05"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "mai 1933"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "IS 4391, boîte 52"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Épreuves de l'Essai pour un Paradis"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "BCU Chevalley"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/SvXT2DvsTSC7j6dgR_6eUg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "28"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "23 juin [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/MU2guPS8Tw6jV-QlGQxG8g"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/dZwjIEjuSg2Iqs-QFEOEvg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "27"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "essai de dédicace"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/DT4Sp4ldSgSOIwVkZid81A"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/DT4Sp4ldSgSOIwVkZid81A",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/l4W4K1uOSsGJ-mQSj5CZkA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/mPt1xCwLRUOov20p2wFaLw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "5"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "11 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/zk-hZeGySmqkCb_cZGvJVg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/zk-hZeGySmqkCb_cZGvJVg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "5"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "11 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/QgturehtR16Iqud5KAPZLQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "15"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Projet de conte"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/-Rnhgo1bTOW7X3Oqpy9sog"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/9HD2rA7oTlqHLdPtTXoxAw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/F3UY1tmuT4Cnzp-_neOlvA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "3"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "7 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasDateReadable": [
+            {
+                "@value": "Notes allant du 4 mars au 3 juin 1931."
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "après"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1931-03-04 - 1931-06-03"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "〈mercredi, 〉4 mars 1931. Notes allant du [1931]-03-04 au 1931-06-03"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 4 C/4a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Cahier « O. / 1932 », 1932"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/zS-m1cD3ROSuT3NO8ocxeA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "27"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "27 juin [1932]. À La Croix"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/pGzJNP9aTFiTvtd23EFH-w"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/JrPCCcMCQb-OF-stsvHIPg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "4"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "Dimanche 12 [juin 1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/-Rnhgo1bTOW7X3Oqpy9sog"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/xYoWbaWeSbaNSIpIwM36pA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "[Ah l’innocence de mon bonheur]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/7qEOUhnKQxKCoJ5rht52ww",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "8"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "19 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/fUWmQCSPTAiI3DQVJr6ekg"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/u-QWRtYiSQuAHQ2YjapMcg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/j0fW7FHMQEORIyhFHkeboA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/FLLhpFOOQ5qQeDLza5VjLQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "23"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "4 septembre Ch[apelle] de V[ucherens] [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/-Rnhgo1bTOW7X3Oqpy9sog"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/7MSa38DCQlaKz--0XDQ3jg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/cHyEUUZsTNyCz9nzuxrFxA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#MsPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasNumber": [
+            {
+                "@value": "9"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartHasTitle": [
+            {
+                "@value": "21 mars [1932]"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/yS9BTLDuSdaKpP-gR9fPww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msPartIsRewrittenInMsPart": [
+            {
+                "@id": "http://rdfh.ch/0112/X1--7QLOTKmbsUDOzCiY1Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/GZC66bo8TNyOUk7mRMPwUA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
+            {
+                "@language": "en",
+                "@value": "Corrected proofs"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
+            {
+                "@language": "en",
+                "@value": "après"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
+            {
+                "@value": "1932"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
+            {
+                "@value": "1932"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
+            {
+                "@value": "MS 1 C/2a"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
+            {
+                "@value": "Deux poèmes pour Aimé"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
+            {
+                "@language": "en",
+                "@value": "CLSR GR"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/nShtPpi_TgyxWRYs76sYyw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/IOiqgkULRq-ABDZheHlEfQ",
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/nShtPpi_TgyxWRYs76sYyw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/-1iEsqtuS-SowC2an_DyRA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#BookSection"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1934"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Deux poèmes du temps de la moisson"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
+            {
+                "@id": "http://rdfh.ch/0112/psnWmMXYQf6lCynMoDeYew"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/psnWmMXYQf6lCynMoDeYew",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
+            {
+                "@id": "http://rdfh.ch/0112/3YvWCEIkTuqPeah8oy929Q"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/4sm2FNbtTLerbpXBY9anWQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossier"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierResultsInPublication": [
+            {
+                "@id": "http://rdfh.ch/0112/fLTfaVzyTZmkwFodpRbPjA"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/j0fW7FHMQEORIyhFHkeboA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@id": "http://rdfh.ch/0112/CorYoZicRWGo8kvtzajqRQ"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1939-06 - 1939-07"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Sommeil"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/4sm2FNbtTLerbpXBY9anWQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/CorYoZicRWGo8kvtzajqRQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
+            {
+                "@value": "Zofingue. Feuille centrale"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/BbnLAVeaS8ChIeTqMi4wbQ",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+            {
+                "@value": "Mermod"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1950-09-15"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Écrits"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/ufGYdhjLSa6YlNFu3q71RA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "4"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "Essai pour un paradis"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/BbnLAVeaS8ChIeTqMi4wbQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/fLTfaVzyTZmkwFodpRbPjA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@id": "http://rdfh.ch/0112/QU9sfyGtTw2aqwclFRZ2xw"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1945"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Moissonneur endormi"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/QU9sfyGtTw2aqwclFRZ2xw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
+            {
+                "@value": "Formes et couleurs"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/ri4Pq8z2QG2cQAVSe623Fw",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
+            {
+                "@value": "Vie"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/GFmc8a1eRySTsRyuwP07jg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@id": "http://rdfh.ch/0112/ri4Pq8z2QG2cQAVSe623Fw"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1953"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Jeunes paysans dans la lumière"
+            }
+        ]
+    }
+]
