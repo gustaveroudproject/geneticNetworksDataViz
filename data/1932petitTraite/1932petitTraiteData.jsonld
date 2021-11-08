@@ -90,7 +90,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Petit traité de la marche en plaine suivi de lettres, dialogues et morceaux\u001e"
+                "@value": "Petit traité de la marche en plaine suivi de lettres, dialogues et morceaux"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -614,7 +614,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Traité de la marche en plaine (suite)\u001e"
+                "@value": "Traité de la marche en plaine (suite)"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -1385,7 +1385,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Traité de la marche en plaine (suite)\u001e"
+                "@value": "Traité de la marche en plaine (suite)"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2174,7 +2174,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Écrits\u001e"
+                "@value": "Écrits"
             }
         ]
     }
