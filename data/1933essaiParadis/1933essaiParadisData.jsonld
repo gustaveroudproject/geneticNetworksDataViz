@@ -2185,6 +2185,24 @@
     },
     {
         "@id": "http://rdfh.ch/0112/IOiqgkULRq-ABDZheHlEfQ",
+        "@type" : [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [
+            {
+                "@id" : "http://rdfh.ch/0112/_-Tvd6hVSv2RS5WiU-bsGA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [
+            {
+                "@value" : "1930-03-27 CE"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [
+            {
+                "@value" : "Sommeil d'Aimé"
+            }
+        ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/nShtPpi_TgyxWRYs76sYyw"
@@ -2204,22 +2222,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
                 "@value": "Deux poèmes du temps de la moisson"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/psnWmMXYQf6lCynMoDeYew"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/psnWmMXYQf6lCynMoDeYew",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/3YvWCEIkTuqPeah8oy929Q"
             }
         ]
     },
