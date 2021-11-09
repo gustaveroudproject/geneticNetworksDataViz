@@ -3467,55 +3467,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/V0y1MjujSs-L8nKxGyw3MQ",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
-            {
-                "@language": "en",
-                "@value": "List"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
-            {
-                "@language": "en",
-                "@value": "before"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
-            {
-                "@value": "1950"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
-            {
-                "@value": "1950"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
-            {
-                "@value": "MS 1 I/2b"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
-            {
-                "@value": "Note des textes “possibles” pour Feuillets II"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
-            {
-                "@language": "en",
-                "@value": "CLSR GR"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossierPart": [
-            {
-                "@id": "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/yK4RcqWISw-Cy2bjs1NIuA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
