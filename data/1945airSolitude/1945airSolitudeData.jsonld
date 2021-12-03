@@ -2562,17 +2562,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/JpWsCxIdTpqJj6Z4pWi2wg",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/zVRRyRS3Tk-vjvAirsT7dQ"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/EcAjZF_hTLmkN6-70_mAAg",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
@@ -3624,17 +3613,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/2h88dJrTRqqx0Lm71JVI5Q",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/rq6-Ub5vTTKntSP5figmZQ",
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
             {
@@ -4032,6 +4010,69 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
             {
                 "@id": "http://rdfh.ch/0112/lEZp0eo8Q0W4_bpbuOX-HQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/JpWsCxIdTpqJj6Z4pWi2wg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@id": "http://rdfh.ch/0112/_-Tvd6hVSv2RS5WiU-bsGA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1930-06-12"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Le cerisier fleuri. Le rameau de cerisier. Le merisier bernois. Chanson. L’énigme"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/zVRRyRS3Tk-vjvAirsT7dQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/2h88dJrTRqqx0Lm71JVI5Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
+            {
+                "@id": "http://rdfh.ch/0112/9YnHw6WST6G7I13QsBRlCA"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1949-07 - 1949-08"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Haut-Jorat"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
+            {
+                "@id": "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/9YnHw6WST6G7I13QsBRlCA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
+            {
+                "@value": "Suisse contemporaine"
             }
         ]
     }
