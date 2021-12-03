@@ -2563,6 +2563,9 @@
     },
     {
         "@id": "http://rdfh.ch/0112/JpWsCxIdTpqJj6Z4pWi2wg",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/zVRRyRS3Tk-vjvAirsT7dQ"
@@ -3622,6 +3625,9 @@
     },
     {
         "@id": "http://rdfh.ch/0112/2h88dJrTRqqx0Lm71JVI5Q",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
