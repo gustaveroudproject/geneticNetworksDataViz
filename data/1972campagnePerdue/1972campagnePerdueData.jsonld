@@ -166,13 +166,42 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/EMhx4ECiR5O4oc5YEX5cjw",
+        "@id" : "http://rdfh.ch/0112/EMhx4ECiR5O4oc5YEX5cjw",
+        "@type" : [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical" : [
+            {
+                "@id" : "http://rdfh.ch/0112/t92Q2GihS5iW5Q1xJQo2ww"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate" : [
+            {
+                "@value" : "1920-12-10 CE"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle" : [
+            {
+                "@value" : "Fragment"
+            }
+        ]
+    },
+    {
+        "@id" : "http://rdfh.ch/0112/t92Q2GihS5iW5Q1xJQo2ww",
+        "@type" : [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle" : [
+            {
+                "@value" : "La Revue romande"
+            }
+        ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/8ZnifmEkRgixNBgcLbclsA"
             }
         ]
-    },
+      },
     {
         "@id": "http://rdfh.ch/0112/FnA8ZvE5T3SYVl4bhaVhAw",
         "@type": [
