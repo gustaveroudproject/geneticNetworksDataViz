@@ -48,17 +48,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/pY7mKWMZTV2OypFiAsZZmA"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/ub8pm4cES5K8dH9NA25fdA",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
@@ -80,16 +69,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
             {
-                "@id": "http://rdfh.ch/0112/wkrgbwQ-Q9WYXH_rDfnJTA"
-            },
-            {
                 "@id": "http://rdfh.ch/0112/UXoXQrgRRaGZI5M3voi3Jw"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/BE9QuMyPRAOk6-7MctGY7w"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/5riKFfCNQfSJmPD3Ok0bhg"
             }
         ]
     },
@@ -112,28 +92,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
             {
                 "@value": "Aujourd'hui"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/BE9QuMyPRAOk6-7MctGY7w",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/ID14wSf0QNWqQI3tvwVuXA"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/wkrgbwQ-Q9WYXH_rDfnJTA",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/gJp7ctzbQJSozpQr5YpTYA"
             }
         ]
     },
@@ -581,17 +539,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/fpY-ckoXR3CBatA_kGUizA",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/Bc3tfE0yRzSR0OfBWx-buA"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/Ivp7eWpGRBWKe-BfmYKoZQ",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
@@ -614,9 +561,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
             {
                 "@id": "http://rdfh.ch/0112/ghYVT5GrTwW5t5Z_5akZYA"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/fpY-ckoXR3CBatA_kGUizA"
             }
         ]
     },
@@ -2474,20 +2418,6 @@
             },
             {
                 "@id": "http://rdfh.ch/0112/s0Va_u1SRgeNVlGoTrrrSQ"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/pjKfHUIZR7ytUryt9KmGtg"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/pjKfHUIZR7ytUryt9KmGtg",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/M0zzOIzISGCaf5Xq3LLh_w"
             }
         ]
     },
@@ -2911,20 +2841,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
             {
                 "@id": "http://rdfh.ch/0112/s0Va_u1SRgeNVlGoTrrrSQ"
-            },
-            {
-                "@id": "http://rdfh.ch/0112/zdp0wnFaSlmhQPUq8KDbKw"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/zdp0wnFaSlmhQPUq8KDbKw",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/rv13Kf8HQVq10lIbsXkZrA"
             }
         ]
     },
@@ -3473,24 +3389,10 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
             {
-                "@id": "http://rdfh.ch/0112/lEZp0eo8Q0W4_bpbuOX-HQ"
-            },
-            {
                 "@id": "http://rdfh.ch/0112/MUmPcOkcTWKZgRQmTTtexw"
             },
             {
                 "@id": "http://rdfh.ch/0112/GAlIqW3-T4e_T9-XMsrbJQ"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/lEZp0eo8Q0W4_bpbuOX-HQ",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/LwnJq2kSS2uPBF3BqDqRvg"
             }
         ]
     },
@@ -3982,21 +3884,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
             {
-                "@id": "http://rdfh.ch/0112/PF2bzOCGT8apTShMK7hTSg"
-            },
-            {
                 "@id": "http://rdfh.ch/0112/iQsvmcKRQpaXRnypDBvo6A"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/PF2bzOCGT8apTShMK7hTSg",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#GeneticDossierPart"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#geneticDossierPartResultsInPubPart": [
-            {
-                "@id": "http://rdfh.ch/0112/QBppfvV_T1-61QiswV2Bsg"
             }
         ]
     },
