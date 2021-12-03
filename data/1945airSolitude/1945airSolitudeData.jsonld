@@ -3613,14 +3613,6 @@
         ]
     },
     {
-        "@id": "http://rdfh.ch/0112/rq6-Ub5vTTKntSP5figmZQ",
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
-            }
-        ]
-    },
-    {
         "@id": "http://rdfh.ch/0112/tox6BvZGSkuSmn8kuIPqzw",
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
@@ -3643,55 +3635,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
                 "@value": "Haut-Jorat"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/t50lRPyCTzuVc6HnWbEuSg",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Manuscript"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#hasGeneticStage": [
-            {
-                "@language": "en",
-                "@value": "Corrected original"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateAddition": [
-            {
-                "@language": "en",
-                "@value": "après"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateComputable": [
-            {
-                "@value": "1949-08"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasEstablishedDateReadable": [
-            {
-                "@value": "août 1949"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasShelfmark": [
-            {
-                "@value": "MS 1 F/1b"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
-            {
-                "@value": "Haut-Jorat"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
-            {
-                "@language": "en",
-                "@value": "CLSR GR"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#msIsAvantTextInGeneticDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
             }
         ]
     },
@@ -4036,43 +3979,6 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/zVRRyRS3Tk-vjvAirsT7dQ"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/2h88dJrTRqqx0Lm71JVI5Q",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#PeriodicalArticle"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#isPublishedInPeriodical": [
-            {
-                "@id": "http://rdfh.ch/0112/9YnHw6WST6G7I13QsBRlCA"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
-            {
-                "@value": "1949-07 - 1949-08"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
-            {
-                "@value": "Haut-Jorat"
-            }
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
-            {
-                "@id": "http://rdfh.ch/0112/PRWtTIysTrOT51O38apZcQ"
-            }
-        ]
-    },
-    {
-        "@id": "http://rdfh.ch/0112/9YnHw6WST6G7I13QsBRlCA",
-        "@type": [
-            "http://www.knora.org/ontology/0112/roud-oeuvres#Periodical"
-        ],
-        "http://www.knora.org/ontology/0112/roud-oeuvres#periodicalHasTitle": [
-            {
-                "@value": "Suisse contemporaine"
             }
         ]
     }
