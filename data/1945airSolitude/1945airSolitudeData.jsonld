@@ -2820,6 +2820,16 @@
             {
                 "@id": "http://rdfh.ch/0112/psnWmMXYQf6lCynMoDeYew"
             }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionIsPartOf": [
+            {
+                "@value": "Nos plumes et nos presses: anthologie des écrivains et des imprimeurs"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionHasPublisher": [
+            {
+                "@value": "Imprimerie Held"
+            }
         ]
     },
     {
@@ -3362,6 +3372,16 @@
             {
                 "@value": "'Bain d'un faucheur' et 'Extrême automne'"
             }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionIsPartOf": [
+            {
+                "@value": "Anthologie de la poésie française, le XXe siècle"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionHasPublisher": [
+            {
+                "@value": "Rencontre"
+            }
         ]
     },
     {
@@ -3441,6 +3461,16 @@
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
                 "@value": "Mémoire"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionIsPartOf": [
+            {
+                "@value": "Inno-Reflets"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionHasPublisher": [
+            {
+                "@value": "Imprimerie Held"
             }
         ]
     },

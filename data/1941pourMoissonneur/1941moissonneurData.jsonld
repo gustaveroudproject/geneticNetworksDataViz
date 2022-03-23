@@ -1684,6 +1684,16 @@
             {
                 "@value": "Bain d'un faucheur, Le cerisier"
             }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionIsPartOf": [
+            {
+                "@value": "Poètes d'aujourd'hui"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionHasPublisher": [
+            {
+                "@value": "La Guilde du Livre"
+            }
         ]
     },
     {

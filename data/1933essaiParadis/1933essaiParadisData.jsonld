@@ -2223,6 +2223,16 @@
             {
                 "@value": "Deux poèmes du temps de la moisson"
             }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionIsPartOf": [
+            {
+                "@value": "Nos plumes et nos presses: anthologie des écrivains et des imprimeurs"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionHasPublisher": [
+            {
+                "@value": "Imprimerie Held"
+            }
         ]
     },
     {

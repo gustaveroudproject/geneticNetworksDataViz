@@ -163,6 +163,16 @@
             {
                 "@id": "http://rdfh.ch/0112/g-m1aErCQo60iEidhmLNeQ"
             }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionIsPartOf": [
+            {
+                "@value": "De Ronsard à Breton, recueil d'essais, hommages à Marcel Raymond"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#bookSectionHasPublisher": [
+            {
+                "@value": "José Corti"
+            }
         ]
     },
     {
