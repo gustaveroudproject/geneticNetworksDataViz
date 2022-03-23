@@ -144,7 +144,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "La nuit tombe très vite…"
+                "@value": "La nuit tombe très vite"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -209,7 +209,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Bonheur d’un instant à m’asseoir…"
+                "@value": "Bonheur d’un instant à m’asseoir"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -426,7 +426,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Comme l’insecte sous les écorces…"
+                "@value": "Comme l’insecte sous les écorces"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -469,7 +469,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Ce soir l’homme aiguise…"
+                "@value": "Ce soir l’homme aiguise"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -501,7 +501,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Le bûcheron à la poitrine froissée…"
+                "@value": "Le bûcheron à la poitrine froissée"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -551,7 +551,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Comment la peindre immobile…"
+                "@value": "Comment la peindre immobile"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -704,7 +704,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Notre longue marche par un pays…"
+                "@value": "Notre longue marche par un pays"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -725,7 +725,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Sous trois lampes…"
+                "@value": "Sous trois lampes"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -837,7 +837,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "L’énigme qui point…"
+                "@value": "L’énigme qui point"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -988,7 +988,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "J’aimais la noire vallée…"
+                "@value": "J’aimais la noire vallée"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -1315,7 +1315,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Une voile penche…"
+                "@value": "Une voile penche"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -1347,7 +1347,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Je suis moi par habitude…"
+                "@value": "Je suis moi par habitude"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -1460,7 +1460,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Dire les travaux des hommes…"
+                "@value": "Dire les travaux des hommes"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -1492,7 +1492,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Une petite pluie…"
+                "@value": "Une petite pluie"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -1513,7 +1513,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Ce n’est pas encore…"
+                "@value": "Ce n’est pas encore"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -1577,7 +1577,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Derrière les feuilles mortes…"
+                "@value": "Derrière les feuilles mortes"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -1603,7 +1603,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Près de la tombe…"
+                "@value": "Près de la tombe"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -1624,7 +1624,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Sous la mince toison…"
+                "@value": "Sous la mince toison"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -1805,7 +1805,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[Une odeur maintenant roule vers moi…]"
+                "@value": "[Une odeur maintenant roule vers moi]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -1880,7 +1880,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[…battent, chancelantes…]"
+                "@value": "[battent, chancelantes]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -2087,7 +2087,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Les Droits de la poésie… Lettre de Gustave Roud"
+                "@value": "Les Droits de la poésie Lettre de Gustave Roud"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2130,7 +2130,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "Les droits de la poësie…"
+                "@value": "Les droits de la poësie"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -2270,7 +2270,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Écrit à Carrouge. Il va bien sans dire que ni le désir…"
+                "@value": "Écrit à Carrouge. Il va bien sans dire que ni le désir"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2296,7 +2296,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "[Je n'ai jamais retrouvé ce village…] (rubrique 'Écrit à Carrouge')"
+                "@value": "[Je n'ai jamais retrouvé ce village] (rubrique 'Écrit à Carrouge')"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2892,7 +2892,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[…ve, bordée d’un rideau…]"
+                "@value": "[ve, bordée d’un rideau]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -2941,7 +2941,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[…danse lente et parfaite d’où tout écart…]"
+                "@value": "[danse lente et parfaite d’où tout écart]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -3217,7 +3217,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[Devant une toile de Jean Viollier…]"
+                "@value": "[Devant une toile de Jean Viollier]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -3249,7 +3249,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Calendrier. Ils ont dit que sous la mince toison…"
+                "@value": "Calendrier. Ils ont dit que sous la mince toison"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [

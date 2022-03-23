@@ -416,7 +416,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[Moissons d’autrefois…]"
+                "@value": "[Moissons d’autrefois]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -1683,7 +1683,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[Quand les nuits d’un hiver…]"
+                "@value": "[Quand les nuits d’un hiver]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [

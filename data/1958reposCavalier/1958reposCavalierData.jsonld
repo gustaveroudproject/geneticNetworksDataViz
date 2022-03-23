@@ -11,7 +11,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
             {
-                "@value": "Comme on ajoute…"
+                "@value": "Comme on ajoute"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
@@ -219,7 +219,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[Comme on ajoute…]"
+                "@value": "[Comme on ajoute]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -463,7 +463,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[Envisager ce texte…]"
+                "@value": "[Envisager ce texte]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -1182,7 +1182,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Comme on ajoute…"
+                "@value": "Comme on ajoute"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossier": [
@@ -1459,7 +1459,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Comme on ajoute…"
+                "@value": "Comme on ajoute"
             }
         ]
     },
@@ -1538,7 +1538,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Calendrier. Ils ont dit que sous la mince toison…"
+                "@value": "Calendrier. Ils ont dit que sous la mince toison"
             }
         ]
     },

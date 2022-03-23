@@ -300,7 +300,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Calendrier. Rien n’empêche d’imaginer…"
+                "@value": "Calendrier. Rien n’empêche d’imaginer"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2419,7 +2419,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Calendrier. Le temps, nous saurons le vaincre…"
+                "@value": "Calendrier. Le temps, nous saurons le vaincre"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -2874,7 +2874,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
             {
-                "@value": "Écrit à Carrouge. Il va bien sans dire que ni le désir…"
+                "@value": "Écrit à Carrouge. Il va bien sans dire que ni le désir"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#publicationIsReusedInDossierPart": [
@@ -3527,7 +3527,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[La route d'extrême-automne…]"
+                "@value": "[La route d'extrême-automne]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -4680,7 +4680,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[Toutes les formes du rapt…]"
+                "@value": "[Toutes les formes du rapt]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -4839,7 +4839,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[Toutes les formes du rapt…]"
+                "@value": "[Toutes les formes du rapt]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -5587,7 +5587,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[La route d'extrême-automne…]"
+                "@value": "[La route d'extrême-automne]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
@@ -6019,7 +6019,7 @@
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptHasTitle": [
             {
-                "@value": "[Pages sans pouvoir…]"
+                "@value": "[Pages sans pouvoir]"
             }
         ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#manuscriptIsInArchive": [
