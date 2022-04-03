@@ -2746,9 +2746,45 @@
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
         ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "2"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "II. Année"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/l4W4K1uOSsGJ-mQSj5CZkA"
+            }
+        ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/nShtPpi_TgyxWRYs76sYyw"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/l4W4K1uOSsGJ-mQSj5CZkA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+            {
+                "@value": "Mermod"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1933-05"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Essai pour un paradis"
             }
         ]
     },
