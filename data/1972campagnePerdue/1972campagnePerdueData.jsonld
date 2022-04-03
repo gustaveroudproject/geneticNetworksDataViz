@@ -2465,9 +2465,45 @@
         "@type": [
             "http://www.knora.org/ontology/0112/roud-oeuvres#PubPart"
         ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasNumber": [
+            {
+                "@value": "2"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartHasTitle": [
+            {
+                "@value": "Présences à Port-des-Prés"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsPartOf": [
+            {
+                "@id": "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA"
+            }
+        ],
         "http://www.knora.org/ontology/0112/roud-oeuvres#pubPartIsReusedInDossier": [
             {
                 "@id": "http://rdfh.ch/0112/xlPzPYH7TZu8eusWkyUKDg"
+            }
+        ]
+    },
+    {
+        "@id": "http://rdfh.ch/0112/_CWQItLmRciQ_ALN0F03JA",
+        "@type": [
+            "http://www.knora.org/ontology/0112/roud-oeuvres#Book"
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#hasPublisher": [
+            {
+                "@value": "Mermod"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasDate": [
+            {
+                "@value": "1945-03"
+            }
+        ],
+        "http://www.knora.org/ontology/0112/roud-oeuvres#publicationHasTitle": [
+            {
+                "@value": "Air de la solitude"
             }
         ]
     },
